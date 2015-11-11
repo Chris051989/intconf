@@ -1,0 +1,533 @@
+ /**
+ *  0. ELEMENT
+ *    - 0.1. FONTS
+ *    - 0.2. FORMS AND SHAPES
+ *  1. HEADER
+ *    - 1.1. NAVIGATIONBAR
+ *    - 1.2. SUBNAV
+ *    - 1.3. CAROUSEL  
+ *  2. ABOUT THE CONFERENCE
+    3. LOCATION
+    4. MISSION
+    5. TEAM
+    6. FOOTER 
+ */
+
+body{
+	position: relative !important;
+}
+
+/*0.1 FONTS*------------------------------------
+------------------------------*/
+
+h1,
+h2,
+h3 {
+	font-family: Quicksand, Verdana, Helvetica, sans-serif;
+}
+ 
+p,
+a,
+li {
+ 	font-family: Crimson Text, Palatino, Times New Roman serif;
+ }
+
+
+/*FONTS ends here*/
+
+
+
+/*0.2 FORMS AND SHAPES*/
+
+
+/*Make pictures responsive*/
+.img-responsive{
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+/* Anchor for Scrolling Down for Subnav*/
+
+.anchor{
+	padding-top: 50px;
+}
+
+.square {
+	width: 100px;
+	height: 100px;
+	background: red;
+}
+
+.hexagon {width: 100px; height: 80px; background: #6D6D37; position: relative; left: 300px; margin-top: 50px;} 
+.hexagon:before { content: ""; position: absolute; top: -25px; left: 0; width: 20; height: 20; border-left: 50px solid transparent; border-right: 50px solid transparent; border-bottom: 25px solid #6D6D37;} 
+.hexagon:after { content: ""; position: absolute; bottom: -25px; left: 0; width: 20; height: 20; border-left: 50px solid transparent; border-right: 50px solid transparent; border-top: 25px solid #6D6D37;}
+
+
+.triangle-up {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid red;
+}
+	
+.triangle-down{
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-top: 100px solid red;
+}
+
+.circle {
+	width: 100px;
+	height: 100px;
+	background: red;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	left:100%;
+	top:50%;margin-top:-50px;
+	}
+
+
+/*--------------------------------------------------------------------------
+----------Navbar starts here*/
+
+ /**1.1. NAVIGATIONBAR */
+
+
+.navbar{
+	background-color: #334C00;	
+	width: 100%;
+	position: fixed;
+	top: 0;
+	height: 60px;
+	opacity: 0.8;
+	z-index: 1;
+	float: right;
+}
+	
+.navbar li{
+	padding-top: 10px;
+	color: black;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	transition: color 900ms;
+	font-size: 2em;
+	}
+
+.navbar li a{
+	color: black;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	font-family: Quicksand;
+	padding-top: 10px;
+	}
+
+.navbar a:hover{
+	color: black;
+	text-decoration: none;
+}
+
+@media only screen and (max-width: 766px) {
+	.collapsing, .in {background-color: #B0B0B0;}
+	.collapsing ul li a, .in ul li a {color: ##000000;!important;}
+	.collapsing ul li a:hover, .in ul li a:hover {color: ##334C00;!important;}
+}
+
+.nav{
+	float: right;
+	padding-right: 20px;
+	padding-top: 0px;
+	color: black;
+}
+
+.projectName{
+	text-transform: uppercase;
+	font-size: 16px;
+	padding-top: 10px;
+	font-size: 2em;
+}
+
+.projectName a{
+	color: white;
+	float: left;
+	padding-left: 10px;
+	font-family: Quicksand;
+}
+
+.proj-title {
+    font-weight:100;
+}
+
+/*1.2 Subnav--------------------------------------------------------------------------
+----------*/
+
+.subnav{
+	background-color: rgb(87, 88, 91);
+	width: 100%;
+	height: 40px;
+	z-index: 0;
+	display: block;
+	text-align: right;
+	position: relative;
+	opacity: 0.9;
+	margin-top: 0px;
+}
+
+.subnav li{
+	padding-top: 0px;
+	color: black;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	transition: color 900ms;
+	font-size: 1em;
+}
+
+.subnav li a{
+	color: black;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	transition: color 900ms;
+	text-align: right;
+	float: right;
+	font-family: Quicksand;
+}
+
+.subnav a:hover{
+	color: black;
+	text-decoration: none;
+}
+
+
+ /**--------------------------------------------------------------
+ 1.3. Carousel */
+
+
+.headline {
+	padding-bottom: 40px;
+	font-size: 16px;
+}
+
+.carousel-caption {
+	padding-bottom: 240px;
+	font-family: Quicksand;
+	font-size: 2em;
+	color: #FFFF;
+}
+
+
+/*Header Carousel*/
+.item h3{
+	padding-bottom: 10px;
+	font-size: 3em;
+}	
+
+#header h1 {margin-bottom: 300px !important;}
+
+
+/*Text Carousel*/
+.item p{
+	padding-top: 10px;
+	padding-bottom: 80px;
+	font-size: 2em;
+}
+/*Carousel Ends here*/
+
+
+/*2.About the Conference-----------------------------------------------------------------------
+----------*/
+
+#AboutCon{
+	padding-top: 50px;
+	margin-top: 50px;
+	background-image: url("../img/chinu.jpg");
+	opacity: 0.6;
+	/*Add a background image*/
+	background-attachment: fixed;
+	/* Give the background a fixed position so it does not scroll when you scroll*/
+	background-size: cover;
+	/* Have the background cover the entire div section*/
+	color: white;
+	/* Change the color of the text on top so it is readable, and adjust the padding as needed*/
+	margin-top: 50px;
+}
+
+#aboutinfo{
+	background-color: white;
+	height: 650px;
+	width: 700px;
+	opacity: 0.8;
+	margin-bottom: 40px;
+	text-align: center;
+	color: black;
+ }
+
+ #aboutinfo h2{
+	padding-top: 30px;
+ }
+
+.modal-button{
+	margin: auto 0;
+	padding-left: 30px;
+	padding-top: 20px;
+}
+
+.modal-body{
+	height: 500px;	
+}
+
+#modalframe{
+	padding-top: 10px;
+	width: 100%;
+	height: 100%;
+}
+
+/*3./* Mission  */
+
+#mission {
+	background-color: #334C00;
+	opacity: 0.6;
+	/*Add a background image*/
+	background-attachment: fixed;
+	/* Give the background a fixed position so it does not scroll when you scroll*/
+	background-size: cover;
+	/* Have the background cover the entire div section*/
+	color: white;
+	/* Change the color of the text on top so it is readable, and adjust the padding as needed*/
+	margin-top: 50px;
+	padding-top: 50px;
+	margin-top: 50px;
+	opacity: 0.8;
+	height: 600px;
+	font-size: 1em;
+}
+
+#mission1 {
+	background-color: white;
+	padding-top: 50px;
+	margin-top: 30px;
+	margin-bottom: 40px;
+	bottom: 30px;
+	opacity: 0.95;
+	color: black;
+	height: 450px;
+}
+
+#mission1 h1 {	
+	text-align: center;
+	font-family: Quicksand;
+	padding-bottom: 20px;
+	margin-top: -10px;
+
+}
+
+#mission1 h2 {	
+	font-family: Quicksand;
+	margin-top: -25px;
+}
+
+#mission1 p {	
+	font-family: Quicksand;
+	text-align: left;
+
+}
+
+
+/*4./* Location----------
+----------------  */
+
+#location {
+	background-color: #334C00;
+	opacity: 0.6;
+	/*Add a background image*/
+	background-attachment: fixed;
+	/* Give the background a fixed position so it does not scroll when you scroll*/
+	background-size: cover;
+	/* Have the background cover the entire div section*/
+	color: white;
+	/* Change the color of the text on top so it is readable, and adjust the padding as needed*/
+	margin-top: 50px;
+	padding-top: 50px;
+	margin-top: 50px;
+	opacity: 0.8;
+	height: 650px;
+	font-size: 1em;
+}
+
+#location1 {
+	background-color: white;
+	padding-top: 50px;
+	margin-top: 30px;
+	margin-bottom: 40px;
+	bottom: 30px;
+	opacity: 0.95;
+	color: black;
+	height: 450px;
+}
+
+#location1 h1 {	
+	text-align: center;
+	font-family: Quicksand;
+	padding-bottom: 20px;
+	margin-top: -10px;
+
+}
+
+#location1 h2 {	
+	font-family: Quicksand;
+	margin-top: -25px;
+}
+
+#location1 p {	
+	font-family: Quicksand;
+	text-align: left;
+
+}
+
+
+/*5. TEAM---------------------
+------./*   */
+
+#team {
+	background-color: #334C00;
+	opacity: 0.6;
+	/*Add a background image*/
+	background-attachment: fixed;
+	/* Give the background a fixed position so it does not scroll when you scroll*/
+	background-size: cover;
+	/* Have the background cover the entire div section*/
+	color: white;
+	/* Change the color of the text on top so it is readable, and adjust the padding as needed*/
+	margin-top: 50px;
+	padding-top: 50px;
+	margin-top: 50px;
+	opacity: 0.8;
+	height: 700px;
+	font-size: 1em;
+}
+
+#team1 {
+	background-color: white;
+	padding-top: 50px;
+	margin-top: 30px;
+	margin-bottom: 40px;
+	bottom: 30px;
+	opacity: 0.95;
+	text-align: center;
+	color: black;
+	height: 550px;
+}
+
+#team1 h1 {	
+	text-align: center;
+	font-family: Quicksand;
+	padding-bottom: 20px;
+	margin-top: -10px;
+
+}
+
+#team1 h2 {	
+	font-family: Quicksand;
+	margin-top: -25px;
+}
+
+#team1 p {	
+	font-family: Quicksand;
+
+}
+
+
+
+
+/*7. FOOTER*------------------------------------
+------------------------------*/
+
+footer {
+  background-color: rgb(87, 88, 91);
+  margin-top: 20px;
+ }
+
+.footer--row {
+  margin-left: 0;
+  margin-right: 0;
+  width: 93%;
+  margin: 0 auto;
+}
+
+.footer--columns {
+  padding: 0 1% 5px;
+  overflow: hidden;
+  color: white;
+}
+  
+.columns--readmore{
+	color: blue;
+}
+
+.icon-email, {
+  vertical-align: sub;
+}
+
+.columns--social-buttons a {
+  font-size: 35px;
+  padding-right: 5px;
+  color: blue;
+}
+
+.zu-logo {
+  background: url(../img/zu_logo_white.png) no-repeat center;
+  background-size: cover;
+  width: 115px;
+  height: 30px;
+  margin: 30px 0;
+  overflow: hidden;
+}
+
+.copyright {
+	background-color: rgb(87, 88, 91);
+  width: 90%;
+  margin: 5px auto 0px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  padding-top: 5px;
+  padding-bottom: 15px;
+  text-align: center;
+  font-family: Quicksand;
+  color: white;
+}
+
+@media (min-width: 992px) {
+  .footer--row {
+    width: 82%;
+    margin: 0 auto;
+  }
+
+.twitter{
+	margin-top: 20px;
+	margin-left: 5px;
+	float: left;
+}
+
+.fb-like{	
+		float: left;
+		margin-top: 30px;
+		margin-right: 5px;		
+}
+
+/*footer ends here */
+
+
+
+
+
+
+
+
+
+
+
+
+

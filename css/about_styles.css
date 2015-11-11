@@ -1,0 +1,126 @@
+*{box-sizing: border-box;}
+
+.nav {
+	background-color: black;
+	width: 100%;
+	float: left; !important;
+	position: fixed;
+	top: 0;
+	height: 60px;
+	opacity: 0.7;
+	z-index: 1;
+	}
+
+.nav ul li {
+	display: inline-block;
+	padding-right: 10px;
+	float: left; 
+	opacity: 0.6;
+}
+
+.nav ul li a {
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	padding-top: 20px;
+	transition: color 900ms;
+	font-size: 1em;
+}
+
+.nav a:hover {
+	color: #f00;
+	text-decoration: none;
+}
+
+.container {
+	width: 100%;
+	margin: 0 auto;	
+	}		
+
+.header h1 {
+	text-align: center;
+	padding-top: 60px;
+	margin-bottom: 50px;
+	font-size: 3em;
+}
+
+
+.container img {
+	padding-right: 10px;
+}
+
+.image {
+	display: inline-block;
+	float: left;
+	opacity: 0.6;
+	}
+
+.column {display: inline-block;
+	float: left; width: 30%;
+	padding: 0 20px;
+	}
+
+.main_text {
+	clear: both;
+	padding-top: 30px;
+	text-align: center;
+	}
+
+.container h2 {
+	padding-top: 30px;
+	padding-bottom: 20px;
+	font-size: 2em;
+	text-align: center;
+}
+
+.container h3 {
+	padding-top: 30px;
+	padding-bottom: 20px;
+	font-size: 2em;
+}
+
+.img-responsive {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+.skills {
+		background-color: #D8D8D8 ;
+		color: #000000;
+		opacity: 0.6;
+}
+
+.intro p {
+	font-size: 1em;
+	font-weight: 200;
+	-webkit-margin-before: 0;}
+
+
+.skills h3 {
+		text-align: center;
+		text-transform: uppercase;
+		margin-left: px;
+	}
+.main_text h3 {
+	text-transform: uppercase;
+	font-size: 1em;
+	padding-top: 0px;
+}
+
+
+/Typografie*/
+
+h1,
+h2,
+h3 {
+	font-family: Open Sans Condensed, Helvetica, sans-serif;
+}
+
+p,
+li {
+ 	font-family: Indie Flower, Palatino, serif;
+ }
+
+ 
+
