@@ -251,8 +251,7 @@ li {
 #AboutCon{
 	padding-top: 50px;
 	margin-top: 50px;
-	background-image: url("../img/chinu.jpg");
-	opacity: 0.6;
+	background-color: white;
 	/*Add a background image*/
 	background-attachment: fixed;
 	/* Give the background a fixed position so it does not scroll when you scroll*/
@@ -275,7 +274,15 @@ li {
 
  #aboutinfo h2{
 	padding-top: 30px;
+	font-size: 3em;
+	font-family: Quicksand;
  }
+
+  #aboutinfo p{
+	font-size: 2em;
+	font-family: Quicksand;
+ }
+
 
 .modal-button{
 	margin: auto 0;
@@ -293,62 +300,13 @@ li {
 	height: 100%;
 }
 
-/*3./* Mission  */
 
-#mission {
-	background-color: #334C00;
-	opacity: 0.6;
-	/*Add a background image*/
-	background-attachment: fixed;
-	/* Give the background a fixed position so it does not scroll when you scroll*/
-	background-size: cover;
-	/* Have the background cover the entire div section*/
-	color: white;
-	/* Change the color of the text on top so it is readable, and adjust the padding as needed*/
-	margin-top: 50px;
-	padding-top: 50px;
-	margin-top: 50px;
-	opacity: 0.8;
-	height: 600px;
-	font-size: 1em;
-}
-
-#mission1 {
-	background-color: white;
-	padding-top: 50px;
-	margin-top: 30px;
-	margin-bottom: 40px;
-	bottom: 30px;
-	opacity: 0.95;
-	color: black;
-	height: 450px;
-}
-
-#mission1 h1 {	
-	text-align: center;
-	font-family: Quicksand;
-	padding-bottom: 20px;
-	margin-top: -10px;
-
-}
-
-#mission1 h2 {	
-	font-family: Quicksand;
-	margin-top: -25px;
-}
-
-#mission1 p {	
-	font-family: Quicksand;
-	text-align: left;
-
-}
-
-
-/*4./* Location----------
+/*3./* Location----------
 ----------------  */
 
+
 #location {
-	background-color: #334C00;
+	background-color: #FFD700;
 	opacity: 0.6;
 	/*Add a background image*/
 	background-attachment: fixed;
@@ -361,7 +319,7 @@ li {
 	padding-top: 50px;
 	margin-top: 50px;
 	opacity: 0.8;
-	height: 650px;
+	height: 800px;
 	font-size: 1em;
 }
 
@@ -392,28 +350,32 @@ li {
 #location1 p {	
 	font-family: Quicksand;
 	text-align: left;
+	font-size: 1em;
 
 }
 
 
-/*5. TEAM---------------------
+
+
+
+/*4. TEAM---------------------
 ------./*   */
 
 #team {
-	background-color: #334C00;
+	background-color: white;
 	opacity: 0.6;
 	/*Add a background image*/
 	background-attachment: fixed;
 	/* Give the background a fixed position so it does not scroll when you scroll*/
 	background-size: cover;
 	/* Have the background cover the entire div section*/
-	color: white;
+	color: rgb(87, 88, 91);
 	/* Change the color of the text on top so it is readable, and adjust the padding as needed*/
 	margin-top: 50px;
 	padding-top: 50px;
 	margin-top: 50px;
 	opacity: 0.8;
-	height: 700px;
+	height: 800px;
 	font-size: 1em;
 }
 
@@ -445,6 +407,14 @@ li {
 #team1 p {	
 	font-family: Quicksand;
 
+}
+
+div.hr {
+background: #fff  no-repeat scroll center;
+color: black;
+margin-top: 20px;
+width: 100%; 
+size: 30px;
 }
 
 
