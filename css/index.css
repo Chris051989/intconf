@@ -14,8 +14,7 @@
  */
 
 body {
-	margin: 2.25em auto;
-	height: 100%;
+	width: 100%;
 }
 
 /*0.1 FONTS*------------------------------------
@@ -46,6 +45,7 @@ li {
 	display: block;
 	max-width: 100%;
 	height: auto;
+	padding-left: 130px;
 }
 
 /* Anchor for Scrolling Down for Subnav*/
@@ -100,9 +100,8 @@ li {
 
 
 
-.navbar{
+.navbar {
 	background-color: #d8d8d8;	
-	width: 100%;
 	position: fixed;
 	top: 0;
 	height: 60px;
@@ -110,14 +109,14 @@ li {
 	z-index: 1;
 }
 	
-.navbar li{
+.navbar li {
 	padding-top: 10px;
 	letter-spacing: 0.05em;
 	transition: color 900ms;
 	font-size: 1.5em;
 	}
 
-.navbar li a{
+.navbar li a {
 	text-transform: lowercase;
 	letter-spacing: 0.05em;
 	font-family: Quicksand;
@@ -140,9 +139,9 @@ li {
 	.collapsing ul li a:hover, .in ul li a:hover {color: ##334C00;!important;}
 }
 
-.nav{
+.nav {
 	float: right;
-	padding-right: 20px;
+	padding-right: 120px;
 	padding-top: 0px;
 	color: #ff6600;
 }
@@ -209,13 +208,23 @@ li {
     color: #ff6600;
 }
 
-
  
  /*landing page starts here*/
 
  #landingpage {
  	background-image: url('../img/shanghai.jpg');
- 	background-size: auto 100%;
+ 	opacity: 0.6;
+	/*Add a background image*/
+	background-attachment: fixed;
+	/* Give the background a fixed position so it does not scroll when you scroll*/
+	background-size: cover !important;
+	/* Have the background cover the entire div section*/
+	color: white;
+	/* Change the color of the text on top so it is readable, and adjust the padding as needed*/
+	padding-top: 50px;
+	opacity: 0.8;
+	height: 800px;
+	font-size: 1em;
  }
 
 #heroimage {
@@ -224,10 +233,10 @@ li {
 }
 
 #herologo {
-	position: relative;
-	margin-left: 200px;
-	margin-right: 200px;
-	margin-bottom: 150px;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+
 }
 
 /*landing page ends here */
@@ -306,6 +315,8 @@ li {
 	/* Change the color of the text on top so it is readable, and adjust the padding as needed*/
 	margin-top: 50px;
 	padding-top: 50px;
+	margin-right: 131px;
+	margin-left: 131px;
 	margin-top: 50px;
 	opacity: 0.8;
 	height: 800px;
@@ -373,6 +384,8 @@ li {
 	color: white;
 	/* Change the color of the text on top so it is readable, and adjust the padding as needed*/
 	padding-top: 50px;
+	margin-right: 131px;
+	margin-left: 131px;
 	opacity: 0.8;
 	height: 800px;
 	font-size: 1em;
