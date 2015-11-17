@@ -110,9 +110,6 @@ li {
 	height: 60px;
 	opacity: 0.6;
 	z-index: 1;
-	float: right;
-	margin-right: 5em;
-	margin-left: 5em;
 }
 	
 .navbar li{
@@ -249,11 +246,13 @@ li {
 }
 
 #heroimage {
+	position: relative;
 	opacity: 0.7;
 }
 
 
 #herologo {
+	position: relative;
 	margin-left: 200px;
 	margin-right: 200px;
 	margin-bottom: 150px;
