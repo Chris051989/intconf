@@ -105,7 +105,6 @@ li {
 	position: fixed;
 	top: 0;
 	height: 60px;
-	opacity: 0.6;
 	z-index: 1;
 }
 	
@@ -177,7 +176,6 @@ li {
 	display: block;
 	text-align: right;
 	position: relative;
-	opacity: 0.9;
 	margin-top: -87px;
 	z-index: -2;
 }
