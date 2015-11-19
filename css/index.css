@@ -178,6 +178,7 @@ li {
 	position: relative;
 	margin-top: -87px;
 	z-index: -2;
+	opacity: 0.5;
 }
 
 .subnav li{
@@ -400,6 +401,42 @@ li {
 /*5. TEAM---------------------
 ------./*   */
 
+#firstpageteam {
+
+	background-image: url(../img/teampic.jpg);
+	opacity: 0.6;
+	/*Add a background image*/
+	background-attachment: fixed;
+	/* Give the background a fixed position so it does not scroll when you scroll*/
+	background-size: cover;
+	/* Have the background cover the entire div section*/
+	color: white;
+	/* Change the color of the text on top so it is readable, and adjust the padding as needed*/
+	padding-top: 50px;
+	margin-right: 131px;
+	margin-left: 131px;
+	opacity: 0.8;
+	height: 800px;
+	font-size: 1em;
+}
+
+#firstpageteam2 {
+	text-align: center;
+	font-family: Quicksand;
+	margin-top: 150px;
+	letter-spacing: 0.05em;
+}
+
+#firstpageteam2 h1 {
+	
+	margin-top: 150px;
+	font-size: 3em;
+	
+}
+
+
+
+
 #team {
 	background-color: white;
 	opacity: 0.6;
@@ -410,11 +447,11 @@ li {
 	/* Have the background cover the entire div section*/
 	color: rgb(87, 88, 91);
 	/* Change the color of the text on top so it is readable, and adjust the padding as needed*/
-	margin-top: 50px;
+	margin-top: 10px;
 	padding-top: 50px;
-	margin-top: 50px;
+	margin-bottom: 250px;
 	opacity: 0.8;
-	height: 800px;
+	height: 1200px;
 	font-size: 1em;
 }
 
@@ -422,7 +459,7 @@ li {
 	background-color: white;
 	padding-top: 50px;
 	margin-top: 30px;
-	margin-bottom: 40px;
+	margin-bottom: 50px;
 	bottom: 30px;
 	opacity: 0.95;
 	text-align: center;
@@ -441,11 +478,17 @@ li {
 #team1 h2 {	
 	font-family: Quicksand;
 	margin-top: -25px;
+	text-align: center;
 }
 
 #team1 p {	
 	font-family: Quicksand;
 
+}
+
+#pic {
+	height: 300px;
+	text-align: center;
 }
 
 div.hr {
@@ -455,6 +498,45 @@ margin-top: 20px;
 width: 100%; 
 size: 30px;
 }
+
+
+
+#teampic {
+	background-image: url(../img/bodensee.jpg);
+	opacity: 0.6;
+	/*Add a background image*/
+	background-attachment: fixed;
+	/* Give the background a fixed position so it does not scroll when you scroll*/
+	background-size: cover;
+	/* Have the background cover the entire div section*/
+	color: white;
+	/* Change the color of the text on top so it is readable, and adjust the padding as needed*/
+	margin-top: 50px;
+	padding-top: 50px;
+	
+	margin-top: 50px;
+	opacity: 0.8;
+	height: 300px;
+	font-size: 1em;
+}
+
+
+#teampic h1 {	
+	text-align: center;
+	font-family: Quicksand;
+	padding-bottom: 20px;
+	margin-top: -10px;
+
+}
+
+
+#teampic p {	
+	font-family: Quicksand;
+	text-align: left;
+	font-size: 1em;
+
+}
+
 
 
 
