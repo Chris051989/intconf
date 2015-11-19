@@ -13,8 +13,8 @@
     6. FOOTER 
  */
 
-body{
-	position: relative !important;
+body {
+	width: 100%;
 }
 
 /*0.1 FONTS*------------------------------------
@@ -45,6 +45,7 @@ li {
 	display: block;
 	max-width: 100%;
 	height: auto;
+	padding-left: 130px;
 }
 
 /* Anchor for Scrolling Down for Subnav*/
@@ -99,25 +100,22 @@ li {
 
 
 
-.navbar{
+.navbar {
 	background-color: #d8d8d8;	
-	width: 100%;
 	position: fixed;
 	top: 0;
 	height: 60px;
-	opacity: 0.6;
 	z-index: 1;
-	float: right;
 }
 	
-.navbar li{
+.navbar li {
 	padding-top: 10px;
 	letter-spacing: 0.05em;
 	transition: color 900ms;
 	font-size: 1.5em;
 	}
 
-.navbar li a{
+.navbar li a {
 	text-transform: lowercase;
 	letter-spacing: 0.05em;
 	font-family: Quicksand;
@@ -140,9 +138,9 @@ li {
 	.collapsing ul li a:hover, .in ul li a:hover {color: ##334C00;!important;}
 }
 
-.nav{
+.nav {
 	float: right;
-	padding-right: 20px;
+	padding-right: 120px;
 	padding-top: 0px;
 	color: #ff6600;
 }
@@ -178,7 +176,6 @@ li {
 	display: block;
 	text-align: right;
 	position: relative;
-	opacity: 0.9;
 	margin-top: -87px;
 	z-index: -2;
 }
@@ -209,53 +206,39 @@ li {
     color: #ff6600;
 }
 
+ 
+ /*landing page starts here*/
 
- /**--------------------------------------------------------------
- 1.3. Carousel */
-
-
-.headline {
-	padding-bottom: 40px;
-	font-size: 16px;
-}
-
-.carousel-caption {
-	padding-bottom: 240px;
-	font-family: Quicksand;
-	font-size: 2em;
-	color: #FFFF;
-}
-
-
-/*Header Carousel*/
-.item h3{
-	padding-bottom: 10px;
-	font-size: 3em;
-}	
-
-#header h1 {margin-bottom: 300px !important;}
-
-
-/*Text Carousel*/
-.item p{
-	padding-top: 10px;
-	padding-bottom: 80px;
-	font-size: 2em;
-}
+ #landingpage {
+ 	background-image: url('../img/shanghai.jpg');
+ 	opacity: 0.6;
+	/*Add a background image*/
+	background-attachment: fixed;
+	/* Give the background a fixed position so it does not scroll when you scroll*/
+	background-size: cover !important;
+	/* Have the background cover the entire div section*/
+	color: white;
+	/* Change the color of the text on top so it is readable, and adjust the padding as needed*/
+	padding-top: 50px;
+	opacity: 0.8;
+	height: 800px;
+	font-size: 1em;
+ }
 
 #heroimage {
+	position: relative;
 	opacity: 0.7;
 }
 
-
 #herologo {
-	margin-left: 200px;
-	margin-right: 200px;
-	margin-bottom: 150px;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+
 }
 
+/*landing page ends here */
 
-/*Carousel Ends here*/
 
 
 /*2.About the Conference-----------------------------------------------------------------------
@@ -330,6 +313,8 @@ li {
 	/* Change the color of the text on top so it is readable, and adjust the padding as needed*/
 	margin-top: 50px;
 	padding-top: 50px;
+	margin-right: 131px;
+	margin-left: 131px;
 	margin-top: 50px;
 	opacity: 0.8;
 	height: 800px;
@@ -397,6 +382,8 @@ li {
 	color: white;
 	/* Change the color of the text on top so it is readable, and adjust the padding as needed*/
 	padding-top: 50px;
+	margin-right: 131px;
+	margin-left: 131px;
 	opacity: 0.8;
 	height: 800px;
 	font-size: 1em;
