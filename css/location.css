@@ -6,8 +6,8 @@
  *    - 1.1. NAVIGATIONBAR
  *    - 1.2. SUBNAV
  *    - 1.3. CAROUSEL  
- *  2. Team
-    3. FOOTER 
+ *  3. LOCATION
+    4. FOOTER 
  */
 
 body {
@@ -15,8 +15,7 @@ body {
 	margin-top: 100px;
 }
 
-/*0.1 FONTS*------------------------------------
-------------------------------*/
+/*0.1 FONTS*------------------------------------------------------------------*/
 
 h1,
 h2,
@@ -91,8 +90,7 @@ li {
 	}
 
 
-/*--------------------------------------------------------------------------
-----------Navbar starts here*/
+/*-----------------------------------------------------------------------------------Navbar starts here*/
 
  /**1.1. NAVIGATIONBAR */
 
@@ -161,8 +159,7 @@ li {
     font-weight:100;
 }
 
-/*1.2 Subnav--------------------------------------------------------------------------
-----------*/
+/*1.2 Subnav------------------------------------------------------------------------------------*/
 
 /** Ich habe auch bei der Subnav einen n.**/
 
@@ -206,71 +203,10 @@ li {
 
 
 
-/*2. TEAM Page--------------------------- */
+/*3. CSS für Location-Seite----------------------  */
 
-#team {
-	background-color: white;
-	opacity: 0.6;
-	/*Add a background image*/
-	background-attachment: fixed;
-	/* Give the background a fixed position so it does not scroll when you scroll*/
-	background-size: cover;
-	/* Have the background cover the entire div section*/
-	color: rgb(87, 88, 91);
-	/* Change the color of the text on top so it is readable, and adjust the padding as needed*/
-	margin-top: 10px;
-	padding-top: 50px;
-	margin-bottom: 250px;
-	opacity: 0.8;
-	height: 1600px;
-	font-size: 1em;
-}
 
-#team1 {
-	background-color: white;
-	padding-top: 50px;
-	margin-top: 30px;
-	margin-bottom: 50px;
-	bottom: 30px;
-	opacity: 0.95;
-	text-align: center;
-	color: black;
-	height: 550px;
-}
-
-#team1 h1 {	
-	text-align: center;
-	font-family: Quicksand;
-	padding-bottom: 20px;
-	margin-top: -10px;
-
-}
-
-#team1 h2 {	
-	font-family: Quicksand;
-	margin-top: -25px;
-	text-align: center;
-}
-
-#team1 p {	
-	font-family: Quicksand;
-
-}
-
-#pic {
-	height: 300px;
-	text-align: center;
-}
-
-div.hr {
-background: #fff  no-repeat scroll center;
-color: black;
-margin-top: 20px;
-width: 100%; 
-size: 30px;
-}
-
-#teampic {
+#locationlandpage {
 	background-image: url(../img/bodensee.jpg);
 	opacity: 0.6;
 	/*Add a background image*/
@@ -280,34 +216,98 @@ size: 30px;
 	/* Have the background cover the entire div section*/
 	color: white;
 	/* Change the color of the text on top so it is readable, and adjust the padding as needed*/
-	margin-top: 50px;
 	padding-top: 50px;
-	margin-top: 50px;
 	margin-right: 131px;
 	margin-left: 131px;
 	opacity: 0.8;
-	height: 600px;
+	height: 800px;
 	font-size: 1em;
 }
 
-
-#teampic h1 {	
+#locationlandpage2 {
 	text-align: center;
 	font-family: Quicksand;
-	padding-bottom: 20px;
-	margin-top: -10px;
+	margin-top: 150px;
+	letter-spacing: 0.05em;
+}
+
+#locationlandpage2 h1{
+	font-size: 3em;
+}
+
+
+#slocationlandpage h2{
+	font-size: 1.5em;
+}
+
+
+/*Bilder sind aktuell noch unterschiedlich groß. Anpassung und fragen ob ZU-Bilder tatsächlich verwendet weren können   */
+
+
+/*man könnte sich an der Stelle überlegen, ob man horizontale Linien nutzt, um zwischen den verschiedenen Containern
+eine optische Trennung zu schaffen. Dann könnte man die Linien noch etwas stylen   */
+
+
+#line {
+	line-height: 20px;
+}
+
+#location0{
+	margin-top: 70px;
+	margin-right: 131px;
+	margin-left: 131px;
 
 }
 
 
-#teampic p {	
+#location1 {
+	padding-left: 80px;
+	padding-top: 100px;
+	}
+
+#location1 h1{
+	text-align: center;
+	}
+#location1 p{
+	text-align: center;
 	font-family: Quicksand;
-	text-align: left;
-	font-size: 1em;
+	}
 
+
+#location4 {
+	padding-right: 80px;
+	padding-top: 100px;
+	}
+
+#location4 h1{
+	text-align: center;
+	}
+#location4 p{
+	text-align: center;
+	font-family: Quicksand;
+	}
+
+
+#endloc{
+	margin-bottom: 150px;
 }
 
-/* 3. FOOTER*------------------------------------------------------------------*/
+#location5 {
+	padding-left: 80px;
+	padding-top: 100px;
+	}
+
+#location5 h1{
+	text-align: center;
+	}
+#location5 p{
+	text-align: center;
+	font-family: Quicksand;
+	}
+
+
+
+/*4. FOOTER*------------------------------------------------------------------*/
 
 footer {
   background-color: rgb(87, 88, 91);
