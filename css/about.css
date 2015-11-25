@@ -42,7 +42,6 @@ li {
 	display: block;
 	max-width: 100%;
 	height: auto;
-	padding-left: 130px;
 }
 
 /* Anchor for Scrolling Down for Subnav*/
@@ -142,17 +141,16 @@ li {
 	color: #ff6600;
 }
 
-.projectName{
+.projectName {
 	text-transform: uppercase;
 	font-size: 16px;
 	padding-top: 10px;
 	font-size: 2em;
+	padding-left: 52px;
 }
 
 .projectName a{
 	color: white;
-	float: left;
-	padding-left: 10px;
 	font-family: Quicksand;
 }
 
@@ -167,7 +165,7 @@ li {
 
 
 .subnav{
-	background-color: #a4a4a4;
+	background-color: #d8d8d8;
 	width: 100%;
 	height: 40px;
 	display: block;
@@ -175,6 +173,9 @@ li {
 	position: relative;
 	margin-top: -87px;
 	z-index: -2;
+	border-top: 1px solid;
+	border-color: #6B6B6B;
+	opacity: 0.6;
 }
 
 .subnav li{
@@ -203,7 +204,6 @@ li {
     color: #ff6600;
 }
 
- 
 
 /*2.About the Conference---------------------------------------------------------------------------------*/
 
