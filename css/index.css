@@ -45,7 +45,6 @@ li {
 	display: block;
 	max-width: 100%;
 	height: auto;
-	padding-left: 130px;
 }
 
 /* Anchor for Scrolling Down for Subnav*/
@@ -145,17 +144,16 @@ li {
 	color: #ff6600;
 }
 
-.projectName{
+.projectName {
 	text-transform: uppercase;
 	font-size: 16px;
 	padding-top: 10px;
 	font-size: 2em;
+	padding-left: 52px;
 }
 
 .projectName a{
 	color: white;
-	float: left;
-	padding-left: 10px;
 	font-family: Quicksand;
 }
 
