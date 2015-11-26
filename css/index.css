@@ -139,7 +139,7 @@ li {
 
 .nav {
 	float: right;
-	padding-right: 120px;
+	padding-right: 100px;
 	padding-top: 0px;
 	color: #ff6600;
 }
@@ -161,27 +161,27 @@ li {
     font-weight:100;
 }
 
-/*1.2 Subnav--------------------------------------------------------------------------
+/*1.2 Subnav #sponsors --------------------------------------------------------------------------
 ----------*/
 
 /** Ich habe auch bei der Subnav einen n.**/
 
 
-.subnav{
+#sponsors {
 	background-color: #d8d8d8;
 	width: 100%;
 	height: 40px;
 	display: block;
 	text-align: right;
 	position: relative;
-	margin-top: -87px;
 	z-index: -2;
 	border-top: 1px solid;
 	border-color: #6B6B6B;
 	opacity: 0.6;
+	margin-top: -41px;
 }
 
-.subnav li{
+#sponsors li{
 	padding-top: 0px;
 	color: black;
 	text-transform: uppercase;
@@ -190,7 +190,7 @@ li {
 	font-size: 1em;
 }
 
-.subnav li a{
+#sponsors li a{
 	color: black;
 	text-transform: uppercase;
 	letter-spacing: 0.05em;
@@ -203,9 +203,10 @@ li {
 }
 
 
-#sub li a:hover {
+#sponsors li a:hover {
     color: #ff6600;
 }
+
 
  
  /* 3.LANDING PAGE -----------------------------------------------------------------*/
