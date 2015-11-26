@@ -241,6 +241,103 @@ li {
 
 /*LANDING PAGE ends here -----------------------------------------------------------------*/
 
+/*2.CSS for About the Conference on landing page ---------------------------------------------------------------------------------*/
+
+#AboutCon{
+	padding-top: 50px;
+	margin-top: 50px;
+	background-color: white;
+	/*Add a background image*/
+	background-attachment: fixed;
+	/* Give the background a fixed position so it does not scroll when you scroll*/
+	background-size: cover;
+	/* Have the background cover the entire div section*/
+	color: white;
+	/* Change the color of the text on top so it is readable, and adjust the padding as needed*/
+	margin-top: 50px;
+}
+
+#aboutinfo{
+	background-color: white;
+	height: 650px;
+	width: 700px;
+	opacity: 0.8;
+	margin-bottom: 40px;
+	text-align: center;
+	color: black;
+ }
+
+ #aboutinfo h2{
+	padding-top: 30px;
+	font-size: 3em;
+	font-family: Quicksand;
+ }
+
+  #aboutinfo p{
+	font-size: 2em;
+	font-family: Quicksand;
+ }
+
+
+.modal-button{
+	margin: auto 0;
+	padding-left: 30px;
+	padding-top: 20px;
+}
+
+.modal-body{
+	height: 500px;	
+}
+
+#modalframe{
+	padding-top: 10px;
+	width: 100%;
+	height: 100%;
+}
+
+
+/*3. CSS für Location-Seite auf landingpage----------------------  */
+
+
+#locationlandpage {
+	background-image: url(../img/bodensee.jpg);
+	opacity: 0.6;
+	/*Add a background image*/
+	background-attachment: fixed;
+	/* Give the background a fixed position so it does not scroll when you scroll*/
+	background-size: cover;
+	/* Have the background cover the entire div section*/
+	color: white;
+	/* Change the color of the text on top so it is readable, and adjust the padding as needed*/
+	padding-top: 50px;
+	margin-right: 131px;
+	margin-left: 131px;
+	opacity: 0.8;
+	height: 800px;
+	font-size: 1em;
+}
+
+#locationlandpage2 {
+	text-align: center;
+	font-family: Quicksand;
+	margin-top: 150px;
+	letter-spacing: 0.05em;
+}
+
+#locationlandpage2 h1{
+	font-size: 3em;
+}
+
+
+#slocationlandpage h2{
+	font-size: 1.5em;
+}
+
+
+
+
+
+
 /*4./* SPEAKER--------------------------  */
 
 

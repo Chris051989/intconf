@@ -11,9 +11,17 @@
  */
 
 body {
-	width: 100%;
 	margin-top: 100px;
+	width: 100%;
+	height: 100%;
 }
+
+html {
+	width: 100%;
+	height: 100%;
+}
+
+
 
 /*0.1 FONTS*------------------------------------------------------------------*/
 
@@ -27,7 +35,12 @@ p,
 a,
 li {
  	font-family: Crimson Text, Palatino, Times New Roman serif;
+ 	text-align: justify;
  }
+
+#line {
+	color: #6B6B6B;
+}
 
 
 /*FONTS ends here*/
@@ -47,7 +60,8 @@ li {
 /* Anchor for Scrolling Down for Subnav*/
 
 .anchor{
-	padding-top: 50px;
+	margin-right: 131px;
+	margin-left: 131px;
 }
 
 .square {
@@ -203,50 +217,7 @@ li {
     color: #ff6600;
 }
 
-/*3. CSS für Location-Seite----------------------  */
-
-
-#locationlandpage {
-	background-image: url(../img/bodensee.jpg);
-	opacity: 0.6;
-	/*Add a background image*/
-	background-attachment: fixed;
-	/* Give the background a fixed position so it does not scroll when you scroll*/
-	background-size: cover;
-	/* Have the background cover the entire div section*/
-	color: white;
-	/* Change the color of the text on top so it is readable, and adjust the padding as needed*/
-	padding-top: 50px;
-	margin-right: 131px;
-	margin-left: 131px;
-	opacity: 0.8;
-	height: 800px;
-	font-size: 1em;
-}
-
-#locationlandpage2 {
-	text-align: center;
-	font-family: Quicksand;
-	margin-top: 150px;
-	letter-spacing: 0.05em;
-}
-
-#locationlandpage2 h1{
-	font-size: 3em;
-}
-
-
-#slocationlandpage h2{
-	font-size: 1.5em;
-}
-
-
-/*Bilder sind aktuell noch unterschiedlich groß. Anpassung und fragen ob ZU-Bilder tatsächlich verwendet weren können   */
-
-
-/*man könnte sich an der Stelle überlegen, ob man horizontale Linien nutzt, um zwischen den verschiedenen Containern
-eine optische Trennung zu schaffen. Dann könnte man die Linien noch etwas stylen   */
-
+/*location on location page*/
 
 #line {
 	line-height: 20px;
@@ -256,7 +227,6 @@ eine optische Trennung zu schaffen. Dann könnte man die Linien noch etwas style
 	margin-top: 70px;
 	margin-right: 131px;
 	margin-left: 131px;
-
 }
 
 
@@ -273,6 +243,10 @@ eine optische Trennung zu schaffen. Dann könnte man die Linien noch etwas style
 	font-family: Quicksand;
 	}
 
+#location2.5 {
+	margin-left: 131px;
+	margin-right: 131px;
+}
 
 #location4 {
 	padding-right: 80px;
@@ -282,11 +256,16 @@ eine optische Trennung zu schaffen. Dann könnte man die Linien noch etwas style
 #location4 h1{
 	text-align: center;
 	}
+
 #location4 p{
 	text-align: center;
 	font-family: Quicksand;
 	}
 
+#location2.5 {
+		margin-right: 131px;
+	margin-left: 131px;
+}
 
 #endloc{
 	margin-bottom: 150px;
@@ -304,6 +283,13 @@ eine optische Trennung zu schaffen. Dann könnte man die Linien noch etwas style
 	text-align: center;
 	font-family: Quicksand;
 	}
+
+
+/*Bilder sind aktuell noch unterschiedlich groß. Anpassung und fragen ob ZU-Bilder tatsächlich verwendet weren können   */
+
+
+/*man könnte sich an der Stelle überlegen, ob man horizontale Linien nutzt, um zwischen den verschiedenen Containern
+eine optische Trennung zu schaffen. Dann könnte man die Linien noch etwas stylen   */
 
 
 
