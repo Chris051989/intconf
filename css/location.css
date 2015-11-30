@@ -114,7 +114,7 @@ li {
 	position: fixed;
 	top: 0;
 	height: 60px;
-	z-index: 1;13
+	z-index: 1;
 }
 	
 .navbar li {
@@ -152,6 +152,7 @@ li {
 	padding-right: 100px;
 	padding-top: 0px;
 	color: #ff6600;
+	
 }
 
 .projectName {
