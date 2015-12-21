@@ -103,6 +103,10 @@ li {
 	height: 60px;
 	z-index: 1;13
 }
+
+.navbar-inverse {
+	border-color: transparent;
+}
 	
 .navbar li {
 	padding-top: 10px;
