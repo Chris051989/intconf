@@ -227,7 +227,7 @@ li {
 	/* Change the color of the text on top so it is readable, and adjust the padding as needed*/
 	padding-top: 50px;
 	opacity: 0.8;
-	height: 800px;
+	height: 600px;
 	font-size: 1em;
  }
 
@@ -237,9 +237,9 @@ li {
 }
 
 #herologo {
-	margin-top: 50px;
 	margin-left: auto;
 	margin-right: auto;
+	height: 400px;
 
 }
 
@@ -266,7 +266,6 @@ li {
 	height: 650px;
 	width: 700px;
 	opacity: 0.8;
-	margin-bottom: 40px;
 	text-align: center;
 	color: black;
  }
@@ -342,7 +341,7 @@ li {
 
 
 
-/*4./* SPEAKER--------------------------  */
+/*4./* CONTAINER FOR SPEAKER SECTION ON LANDING PAGE--------------------------  */
 
 
 #speaker {
