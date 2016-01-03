@@ -51,7 +51,15 @@ li {
 
 #logo {
 	width: 50%;
-    margin: 0 auto;
+	margin-top: 100px;
+}
+
+#logorest {
+	background-image: url("../img/logo.png");
+	background-repeat: no-repeat;
+	position: absolute;
+	width: 100%;
+	height: 100%;
 }
 
 #mission {
@@ -60,23 +68,33 @@ li {
 	position: absolute;
 	width: 100%;
 	height: 100%;
+	margin-left: 360px;
+	margin-top: 35px;
+}
+
+#mission:hover {
+	background-image: url("../img/logo_mission_hover.png");
+	background-size: 150px;
+	margin-top: -85px;
 }
 
 #location {
 	background-image:url("../img/logo_location.png");
 	background-repeat: no-repeat;
 	position: absolute;
-	width: 22%;
-	height: 40%;
-	margin-top: 313px;
-	margin-left: 17px;
-	border: 1px solid black;
+	width: 100%;
+	height: 100%;
+	margin-top: 503px;
+	margin-left: 219px;
 }
 
 #location:hover {
 	background-image: url("../img/logo_location_hover.png");
-	position: relative;
+	background-size: 200px;
+	margin-left: 100px;
+	margin-top: 550px;
 }
+
 
 #about {
 	background-image: url("../img/logo_about.png");
@@ -84,13 +102,17 @@ li {
 	position: absolute;
 	height: 100%;
 	width: 100%;
+	margin-left: 500px;
+	margin-top: 275px;
 }
+
 
 #about:hover {
 	background-image: url("../img/logo_about_hover.png");
 	margin-top: 290px;
-	margin-left: 300px;
+	margin-left: 600px;
 }
+
 
 
 
