@@ -1,0 +1,302 @@
+ /**
+ *  0. ELEMENT
+ *    - 0.1. FONTS
+ *    - 0.2. FORMS AND SHAPES
+ *  1. HEADER
+ *    - 1.1. NAVIGATIONBAR
+ *    - 1.2. SUBNAV
+ *  2. ABOUT THE CONFERENCE
+    3. FOOTER 
+ */
+
+body {
+	width: 100%;
+	margin-top: 100px;
+}
+
+/*0.1 FONTS*------------------------------------
+------------------------------*/
+
+h1,
+h2,
+h3 {
+	font-family: Quicksand, Verdana, Helvetica, sans-serif;
+}
+ 
+p,
+a,
+li {
+ 	font-family: Crimson Text, Palatino, Times New Roman serif;
+ }
+
+
+/*FONTS ends here*/
+
+
+
+/*0.2 FORMS AND SHAPES*/
+
+
+/*Make pictures responsive*/
+.img-responsive{
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+/* Anchor for Scrolling Down for Subnav*/
+
+.anchor{
+	padding-top: 50px;
+}
+
+.square {
+	width: 100px;
+	height: 100px;
+	background: red;
+}
+
+.hexagon {width: 100px; height: 80px; background: #6D6D37; position: relative; left: 300px; margin-top: 50px;} 
+.hexagon:before { content: ""; position: absolute; top: -25px; left: 0; width: 20; height: 20; border-left: 50px solid transparent; border-right: 50px solid transparent; border-bottom: 25px solid #6D6D37;} 
+.hexagon:after { content: ""; position: absolute; bottom: -25px; left: 0; width: 20; height: 20; border-left: 50px solid transparent; border-right: 50px solid transparent; border-top: 25px solid #6D6D37;}
+
+
+.triangle-up {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid red;
+}
+	
+.triangle-down{
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-top: 100px solid red;
+}
+
+.circle {
+	width: 100px;
+	height: 100px;
+	background: red;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	left:100%;
+	top:50%;margin-top:-50px;
+	}
+
+
+/*--------------------------------------------------------------------------
+----------Navbar starts here*/
+
+ /**1.1. NAVIGATIONBAR */
+
+
+
+.navbar {
+	background-color: #d8d8d8;	
+	position: fixed;
+	top: 0;
+	height: 60px;
+	z-index: 1;13
+}
+
+.navbar-inverse {
+	border-color: transparent;
+}
+	
+.navbar li {
+	padding-top: 10px;
+	letter-spacing: 0.05em;
+	transition: color 900ms;
+	font-size: 1.5em;
+	}
+
+.navbar li a {
+	text-transform: lowercase;
+	letter-spacing: 0.05em;
+	font-family: Quicksand;
+	padding-top: 10px;
+	}
+
+.navbar-inverse .navbar-nav li a {
+    color: black;
+}
+
+.navbar-inverse .navbar-nav li a:hover {
+    color: #ff6600;
+}
+
+
+
+@media only screen and (max-width: 766px) {
+	.collapsing, .in {background-color: #B0B0B0;}
+	.collapsing ul li a, .in ul li a {color: #ff6600;!important;}
+	.collapsing ul li a:hover, .in ul li a:hover {color: ##334C00;!important;}
+}
+
+.nav {
+	float: right;
+	padding-right: 100px;
+	padding-top: 0px;
+	color: #ff6600;
+}
+
+.projectName {
+	text-transform: uppercase;
+	font-size: 16px;
+	padding-top: 10px;
+	font-size: 2em;
+	padding-left: 52px;
+}
+
+.projectName a{
+	color: white;
+	font-family: Quicksand;
+}
+
+.proj-title {
+    font-weight:100;
+}
+
+/*1.2 Subnav #sponsors --------------------------------------------------------------------------
+----------*/
+
+/** Ich habe auch bei der Subnav einen n.**/
+
+
+#sponsors {
+	background-color: #d8d8d8;
+	width: 100%;
+	height: 40px;
+	display: block;
+	text-align: right;
+	position: relative;
+	z-index: -2;
+	border-top: 1px solid;
+	border-color: #6B6B6B;
+	opacity: 0.6;
+	margin-top: -41px;
+}
+
+#sponsors li{
+	padding-top: 0px;
+	color: black;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	transition: color 900ms;
+	font-size: 1em;
+}
+
+#sponsors li a{
+	color: black;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	transition: color 900ms;
+	text-align: right;
+	float: right;
+	font-family: Quicksand;
+	z-index: 2;
+	
+}
+
+
+#sponsors li a:hover {
+    color: #ff6600;
+}
+
+
+
+
+/*3. FOOTER*------------------------------------
+------------------------------*/
+
+footer {
+  background-color: rgb(87, 88, 91);
+  margin-top: 20px;
+ }
+
+.footer--row {
+  margin-left: 0;
+  margin-right: 0;
+  width: 93%;
+  margin: 0 auto;
+}
+
+.footer--columns {
+  padding: 0 1% 5px;
+  overflow: hidden;
+  color: white;
+}
+  
+.columns--readmore{
+	color: blue;
+}
+
+.icon-email, {
+  vertical-align: sub;
+}
+
+.columns--social-buttons a {
+  font-size: 35px;
+  padding-right: 5px;
+  color: blue;
+}
+
+.zu-logo {
+  background: url(../img/zu_logo_white.png) no-repeat center;
+  background-size: cover;
+  width: 115px;
+  height: 30px;
+  margin: 30px 0;
+  overflow: hidden;
+}
+
+.copyright {
+	background-color: rgb(87, 88, 91);
+  width: 90%;
+  margin: 5px auto 0px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  padding-top: 5px;
+  padding-bottom: 15px;
+  text-align: center;
+  font-family: Quicksand;
+  color: white;
+}
+
+@media (min-width: 992px) {
+  .footer--row {
+    width: 82%;
+    margin: 0 auto;
+  }
+
+.twitter{
+	margin-top: 20px;
+	margin-left: 5px;
+	float: left;
+}
+
+.fb-like{	
+		float: left;
+		margin-top: 30px;
+		margin-right: 5px;		
+}
+
+/*footer ends here */
+
+
+
+
+
+
+
+
+
+
+
+
+

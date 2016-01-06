@@ -14,6 +14,10 @@ body{
 	z-index: 1;
 	float: right;
 }
+
+.navbar-inverse {
+	border-color: transparent;
+}
 	
 .navbar li{
 	opacity: 0.6;

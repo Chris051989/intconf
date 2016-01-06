@@ -14,9 +14,9 @@
  */
 
 body, html {
-	height: 100%;
-	width: 100%;
-	overflow-x: hidden;
+height: 100%;
+width: 100%;
+overflow-x: hidden;
 }
 
 /*0.1 FONTS*------------------------------------
@@ -25,7 +25,7 @@ body, html {
 h1,
 h2,
 h3 {
-	font-family: Quicksand, Verdana, Helvetica, sans-serif;
+font-family: Quicksand, Verdana, Helvetica, sans-serif;
 }
  
 p,
@@ -40,77 +40,77 @@ li {
 
 /*Logo starts here*/
 #background {
-	background-image: url("../img/shanghai.jpg");
-	background-size: auto 100%;
-	background-repeat: no-repeat;
-	background-position: center;
-	position: absolute;
-	width: 100%;
-	height: 100%;
+background-image: url("../img/shanghai.jpg");
+background-size: auto 100%;
+background-repeat: no-repeat;
+background-position: center;
+position: absolute;
+width: 100%;
+height: 100%;
 }
 
 #logo {
-	width: 50%;
-	margin-top: 100px;
+width: 50%;
+margin-top: 100px;
 }
 
 #logorest {
-	background-image: url("../img/logo.png");
-	background-repeat: no-repeat;
-	position: absolute;
-	width: 100%;
-	height: 100%;
+background-image: url("../img/logo.png");
+background-repeat: no-repeat;
+position: absolute;
+width: 100%;
+height: 100%;
 }
 
 #mission {
-	background-image:url("../img/logo_mission.png");
-	background-repeat: no-repeat;
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	margin-left: 360px;
-	margin-top: 35px;
+background-image:url("../img/logo_mission.png");
+background-repeat: no-repeat;
+position: absolute;
+width: 100%;
+height: 100%;
+margin-left: 360px;
+margin-top: 35px;
 }
 
 #mission:hover {
-	background-image: url("../img/logo_mission_hover.png");
-	background-size: 150px;
-	margin-top: -85px;
+background-image: url("../img/logo_mission_hover.png");
+background-size: 150px;
+margin-top: -85px;
 }
 
 #location {
-	background-image:url("../img/logo_location.png");
-	background-repeat: no-repeat;
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	margin-top: 503px;
-	margin-left: 219px;
+background-image:url("../img/logo_location.png");
+background-repeat: no-repeat;
+position: absolute;
+width: 100%;
+height: 100%;
+margin-top: 503px;
+margin-left: 219px;
 }
 
 #location:hover {
-	background-image: url("../img/logo_location_hover.png");
-	background-size: 200px;
-	margin-left: 100px;
-	margin-top: 550px;
+background-image: url("../img/logo_location_hover.png");
+background-size: 200px;
+margin-left: 100px;
+margin-top: 550px;
 }
 
 
 #about {
-	background-image: url("../img/logo_about.png");
-	background-repeat: no-repeat;
-	position: absolute;
-	height: 100%;
-	width: 100%;
-	margin-left: 500px;
-	margin-top: 275px;
+background-image: url("../img/logo_about.png");
+background-repeat: no-repeat;
+position: absolute;
+height: 100%;
+width: 100%;
+margin-left: 500px;
+margin-top: 275px;
 }
 
 
 #about:hover {
-	background-image: url("../img/logo_about_hover.png");
-	margin-top: 290px;
-	margin-left: 600px;
+background-image: url("../img/logo_about_hover.png");
+margin-top: 290px;
+margin-left: 600px;
 }
 
 
@@ -137,7 +137,7 @@ footer {
 }
   
 .columns--readmore{
-	color: blue;
+color: blue;
 }
 
 .icon-email, {
@@ -160,7 +160,7 @@ footer {
 }
 
 .copyright {
-	background-color: rgb(87, 88, 91);
+background-color: rgb(87, 88, 91);
   width: 90%;
   margin: 5px auto 0px;
   margin-top: 5px;
@@ -179,28 +179,15 @@ footer {
   }
 
 .twitter{
-	margin-top: 20px;
-	margin-left: 5px;
-	float: left;
+margin-top: 20px;
+margin-left: 5px;
+float: left;
 }
 
-.fb-like{	
-		float: left;
-		margin-top: 30px;
-		margin-right: 5px;		
+.fb-like{
+float: left;
+margin-top: 30px;
+margin-right: 5px;
 }
 
 /*footer ends here */
-
-
-
-
-
-
-
-
-
-
-
-
-
