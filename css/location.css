@@ -253,6 +253,13 @@ li {
 	margin-right: 131px;
 }
 
+
+#location2.5 {
+	margin-right: 131px;
+	margin-left: 131px;
+}
+
+
 #location4 {
 	padding-right: 80px;
 	padding-top: 100px;
@@ -263,14 +270,10 @@ li {
 	}
 
 #location4 p{
-	text-align: center;
+	text-align:center; 
 	font-family: Quicksand;
 	}
 
-#location2.5 {
-		margin-right: 131px;
-	margin-left: 131px;
-}
 
 #endloc{
 	margin-bottom: 150px;

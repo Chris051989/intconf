@@ -20,8 +20,7 @@ body {
 
 h1,
 h2,
-h3 {
-	font-family: Quicksand, Verdana, Helvetica, sans-serif;
+h3 {font-family: Quicksand, Verdana, Helvetica, sans-serif;
 }
  
 p,
@@ -166,9 +165,6 @@ li {
 /*1.2 Subnav #sponsors --------------------------------------------------------------------------
 ----------*/
 
-/** Ich habe auch bei der Subnav einen n.**/
-
-
 #sponsors {
 	background-color: #d8d8d8;
 	width: 100%;
@@ -214,6 +210,7 @@ li {
 
 #speaker {
 	background-color: white;
+	;
 	opacity: 0.6;
 	/*Add a background image*/
 	background-attachment: fixed;
@@ -224,16 +221,31 @@ li {
 	/* Change the color of the text on top so it is readable, and adjust the padding as needed*/
 	margin-top: 10px;
 	padding-top: 50px;
-	margin-bottom: 250px;
 	opacity: 0.8;
-	height: 1600px;
+	height: 2000px;
 	font-size: 1em;
 }
 
+#headlinespeaker{
+	text-align: center;
+	padding-bottom: 40px;
+	font-size: 1.2em;
+
+}
+
+.section-heading {
+	margin-bottom: 30px;
+}
+
+.section-subheading {
+	font-style: italic;
+}
+
+
 #speaker1 {
 	background-color: white;
-	margin-bottom: 50px;
-	bottom: 30px;
+	margin-bottom: 20px;
+	margin-top: 10px;
 	opacity: 0.95;
 	text-align: center;
 	color: black;
@@ -259,10 +271,36 @@ li {
 
 }
 
-#pic {
-	height: 300px;
-	text-align: center;
+
+
+.col-lg-4:hover{
+	background-size: 150px;
+	margin-top: -40px;
+	transition: all 0.7s ease;
+	
 }
+
+#pic {
+	text-align: center;#
+	max-width: 100%; 
+	display:block; 
+	height: auto;
+	}
+
+.caption{
+	background-color: #f0f0f5;
+	margin-top: 25px;
+	height: 100px;
+}
+
+.caption h2{font-size: 1.5em;
+	color: #ff6600;
+}
+
+
+
+
+
 
 div.hr {
 background: #fff  no-repeat scroll center;

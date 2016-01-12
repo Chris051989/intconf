@@ -208,6 +208,54 @@ li {
     color: #ff6600;
 }
 
+/*Subnav endet hier--------------------------
+------------------------------*/
+
+
+#firstimag{
+	padding-top: -50px;
+
+}
+
+
+#aboutinfo{
+	height: 300px;
+	text-align: right;
+	background-color: #ff6600;
+
+}
+
+#aboutinfo h1{
+	font-size: 2em;
+	padding-top: 50px;
+	
+}
+
+#aboutinfo h2{
+	font-size: 1.5em;
+
+}
+
+
+#aboutinfo2{
+	height: 300px;
+	text-align: left;
+
+}
+
+#aboutinfo2 h1{
+	font-size: 2em;
+	padding-top: 50px;
+	
+}
+
+#aboutinfo2 h2{
+	font-size: 1.5em;
+
+}
+
+
+
 
 
 
