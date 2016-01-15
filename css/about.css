@@ -162,6 +162,12 @@ li {
     font-weight:100;
 }
 
+#navbarlogo {
+	width: 7%;
+	height: auto;
+	margin-top: -3px;
+}
+
 /*1.2 Subnav #sponsors --------------------------------------------------------------------------
 ----------*/
 
