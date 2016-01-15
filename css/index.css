@@ -55,12 +55,12 @@ li {
 	position: absolute;
 	font-size: 40px;
 	margin-top: 650px;
-	margin-left: 450px;
+	margin-left: 400px;
 }
 
 #lettering a {
 	color: grey;
-	text-align: center;
+	font-family: Quicksand;
 }
 
 #logo {
