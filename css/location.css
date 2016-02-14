@@ -185,13 +185,12 @@ li {
 /*1.2 Subnav #sponsors --------------------------------------------------------------------------
 ----------*/
 
-/** Ich habe auch bei der Subnav einen n.**/
 
 
 #sponsors {
-	background-color: #d8d8d8;
+	background-color: black;
 	width: 100%;
-	height: 40px;
+	height: 60px;
 	display: block;
 	text-align: right;
 	position: relative;
@@ -227,6 +226,23 @@ li {
 #sponsors li a:hover {
     color: #ff6600;
 }
+
+
+#zulogo {
+	width: 15%;
+	height: auto;
+	margin-top: -3px;
+}
+
+
+#caravanlogo {
+	width: 30%;
+	height: auto;
+	margin-top: -3px;
+
+}
+
+
 
 /*location on location page*/
 
