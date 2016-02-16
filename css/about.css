@@ -165,9 +165,9 @@ li {
 }
 
 #navbarlogo {
-	width: 7%;
+	width: 15%;
 	height: auto;
-	margin-top: -3px;
+	margin-top: -9px;
 }
 
 
@@ -236,18 +236,22 @@ li {
 	font-size: 2em;
 	padding-top: 50px;
 	color: #ff6600;
-	text-align: right;	
+	text-align: right;
+	font-family: verdana, sans-serif;	
 }
 
 #aboutinfo h2 {
 	font-size: 1.5em;
 	text-align: right;
+	font-family: verdana, sans-serif;
+	font-style: italic;
 }
 
-#aboutinfo a {
+#aboutinfo p {
 	color: black;
 	text-align: right;
 	text-decoration: none;
+	font-family: verdana, sans-serif;
 }
 
 #aboutinfo2 h1 {
@@ -255,11 +259,13 @@ li {
 	font-size: 2em;
 	padding-top: 50px;
 	color: #ff6600;
+	font-family: verdana, sans-serif;
 }
 
-#aboutinfo2 a {
+#aboutinfo2 p {
 	color: black;
 	text-decoration: none;
+	font-family: verdana, sans-serif;
 }
 
 
