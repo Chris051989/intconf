@@ -232,6 +232,10 @@ li {
 
 /*About page starts here */
 
+#aboutinfo {
+	margin-top: 50px;
+}
+
 #aboutinfo h1 {
 	font-size: 2em;
 	padding-top: 50px;
@@ -249,9 +253,9 @@ li {
 
 #aboutinfo p {
 	color: black;
-	text-align: right;
 	text-decoration: none;
 	font-family: verdana, sans-serif;
+	text-align: right;
 }
 
 #aboutinfo2 h1 {
@@ -266,9 +270,12 @@ li {
 	color: black;
 	text-decoration: none;
 	font-family: verdana, sans-serif;
+	text-align: right;
 }
 
-
+#tclogo {
+	float: right;
+}
 
 
 

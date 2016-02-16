@@ -163,9 +163,9 @@ li {
 }
 
 #navbarlogo {
-	width: 7%;
+	width: 15%;
 	height: auto;
-	margin-top: -3px;
+	margin-top: -9px;
 }
 /*1.2 Subnav #sponsors --------------------------------------------------------------------------
 ----------*/
@@ -211,7 +211,20 @@ li {
 }
 
 
+/*Text */
+
+#format {
+	margin-top: 50px;
+}
+
+#china {
+	float: right;
+	width: 400px;
+	height: auto;
+}
+
 /*2. Speaker Page--------------------------- */
+
 
 #speaker {
 	background-color: white;
