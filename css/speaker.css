@@ -20,13 +20,13 @@ body {
 
 h1,
 h2,
-h3 {font-family: Quicksand, Verdana, Helvetica, sans-serif;
+h3 {font-family: Verdana, Helvetica, sans-serif;
 }
  
 p,
 a,
 li {
- 	font-family: Crimson Text, Palatino, Times New Roman serif;
+ 	font-family: Verdana, sans-serif;
  }
 
 
@@ -215,7 +215,6 @@ li {
 
 #speaker {
 	background-color: white;
-	;
 	opacity: 0.6;
 	/*Add a background image*/
 	background-attachment: fixed;
