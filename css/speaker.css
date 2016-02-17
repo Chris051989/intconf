@@ -20,15 +20,16 @@ body {
 
 h1,
 h2,
-h3 {font-family: Verdana, Helvetica, sans-serif;
+h3 {
+	font-family: 'Open Sans', sans-serif;
 }
  
 p,
 a,
 li {
- 	font-family: Verdana, sans-serif;
+ 	font-family: 'Open Sans', sans-serif;
+ 	font-size: 16px;
  }
-
 
 /*FONTS ends here*/
 
@@ -120,6 +121,7 @@ li {
 	letter-spacing: 0.05em;
 	font-family: Quicksand;
 	padding-top: 10px;
+	font-size: 19px;
 	}
 
 .navbar-inverse .navbar-nav li a {
@@ -215,6 +217,7 @@ li {
 
 #format {
 	margin-top: 50px;
+	-webkit-column-count: 2;
 }
 
 #china {
@@ -328,11 +331,23 @@ size: 30px;
 }
 
 
-/* 3. FOOTER*------------------------------------------------------------------*/
+/*3. FOOTER*------------------------------------
+------------------------------*/
 
 footer {
-  background-color: rgb(87, 88, 91);
-  margin-top: 20px;
+  background-color: #d8d8d8;
+  margin-top: 50px;
+  padding-top: 29px;
+ }
+
+ footer p {
+ 	color: black;
+ 	font-family: 'Open Sans', sans-serif;
+ 	font-size: 11px;
+ }
+
+ footer a {
+ 	color: black;
  }
 
 .footer--row {
@@ -357,9 +372,13 @@ footer {
 }
 
 .columns--social-buttons a {
-  font-size: 35px;
-  padding-right: 5px;
-  color: blue;
+  font-size: 11px;
+  text-decoration: none;
+  color: black;
+}
+
+#twitter {
+	margin-top: -15px;
 }
 
 .zu-logo {
@@ -372,7 +391,7 @@ footer {
 }
 
 .copyright {
-	background-color: rgb(87, 88, 91);
+background-color: #d8d8d8;
   width: 90%;
   margin: 5px auto 0px;
   margin-top: 5px;
@@ -401,6 +420,8 @@ footer {
 		margin-top: 30px;
 		margin-right: 5px;		
 }
+
+/*footer ends here */
 
 /*footer ends here */
 
