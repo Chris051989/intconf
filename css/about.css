@@ -212,19 +212,30 @@ a:hover {
 	background-image: url("../img/lines.png");
 	background-repeat: no-repeat;
 	background-size: 100% auto;
-	margin-left: 80px;
-	margin-right: 0px;
 }
 
+
+#logo_top {
+	width: 100%;
+	height: auto;
+	text-align: center;
+	padding-top: 40px;
+}
+
+#logo_top img {
+	width: 100px;
+	height: auto;
+	margin-left: 32px;
+}
 
 
 
 /*About page starts here */
 
 #aboutinfo {
-	margin-top: 50px;
-  	margin-left: 40px;
-  	margin-right: 100px;
+  margin-right: 0;
+  margin-left: 0;
+  padding-top: 20px;
 }
 
 #aboutinfo p {
@@ -237,12 +248,13 @@ a:hover {
 
 
 #aboutinfo h1 {
-	font-size: 18px;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
 	color: black;
 	font-family: 'Open Sans', sans-serif;
-	margin-bottom: -10px;	
-	padding-top: 10px;
 	text-decoration: none;
+	padding-top: 10px;
 }
 
 
