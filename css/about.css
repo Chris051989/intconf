@@ -31,6 +31,10 @@ li {
  	font-size: 16px;
  }
 
+a:hover {
+	text-decoration: none;
+}
+
 
 /*FONTS ends here*/
 
@@ -137,7 +141,8 @@ li {
 
 
 @media only screen and (max-width: 766px) {
-	.collapsing, .in {background-color: #B0B0B0;}
+	.collapsing, .in {ba
+		ckground-color: #B0B0B0;}
 	.collapsing ul li a, .in ul li a {color: #ff6600;!important;}
 	.collapsing ul li a:hover, .in ul li a:hover {color: ##334C00;!important;}
 }
@@ -227,6 +232,8 @@ li {
 	background-image: url("../img/lines.png");
 	background-repeat: no-repeat;
 	background-size: 100% auto;
+	margin-left: 80px;
+	margin-right: 0px;
 }
 
 
@@ -236,22 +243,8 @@ li {
 
 #aboutinfo {
 	margin-top: 50px;
-	-webkit-column-count: 2;
-}
-
-#aboutinfo h1 {
-	font-size: 2em;
-	padding-top: 50px;
-	color: #ff6600;
-	text-align: right;
-	font-family: 'Open Sans', sans-serif;	
-}
-
-#aboutinfo h2 {
-	font-size: 1.5em;
-	text-align: right;
-	font-family: 'Open Sans', sans-serif;
-	font-style: italic;
+  	margin-left: 40px;
+  	margin-right: 100px;
 }
 
 #aboutinfo p {
@@ -262,33 +255,15 @@ li {
  	text-align: justify;
  }
 
-#aboutinfo2 {
-	-webkit-column-count: 2;
-	margin-top: 50px;
-}
 
-#aboutinfo2 h1 {
-	text-align: left;
-	font-size: 2em;
-	padding-top: 50px;
-	color: #ff6600;
-	font-family: 'Open Sans', sans-serif;
-}
-
-#aboutinfo2 p {
+#aboutinfo h1 {
+	font-size: 18px;
 	color: black;
-	text-decoration: none;
 	font-family: 'Open Sans', sans-serif;
-	display: block;
-	text-align: justify;
+	margin-bottom: -10px;	
+	padding-top: 10px;
+	text-decoration: none;
 }
-
-#tclogo {
-	float: right;
-}
-
-
-
 
 
 /*3. FOOTER*------------------------------------
