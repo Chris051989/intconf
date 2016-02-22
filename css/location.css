@@ -30,6 +30,20 @@ h2,
 h3 {
 	font-family: 'Open Sans', sans-serif;
 }
+
+h1 {
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	color: black;
+	font-family: 'Open Sans', sans-serif;
+	text-decoration: none;
+	padding-top: 10px;
+}
+
+a:hover {
+	text-decoration: none;
+}
  
 p,
 a,
@@ -157,20 +171,27 @@ li {
 	padding-right: 100px;
 	padding-top: 0px;
 	color: #ff6600;
-	
 }
 
 .projectName {
-	text-transform: uppercase;
 	font-size: 16px;
 	padding-top: 10px;
 	font-size: 2em;
 	padding-left: 52px;
 }
 
-.projectName a{
-	color: white;
-	font-family: 'Open Sans', sans-serif;
+.projectName a {
+	color: black;
+	font-family: Avenir;
+	float: right;
+	margin-top: 3px;
+	font-size: 12px;
+}
+
+.projectName img {
+	float: left;
+	width: 8%;
+	margin-right: 4px;
 }
 
 .proj-title {
@@ -178,9 +199,12 @@ li {
 }
 
 #navbarlogo {
-	width: 15%;
 	height: auto;
-	margin-top: -9px;
+	margin-top: -10px;
+}
+
+#navbarlogo a {
+	vertical-align: middle;
 }
 
 /*1.2 Subnav #sponsors --------------------------------------------------------------------------

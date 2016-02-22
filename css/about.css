@@ -155,16 +155,24 @@ a:hover {
 }
 
 .projectName {
-	text-transform: uppercase;
 	font-size: 16px;
 	padding-top: 10px;
 	font-size: 2em;
 	padding-left: 52px;
 }
 
-.projectName a{
-	color: white;
-	font-family: Quicksand;
+.projectName a {
+	color: black;
+	font-family: Avenir;
+	float: right;
+	margin-top: 3px;
+	font-size: 12px;
+}
+
+.projectName img {
+	float: left;
+	width: 8%;
+	margin-right: 4px;
 }
 
 .proj-title {
@@ -172,11 +180,13 @@ a:hover {
 }
 
 #navbarlogo {
-	width: 15%;
 	height: auto;
-	margin-top: -9px;
+	margin-top: -10px;
 }
 
+#navbarlogo a {
+	vertical-align: middle;
+}
 
 /*1.2 Subnav #sponsors --------------------------------------------------------------------------
 ----------*/

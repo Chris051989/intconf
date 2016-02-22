@@ -54,18 +54,19 @@ li {
 	z-index: 100;
 	position: absolute;
 	font-size: 40px;
+	margin-top: 16px;
 }
 
 #lettering p {
 	color: grey;
-	font-family: Quicksand;
+	font-family: Avenir;
 	text-decoration: none;
 	text-align: center;
 }
 
 #logo {
 	width: 50%;
-	margin-top: 80px;
+	margin-top: 125px;
 	left:0;
     right:0;
     margin-left:auto;
