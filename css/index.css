@@ -50,18 +50,17 @@ li {
 }
 
 #lettering {
+	width: 100%;
 	z-index: 100;
 	position: absolute;
 	font-size: 40px;
-	-webkit-transform: translate(-50%, -50%);
-	left: 50%;
-    transform: translate(-50%, 0);
 }
 
-#lettering a {
+#lettering p {
 	color: grey;
 	font-family: Quicksand;
 	text-decoration: none;
+	text-align: center;
 }
 
 #logo {
