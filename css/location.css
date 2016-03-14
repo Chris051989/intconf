@@ -184,8 +184,8 @@ li {
 	color: black;
 	font-family: Avenir;
 	float: right;
-	margin-top: 3px;
-	font-size: 12px;
+	margin-top: 1px;
+	font-size: 15px;
 }
 
 .projectName img {
@@ -200,7 +200,7 @@ li {
 
 #navbarlogo {
 	height: auto;
-	margin-top: -10px;
+	margin-top: -8px;
 }
 
 #navbarlogo a {
@@ -235,6 +235,18 @@ li {
 /*Subnav endet hier--------------------------
 ------------------------------*/
 
+#logo_top {
+	width: 100%;
+	height: auto;
+	text-align: center;
+	padding-top: 40px;
+}
+
+#logo_top img {
+	width: 100px;
+	height: auto;
+}
+
 
 
 /*location on location page*/
@@ -253,7 +265,7 @@ li {
 }
 
 #location0{
-	margin-top: 50px;
+	margin-top: 20px;
 	margin-right: 131px;
 	margin-left: 131px;
 }

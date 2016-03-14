@@ -165,8 +165,8 @@ a:hover {
 	color: black;
 	font-family: Avenir;
 	float: right;
-	margin-top: 3px;
-	font-size: 12px;
+	margin-top: 1px;
+	font-size: 15px;
 }
 
 .projectName img {
@@ -181,7 +181,7 @@ a:hover {
 
 #navbarlogo {
 	height: auto;
-	margin-top: -10px;
+	margin-top: -8px;
 }
 
 #navbarlogo a {
@@ -222,6 +222,7 @@ a:hover {
 	background-image: url("../img/lines.png");
 	background-repeat: no-repeat;
 	background-size: 100% auto;
+	width: 100%;
 }
 
 
@@ -235,20 +236,37 @@ a:hover {
 #logo_top img {
 	width: 100px;
 	height: auto;
-	margin-left: 32px;
 }
 
 
 
 /*About page starts here */
 
-#aboutinfo {
+.tiles--image {
+	height: 400px;
+	border: 1px solid black;
+	background-image: url("../img/shanghai.jpg");
+	background-size: cover;
+
+}
+
+.tiles--text {
+	display: table-cell;
+	vertical-align: middle;
+	border: 1px solid black;
+	height: 84vh;
+}
+
+
+#about {
+	width: 100%;
+	border: 1px solid black;
   margin-right: 0;
   margin-left: 0;
   padding-top: 20px;
 }
 
-#aboutinfo p {
+#about p {
 	color: black;
 	text-decoration: none;
 	font-family: 'Open Sans', sans-serif;
@@ -256,8 +274,7 @@ a:hover {
  	text-align: justify;
  }
 
-
-#aboutinfo h1 {
+#about h1 {
 	font-size: 16px;
 	font-weight: bold;
 	text-align: center;
@@ -266,7 +283,6 @@ a:hover {
 	text-decoration: none;
 	padding-top: 10px;
 }
-
 
 /*3. FOOTER*------------------------------------
 ------------------------------*/
