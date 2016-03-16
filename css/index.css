@@ -15,38 +15,157 @@
 
 body, html {
 	overflow-x: hidden;
-	 margin: 0;
-                padding: 0;
+	margin: 0;
+    padding: 0;
+    background-color: #DBDBDB;
 }
 
-/*0.1 FONTS*------------------------------------
-------------------------------*/
+/*0.1 FONTS*------------------------------------------------------------------*/
 
-h1,
-h2,
-h3 {
-	font-family: Quicksand, Verdana, Helvetica, sans-serif;
+h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	color: black;
+	text-decoration: none;
+	padding-top: 10px;
 }
  
 p,
 a,
 li {
- 	font-family: Crimson Text, Palatino, Times New Roman serif;
+ 	font-family: 'Open Sans', sans-serif;
+ 	font-size: 16px;
  }
+
+a:hover {
+	text-decoration: none;
+}
 
 
 /*FONTS ends here*/
 
 
+/*--------------------------------------------------------------------------
+----------Navbar starts here*/
+
+ /**1.1. NAVIGATIONBAR */
+
+
+
+.navbar {
+	background-color: #d8d8d8;
+	position: fixed;
+	top: 0;
+	height: 60px;
+	z-index: 1;13
+}
+
+.navbar-inverse {
+	border-color: transparent;
+}
+	
+.navbar li {
+	padding-top: 10px;
+	letter-spacing: 0.05em;
+	transition: color 900ms;
+	font-size: 1.5em;
+	}
+
+.navbar li a {
+	text-transform: lowercase;
+	letter-spacing: 0.05em;
+	font-family: Quicksand;
+	padding-top: 10px;
+	font-size: 19px;
+	}
+
+.navbar-inverse .navbar-nav li a {
+    color: black;
+}
+
+.navbar-inverse .navbar-nav li a:hover {
+    color: #ff6600;
+}
+
+
+
+
+@media only screen and (max-width: 766px) {
+	.collapsing, .in {ba
+		ckground-color: #B0B0B0;}
+	.collapsing ul li a, .in ul li a {color: #ff6600;!important;}
+	.collapsing ul li a:hover, .in ul li a:hover {color: ##334C00;!important;}
+}
+
+.nav {
+	float: right;
+	padding-right: 100px;
+	padding-top: 0px;
+	color: #ff6600;
+}
+
+.projectName {
+	font-size: 16px;
+	padding-top: 10px;
+	font-size: 2em;
+	padding-left: 52px;
+}
+
+.projectName a {
+	color: black;
+	font-family: Avenir;
+	float: right;
+	margin-top: 1px;
+	font-size: 15px;
+}
+
+.projectName img {
+	float: left;
+	width: 8%;
+	margin-right: 4px;
+}
+
+.proj-title {
+    font-weight:100;
+}
+
+#navbarlogo {
+	height: auto;
+	margin-top: -8px;
+}
+
+#navbarlogo a {
+	vertical-align: middle;
+}
+
 
 /*Logo starts here*/
+#tls {
+	width: 100%;
+	z-index: 100;
+	position: relative;
+	font-size: 40px;
+	float: left;
+}
+
+#tls p {
+	color: grey;
+	font-family: Avenir;
+	text-decoration: none;
+	text-align: center;
+}
+
+
 #background {
 	overflow-y: hidden;
-	background-image: url("../img/background.png");  
+	background-color: #DBDBDB;
+	background-image: url("../img/background.png");
+	background-size: cover;  
 	position: absolute;
 	width: 100%;
 	height: 100%;
-
 }
 
 #lettering {
@@ -54,7 +173,7 @@ li {
 	z-index: 100;
 	position: absolute;
 	font-size: 40px;
-	margin-top: 16px;
+	margin-top: 600px;
 }
 
 #lettering p {
@@ -66,11 +185,11 @@ li {
 
 #logo {
 	width: 50%;
-	margin-top: 125px;
 	left:0;
     right:0;
     margin-left:auto;
     margin-right:auto;
+    margin-top: 80px;
 }
 
 #logorest {
@@ -138,11 +257,64 @@ li {
 }
 
 
-/*7. FOOTER*------------------------------------------------------------------*/
+/*About page starts here */
+
+.tiles--image {
+	height: 400px;
+	background-image: url("../img/shanghai.jpg");
+	background-size: cover;
+
+}
+
+.tiles--text {
+	display: table-cell;
+	vertical-align: middle;
+	height: 84vh;
+}
+
+
+#about_container {
+	width: 100%;
+  margin-right: 0;
+  margin-left: 0;
+  padding-top: 300px;
+}
+
+#about_container p {
+	color: black;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+ 	display: block;
+ 	text-align: justify;
+ }
+
+#about_container h1 {
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	color: black;
+	font-family: 'Open Sans', sans-serif;
+	text-decoration: none;
+	padding-top: 10px;
+}
+
+/*3. FOOTER*------------------------------------
+------------------------------*/
 
 footer {
-  background-color: rgb(87, 88, 91);
-  margin-top: 20px;
+  background-color: #d8d8d8;
+  margin-top: 50px;
+  padding-top: 29px;
+ }
+
+ footer p {
+ 	color: black;
+ 	font-family: 'Open Sans', sans-serif;
+ 	font-size: 11px;
+ }
+
+ footer a {
+ 	color: black;
  }
 
 .footer--row {
@@ -167,9 +339,13 @@ footer {
 }
 
 .columns--social-buttons a {
-  font-size: 35px;
-  padding-right: 5px;
-  color: blue;
+  font-size: 11px;
+  text-decoration: none;
+  color: black;
+}
+
+#twitter {
+	margin-top: -15px;
 }
 
 .zu-logo {
@@ -182,7 +358,7 @@ footer {
 }
 
 .copyright {
-	background-color: rgb(87, 88, 91);
+background-color: #d8d8d8;
   width: 90%;
   margin: 5px auto 0px;
   margin-top: 5px;
