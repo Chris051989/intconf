@@ -18,10 +18,14 @@ body {
 /*0.1 FONTS*------------------------------------
 ------------------------------*/
 
-h1,
-h2,
-h3 {
+h1 {
 	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	color: black;
+	text-decoration: none;
+	padding-top: 10px;
 }
  
 p,
@@ -244,7 +248,6 @@ a:hover {
 
 .tiles--image {
 	height: 400px;
-	border: 1px solid black;
 	background-image: url("../img/shanghai.jpg");
 	background-size: cover;
 
@@ -253,14 +256,12 @@ a:hover {
 .tiles--text {
 	display: table-cell;
 	vertical-align: middle;
-	border: 1px solid black;
 	height: 84vh;
 }
 
 
 #about {
 	width: 100%;
-	border: 1px solid black;
   margin-right: 0;
   margin-left: 0;
   padding-top: 20px;
