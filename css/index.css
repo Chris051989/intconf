@@ -22,7 +22,8 @@ body, html {
 /*0.1 FONTS*------------------------------------------------------------------*/
 
 h1 {
-	font-family: 'Open Sans', sans-serif;
+	font-family: Johnston Std Medium;
+	line-height: 1.42857143;
 	font-size: 16px;
 	font-weight: bold;
 	text-align: center;
@@ -33,8 +34,9 @@ h1 {
 p,
 a,
 li {
- 	font-family: 'Open Sans', sans-serif;
+ 	font-family: Johnston Std Medium;
  	font-size: 16px;
+ 	line-height: 1.42857143;
  }
 
 a:hover {
@@ -74,7 +76,7 @@ a:hover {
 .navbar li a {
 	text-transform: lowercase;
 	letter-spacing: 0.05em;
-	font-family: Quicksand;
+	font-family: Johnston Std Medium;
 	padding-top: 10px;
 	font-size: 19px;
 	}
@@ -87,15 +89,45 @@ a:hover {
     color: #ff6600;
 }
 
-
-
-
+/* Media for mobile*/
 @media only screen and (max-width: 766px) {
-	.collapsing, .in {ba
-		ckground-color: #B0B0B0;}
-	.collapsing ul li a, .in ul li a {color: #ff6600;!important;}
-	.collapsing ul li a:hover, .in ul li a:hover {color: ##334C00;!important;}
+
+	#background {
+		visibility: hidden;
+	}
+
+	.collapsing, .in {
+		background-color: #B0B0B0;
+	}
+
+	.collapsing ul li a, .in ul li a {
+		color: #ff6600;!important;
+	}
+	
+	.collapsing ul li a:hover, .in ul li a:hover {
+		color: #334C00;!important;
+	}
 }
+
+/*media for laptop screen*/ 
+@media (min-width: 992px) {
+
+	#about_header {
+		margin-top: 800px;
+	}
+
+	#about_container {
+		-webkit-column-count: 2;
+		-webkit-column-gap: 40px;
+		text-align: justify;
+	}
+
+	.footer--row {
+    	width: 82%;
+    	margin: 0 auto;
+	}
+
+}/*media only*/
 
 .nav {
 	float: right;
@@ -113,7 +145,7 @@ a:hover {
 
 .projectName a {
 	color: black;
-	font-family: Avenir;
+	font-family: Johnston Std Medium;
 	float: right;
 	margin-top: 1px;
 	font-size: 15px;
@@ -144,7 +176,7 @@ a:hover {
 	width: 100%;
 	z-index: 100;
 	position: relative;
-	margin-top: 20px;
+	margin-top: 40px;
 	float: left;
 }
 
@@ -154,6 +186,7 @@ a:hover {
 	font-family: Avenir;
 	text-decoration: none;
 	text-align: center;
+	line-height: 87%
 }
 
 
@@ -174,7 +207,7 @@ a:hover {
     right:0;
     margin-left:auto;
     margin-right:auto;
-    margin-top: 80px;
+    margin-top: 130px;
 }
 
 #logorest {
@@ -248,7 +281,8 @@ a:hover {
 	width: 100%;
 	height: auto;
 	text-align: center;
-	padding-top: 40px;
+	padding-top: 100px;
+	padding-bottom: 100px;
 }
 
 #logo_top img {
@@ -256,8 +290,14 @@ a:hover {
 	height: auto;
 }
 
+#backgroundlines {
+	width: 100%;
+	background-image: url("../img/lines.png");
+	background-size: cover;
+}
+
 .tiles--image {
-	height: 80vh;
+	height: 75vh;
 	background-size: cover;
 	opacity: 0.8;
 }
@@ -270,27 +310,26 @@ a:hover {
 }
 
 
-#about_container {
+#about_c {
 	width: 100%;
   margin-right: 0;
   margin-left: 0;
-  margin-top: 800px;
 }
 
-#about_container p {
+#about_c p {
 	color: black;
 	text-decoration: none;
-	font-family: 'Open Sans', sans-serif;
+	font-family: Johnston Std Medium;
  	display: block;
  	text-align: justify;
  }
 
-#about_container h1 {
+#about_c h1 {
 	font-size: 16px;
 	font-weight: bold;
 	text-align: center;
 	color: black;
-	font-family: 'Open Sans', sans-serif;
+	font-family: Johnston Std Medium;
 	text-decoration: none;
 }
 
@@ -309,7 +348,7 @@ footer {
 
  footer p {
  	color: black;
- 	font-family: 'Open Sans', sans-serif;
+ 	font-family: Johnston Std Medium;
  	font-size: 11px;
  }
 
@@ -370,11 +409,7 @@ background-color: #d8d8d8;
   color: white;
 }
 
-@media (min-width: 992px) {
-  .footer--row {
-    width: 82%;
-    margin: 0 auto;
-  }
+
 
 .twitter{
 	margin-top: 20px;
