@@ -122,10 +122,84 @@ a:hover {
 		text-align: justify;
 	}
 
-	.footer--row {
-    	width: 82%;
-    	margin: 0 auto;
+	.tiles--image {
+		height: 75vh;
+		background-size: cover;
+		opacity: 0.8;
 	}
+
+	.tiles--text {
+		display: table-cell;
+		vertical-align: middle !important;
+		padding-left: 100px;
+		padding-right: 100px;
+		height: 75vh;
+		text-align: justify;
+	}
+
+	.tiles--text p, a {
+		font-family: Johnston Std Medium;
+		font-size: 16px;
+	 	line-height: 1.42857143;
+	}
+
+	#china_text {
+		padding-top: 40px;
+	}
+
+	#schedule_container {
+		width: 100%;
+	  margin-right: 0;
+	  margin-left: 0;
+	  padding-bottom: -300px;
+	}
+
+	#schedule_container p {
+		color: black;
+		text-decoration: none;
+		font-family: Johnston Std Medium;
+	 	display: block;
+	 	text-align: justify;
+	 }
+
+	#schedule_container h1 {
+		font-size: 16px;
+		font-weight: bold;
+		text-align: center;
+		color: black;
+		font-family: Johnston Std Medium;
+		text-decoration: none;
+	}
+
+	#schedule_text {
+		padding-top: 140px;
+	}
+
+	#china_image { 
+		background-image: url("../img/shanghai4.jpg");
+	}
+
+	#schedule_image {
+		background-image: url("../img/cat.jpg");
+	}
+
+	#location_text {
+		padding-top: 120px;
+	}
+
+	#location_image {
+		background-image: url("../img/forum.jpg");
+	}
+
+	#sponsors {
+		-webkit-column-count: 3;
+	}
+
+
+		.footer--row {
+	    	width: 82%;
+	    	margin: 0 auto;
+		}
 
 }/*media only*/
 
@@ -182,11 +256,13 @@ a:hover {
 
 #tls p {
 	color: grey;
-	font-size: 40px;
-	font-family: Avenir;
+	font-size: 52px;
+	font: "Source Code Pro"
 	text-decoration: none;
 	text-align: center;
-	line-height: 87%
+	line-height: 82%;
+	letter-spacing: uppercase;
+	padding-top: 19px;
 }
 
 
@@ -207,51 +283,56 @@ a:hover {
     right:0;
     margin-left:auto;
     margin-right:auto;
-    margin-top: 130px;
+    margin-top: 250px;
+    position: relative;
+    height: 450px;
+    overflow: hidden;
 }
 
 #logorest {
 	background-image: url("../img/logo.png");
+	background-size: contain;
 	background-repeat: no-repeat;
 	position: absolute;
 	width: 100%;
 	height: 100%;
+	margin-left: 61px;
 }
 
 #about {
 	background-image:url("../img/logo_about.png");
 	background-repeat: no-repeat;
-	background-size: 9%;
+	background-size: 12%;
 	position: absolute;
 	width: 100%;
 	height: 35%;
-	margin-left: 355px;
+	margin-left: 343px;
 	margin-top: 35px;
 }
 
 #about:hover {
 	background-image: url("../img/logo_about.png");
-	background-size: 9%;
-	margin-top: -45px;
+	background-size: 12%;
+	margin-top: -4px;
 	transition: all 0.8s ease;
 	}
 
 #location {
 	background-image:url("../img/logo_location.png");
 	background-repeat: no-repeat;
-	background-size: 7%;
+	background-size: 11%;
 	position: absolute;
 	width: 100%;
 	height: 100%;
-	margin-top: 510px;
+	margin-top: 400px;
 	margin-left: 225px;
 }
 
 #location:hover {
 	background-image: url("../img/logo_location.png");
-	background-size: 7%;
+	background-size: 11%;
 	margin-left: 220px;
-	margin-top: 530px;
+	margin-top: 415px;
 	transition: all 0.8s ease;
 
 }
@@ -259,18 +340,18 @@ a:hover {
 #schedule {
 	background-image: url("../img/logo_schedule.png");
 	background-repeat: no-repeat;
-	background-size: 9%;
+	background-size: 13%;
 	position: absolute;
 	height: 100%;
 	width: 100%;
-	margin-left: 495px;
-	margin-top: 275px;
+	margin-left: 450px;
+	margin-top: 230px;
 }
 
 #schedule:hover {
 	background-image: url("../img/logo_schedule.png");
-	margin-top: 290px;
-	margin-left: 540px;
+	margin-top: 240px;
+	margin-left: 460px;
 	transition: all 0.8s ease;
 }
 
@@ -281,8 +362,8 @@ a:hover {
 	width: 100%;
 	height: auto;
 	text-align: center;
-	padding-top: 100px;
-	padding-bottom: 100px;
+	padding-top: 200px;
+	padding-bottom: 200px;
 }
 
 #logo_top img {
@@ -296,46 +377,6 @@ a:hover {
 	background-size: cover;
 }
 
-.tiles--image {
-	height: 75vh;
-	background-size: cover;
-	opacity: 0.8;
-}
-
-.tiles--text {
-	display: table-cell;
-	vertical-align: middle;
-	padding-left: 100px;
-	padding-right: 100px;
-}
-
-
-#about_c {
-	width: 100%;
-  margin-right: 0;
-  margin-left: 0;
-}
-
-#about_c p {
-	color: black;
-	text-decoration: none;
-	font-family: Johnston Std Medium;
- 	display: block;
- 	text-align: justify;
- }
-
-#about_c h1 {
-	font-size: 16px;
-	font-weight: bold;
-	text-align: center;
-	color: black;
-	font-family: Johnston Std Medium;
-	text-decoration: none;
-}
-
-#about_image {
-	background-image: url("../img/shanghai4.jpg");
-}
 
 /*3. FOOTER*------------------------------------
 ------------------------------*/
