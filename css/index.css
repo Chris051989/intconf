@@ -17,27 +17,68 @@ body, html {
 	overflow-x: hidden;
 	margin: 0;
     padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;;
 }
 
 /*0.1 FONTS*------------------------------------------------------------------*/
 
 h1 {
-	font-family: Johnston Std Medium;
+	font-family: 'Open Sans', sans-serif;
 	line-height: 1.42857143;
-	font-size: 16px;
+	font-size: 18px;
 	font-weight: bold;
 	text-align: center;
 	color: black;
 	text-decoration: none;
+	text-transform: uppercase;
+	padding-bottom: 20px;
+	font-weight: 500;
 }
  
 p,
 a,
 li {
- 	font-family: Johnston Std Medium;
+ 	font-family: 'Source Sans Pro', sans-serif;;
  	font-size: 16px;
  	line-height: 1.42857143;
  }
+
+h2 {
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.42857143;
+	font-size: 18px;
+	font-weight: bold;
+	color: black;
+	text-decoration: none;
+	padding-bottom: 20px;
+	font-weight: 500;
+}
+
+
+h3 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+	text-align: center;
+	color: black;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: grey;
+	padding-left: 15px;
+}
+
+h4 {
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.42857143;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+	color: black;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding-bottom: 20px;
+	font-weight: 500;
+	padding-top: 20px;
+}
 
 a:hover {
 	text-decoration: none;
@@ -76,7 +117,7 @@ a:hover {
 .navbar li a {
 	text-transform: lowercase;
 	letter-spacing: 0.05em;
-	font-family: Johnston Std Medium;
+	font-family: 'Source Sans Pro', sans-serif;;
 	padding-top: 10px;
 	font-size: 19px;
 	}
@@ -97,29 +138,112 @@ a:hover {
 	}
 
 	.collapsing, .in {
-		background-color: #B0B0B0;
+		background-color: #d8d8d8;
 	}
 
 	.collapsing ul li a, .in ul li a {
-		color: #ff6600;!important;
+		color: #d8d8d8;!important;
 	}
 	
 	.collapsing ul li a:hover, .in ul li a:hover {
-		color: #334C00;!important;
+		color: #d8d8d8;!important;
+	}
+
+	.projectName a {
+		margin-top: -40px !important;
+		margin-left: -40px;	
+	}
+
+	.projectName img {
+		padding-top: 14px;
+	}
+
+	#tls {
+		margin-top: 0px !important;
+		margin-bottom: 40px;
+		background-image: url("../img/background.png");
+		background-size: cover;
+	}
+
+	#tls p {
+		font-size: 37px !important;
+	}
+
+	#about_header {
+		margin-top: 20px !important;
+	}
+
+	#backgroundlines {
+		margin-top: 0px !important;
+	}
+}
+
+
+/*media between mobile and laptop*/
+
+@media only screen and (min-width: 768px) {
+
+	#logorest {
+		margin-left: 0px !important;
+	}
+
+	#about {
+		background-size: 18% !important;
+		margin-left: 203px !important;
+		margin-top: 21px !important;
+	}
+
+	#location {
+		background-size: 13% !important;
+		margin-top: 289px !important;
+		margin-left: 132px !important;
+	}
+
+	#schedule {
+		background-size: 18% !important;
+		margin-left: 288px !important;
+		margin-top: 162px !important;
 	}
 }
 
 /*media for laptop screen*/ 
 @media (min-width: 992px) {
 
-	#about_header {
-		margin-top: 800px;
+	#about {
+	margin-left: 263px !important;
+	height: 40% !important;
+	}
+
+	#schedule {
+	margin-left: 369px !important;
+	margin-top: 202px !important;
+	}
+
+	#location {
+	margin-top: 374px !important;
+	margin-left: 170px !important;
+	} 
+
+	.navbar li {
+	margin-top: -54px;
+	}
+
+
+	#actiontiles_container {
+		margin-bottom: 120px;
+		padding-top: 40px;
+	}
+
+	.container_anchor {
+		width: 100%;
+		height: 60px;
 	}
 
 	#about_container {
 		-webkit-column-count: 2;
 		-webkit-column-gap: 40px;
 		text-align: justify;
+		margin-bottom: 20px;
 	}
 
 	.tiles--image {
@@ -137,12 +261,6 @@ a:hover {
 		text-align: justify;
 	}
 
-	.tiles--text p, a {
-		font-family: Johnston Std Medium;
-		font-size: 16px;
-	 	line-height: 1.42857143;
-	}
-
 	#china_text {
 		padding-top: 40px;
 	}
@@ -154,23 +272,6 @@ a:hover {
 	  padding-bottom: -300px;
 	}
 
-	#schedule_container p {
-		color: black;
-		text-decoration: none;
-		font-family: Johnston Std Medium;
-	 	display: block;
-	 	text-align: justify;
-	 }
-
-	#schedule_container h1 {
-		font-size: 16px;
-		font-weight: bold;
-		text-align: center;
-		color: black;
-		font-family: Johnston Std Medium;
-		text-decoration: none;
-	}
-
 	#schedule_text {
 		padding-top: 140px;
 	}
@@ -180,28 +281,118 @@ a:hover {
 	}
 
 	#schedule_image {
-		background-image: url("../img/cat.jpg");
+		background-image: url("../img/zu2.jpg");
 	}
 
 	#location_text {
 		padding-top: 120px;
+		margin-bottom: 20px;
 	}
 
 	#location_image {
 		background-image: url("../img/forum.jpg");
 	}
 
+	#sponsors img {
+		padding-left: 30px; 
+	}	
+
+	#partner_container {
+		padding-top: 40px;
+		height: 60vh;
+	}
+
 	#sponsors {
-		-webkit-column-count: 3;
+		text-align: center;
+		margin-top: 100px;
 	}
 
 
-		.footer--row {
-	    	width: 82%;
-	    	margin: 0 auto;
-		}
+	.footer--row {
+	    width: 82%;
+	    margin: 0 auto;
+	}
 
-}/*media only*/
+}
+
+/*media for laptop screen*/
+@media only screen and (min-width: 1224px) {
+
+	#about {
+		background-size: 15% !important;
+		height: 42% !important;
+		margin-top: 30px !important;
+		margin-left: 275px !important;
+	}
+
+	#schedule {
+		background-size: 16% !important;
+		margin-left: 390px !important;
+		margin-top: 221px !important;
+	}
+
+	#location {
+		margin-top: 397px !important;
+		margin-left: 174px !important;
+	}
+
+	#backgroundlines {
+		margin-top: 780px !important;
+	}
+
+	#about_header {
+		padding-top: 20px;
+	}
+
+	.navbar li {
+		margin-top: 0px;
+	}
+
+
+} 
+
+/*media for laptop*/
+@media only screen and (min-width: 1412px) {
+
+}
+
+/*media for large laptop screen*/
+@media only screen and (min-width: 1824px) {
+
+	#background {
+		padding-left: 0px !important;
+	}
+
+	#logorest {
+		margin-left: 173px !important;
+	}
+
+	#about {
+		background-size: 14% !important;
+		width: 75% !important;
+		height: 39% !important;
+		margin-left: 453px !important;
+		margin-top: 31px !important;
+	}
+
+	#schedule {
+		margin-left: 562px !important;
+		background-size: 11% !important;
+	}
+
+	#location {
+		background-size: 10% !important;
+		margin-top: 400px !important;
+		margin-left: 336px !important;
+	}
+
+	.navbar li {
+		margin-top: 0px;
+	}
+}
+
+
+/*media only*/
 
 .nav {
 	float: right;
@@ -219,9 +410,9 @@ a:hover {
 
 .projectName a {
 	color: black;
-	font-family: Johnston Std Medium;
+	font-family: 'Source Sans Pro', sans-serif;;
 	float: right;
-	margin-top: 1px;
+	margin-top: 9px;
 	font-size: 15px;
 }
 
@@ -237,7 +428,7 @@ a:hover {
 
 #navbarlogo {
 	height: auto;
-	margin-top: -8px;
+	margin-top: -16px;
 }
 
 #navbarlogo a {
@@ -252,6 +443,13 @@ a:hover {
 	position: relative;
 	margin-top: 40px;
 	float: left;
+	opacity: 1;
+}
+
+#opacity {
+	opacity: 0.5;
+	border: 1px solid black;
+
 }
 
 #tls p {
@@ -260,8 +458,8 @@ a:hover {
 	font: "Source Code Pro"
 	text-decoration: none;
 	text-align: center;
-	line-height: 82%;
-	letter-spacing: uppercase;
+	line-height: 135%;
+	text-transform: uppercase;
 	padding-top: 19px;
 }
 
@@ -274,6 +472,7 @@ a:hover {
 	position: absolute;
 	width: 100%;
 	height: 100%;
+	padding-left: 100px;
 }
 
 
@@ -287,6 +486,7 @@ a:hover {
     position: relative;
     height: 450px;
     overflow: hidden;
+    opacity: 0.8;
 }
 
 #logorest {
@@ -345,7 +545,7 @@ a:hover {
 	height: 100%;
 	width: 100%;
 	margin-left: 450px;
-	margin-top: 230px;
+	margin-top: 223px;
 }
 
 #schedule:hover {
@@ -362,8 +562,11 @@ a:hover {
 	width: 100%;
 	height: auto;
 	text-align: center;
-	padding-top: 200px;
-	padding-bottom: 200px;
+	padding-top: 30px;
+	padding-bottom: 30px; 
+	background-color: #d8d8d8;
+	opacity: 0.7;
+	background-attachment: fixed;
 }
 
 #logo_top img {
@@ -374,7 +577,10 @@ a:hover {
 #backgroundlines {
 	width: 100%;
 	background-image: url("../img/lines.png");
-	background-size: cover;
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-top: 740px;
+
 }
 
 
@@ -389,7 +595,7 @@ footer {
 
  footer p {
  	color: black;
- 	font-family: Johnston Std Medium;
+ 	font-family: 'Source Sans Pro', sans-serif;;
  	font-size: 11px;
  }
 
@@ -426,7 +632,8 @@ footer {
 
 #twitter {
 	margin-top: -15px;
-}
+} 
+
 
 .zu-logo {
   background: url(../img/zu_logo_white.png) no-repeat center;
@@ -446,7 +653,7 @@ background-color: #d8d8d8;
   padding-top: 5px;
   padding-bottom: 15px;
   text-align: center;
-  font-family: Quicksand;
+  font-family: 'Source Sans Pro', sans-serif;;
   color: white;
 }
 

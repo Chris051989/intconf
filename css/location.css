@@ -34,7 +34,27 @@ h3 {
 h1 {
 	font-size: 16px;
 	font-weight: bold;
-	text-align: center;
+	text-align: left;
+	color: black;
+	font-family: 'Open Sans', sans-serif;
+	text-decoration: none;
+	padding-top: 10px;
+}
+
+h2 {
+	font-size: 14px;
+	font-weight: bold;
+	text-align: left;
+	color: black;
+	font-family: 'Open Sans', sans-serif;
+	text-decoration: none;
+	padding-top: 10px;
+}
+
+h3 {
+	font-size: 14px;
+	font-weight: bold;
+	text-align: left;
 	color: black;
 	font-family: 'Open Sans', sans-serif;
 	text-decoration: none;
@@ -348,7 +368,7 @@ footer {
 
  footer p {
  	color: black;
- 	font-family: 'Open Sans', sans-serif;
+ 	font-family: Johnston Std Medium;
  	font-size: 11px;
  }
 
@@ -409,11 +429,7 @@ background-color: #d8d8d8;
   color: white;
 }
 
-@media (min-width: 992px) {
-  .footer--row {
-    width: 82%;
-    margin: 0 auto;
-  }
+
 
 .twitter{
 	margin-top: 20px;
@@ -428,7 +444,6 @@ background-color: #d8d8d8;
 }
 
 /*footer ends here */
-
 
 /*impressum page*/
 #impressum {
