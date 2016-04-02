@@ -80,6 +80,16 @@ h4 {
 	padding-top: 20px;
 }
 
+h5 {
+	font-size: 16px;
+	font-weight: bold;
+	text-align: left;
+	color: black;
+	font-family: 'Open Sans', sans-serif;
+	text-decoration: none;
+	padding-top: 10px;
+}
+
 a:hover {
 	text-decoration: none;
 }
@@ -131,6 +141,17 @@ a:hover {
 .navbar-inverse .navbar-nav > .active > a {
 	color: #ff6600;
 	background-color: transparent;
+}
+
+.navbar-inverse .navbar-nav>.active>a, 
+.navbar-inverse .navbar-nav>.active>a:focus, 
+.navbar-inverse .navbar-nav>.active>a:hover {
+	background-color: transparent;
+	color: #ff6600;
+}
+
+#impressum {
+	margin-top: 115px;
 }
 
 /* Media for mobile*/
@@ -219,6 +240,47 @@ a:hover {
 		padding-right: 0px !important;
 	}
 
+}
+
+/*2. TEAM Page--------------------------- */
+
+#team_container {
+	padding-top: 20px;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+#pic {
+	width: 90%;
+}
+
+.caption p {
+	text-align: center;
+	font-size: 15px;
+}
+
+.thumbnail {
+	border-color: white;
+}
+
+
+#teampic {
+	background-image: url("../img/versuch.png");
+	opacity: 0.6;
+	background-attachment: fixed;
+	background-size: cover;
+	color: white;
+	margin-top: 50px;
+	padding-top: 50px;
+	margin-top: 50px;
+	margin-right: 0px;
+	margin-left: 0px;
+	opacity: 0.6;
+	height: 500px;
+	font-size: 1em;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: grey;
 }
 
 /*media for laptop screen*/ 
