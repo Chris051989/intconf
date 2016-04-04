@@ -90,8 +90,25 @@ h5 {
 	padding-top: 10px;
 }
 
+a {
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.42857143;
+	font-size: 18px;
+	font-weight: bold;
+	color: rgb(255, 102, 0);
+	text-decoration: none;
+	padding-bottom: 8px;
+	font-weight: 500;
+}
+
+#moreinfo {
+	margin-top: 20px;
+	padding-left: 0px;
+}
+
 a:hover {
 	text-decoration: none;
+	color: rgb(255, 102, 0);
 }
 
 
