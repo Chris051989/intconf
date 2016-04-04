@@ -258,7 +258,7 @@ a:hover {
 	}
 
 	#about_header {
-		margin-top: 20px !important;
+		margin-top: 100px !important;
 	}
 
 }
@@ -400,7 +400,8 @@ a:hover {
 		/*-webkit-column-count: 2;
 		-webkit-column-gap: 40px;*/
 		text-align: justify;
-		margin-bottom: 20px;
+		padding-top: 20px;
+		min-height: 400px;
 	}
 
 	.tiles--image {
@@ -515,7 +516,7 @@ a:hover {
 
 
 	#about_header {
-		padding-top: 20px;
+		padding-top: 100px;
 	}
 
 	.navbar li {
