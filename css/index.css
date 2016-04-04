@@ -49,9 +49,9 @@ h2 {
 	line-height: 1.42857143;
 	font-size: 18px;
 	font-weight: bold;
-	color: black;
+	color: rgb(255, 102, 0);
 	text-decoration: none;
-	padding-bottom: 20px;
+	padding-bottom: 8px;
 	font-weight: 500;
 }
 
@@ -93,6 +93,8 @@ h5 {
 a:hover {
 	text-decoration: none;
 }
+
+
 
 
 /*FONTS ends here*/
@@ -150,6 +152,49 @@ a:hover {
 	color: #ff6600;
 }
 
+#hello {
+	padding-top: 30px;
+	background-color: #EFEFEF;
+	width: 100%;
+	padding-left: 155px;
+}
+
+.learn-more {
+	text-align: left;
+	float: left;
+	margin-top: 17px;
+}
+
+.btn-primary {
+	background-color: transparent;
+	border-color: transparent;
+	padding-left: 0px;
+}
+
+.btn-primary:hover {
+	background-color: transparent;
+	border-color: transparent;
+}
+
+.btn-primary:active {
+	background-color: transparent;
+	border-color: transparent;
+	box-shadow: none;
+}
+
+.btn-primary:focus {
+	background-color: transparent;
+	border-color: transparent;
+	box-shadow: none;
+}
+
+#countdown {
+}
+
+#cntdwn {
+	font-size: 38px;
+}
+
 #impressum {
 	margin-top: 115px;
 }
@@ -177,6 +222,7 @@ a:hover {
 	.projectName a {
 		margin-top: -40px !important;
 		margin-left: -40px;	
+		text-transform: uppercase;
 	}
 
 	.projectName img {
@@ -244,12 +290,6 @@ a:hover {
 
 /*2. TEAM Page--------------------------- */
 
-#team_container {
-	padding-top: 20px;
-	padding-right: 0px;
-	padding-left: 0px;
-}
-
 #pic {
 	width: 90%;
 }
@@ -264,15 +304,13 @@ a:hover {
 }
 
 
-#teampic {
+#divider {
 	background-image: url("../img/versuch.png");
 	opacity: 0.6;
 	background-attachment: fixed;
 	background-size: cover;
 	color: white;
-	margin-top: 50px;
 	padding-top: 50px;
-	margin-top: 50px;
 	margin-right: 0px;
 	margin-left: 0px;
 	opacity: 0.6;
@@ -342,8 +380,8 @@ a:hover {
 	}
 
 	#about_container {
-		-webkit-column-count: 2;
-		-webkit-column-gap: 40px;
+		/*-webkit-column-count: 2;
+		-webkit-column-gap: 40px;*/
 		text-align: justify;
 		margin-bottom: 20px;
 	}
@@ -360,11 +398,7 @@ a:hover {
 		padding-left: 100px;
 		padding-right: 100px;
 		text-align: justify;
-	}
-
-
-	#china_text {
-		padding-top: 40px;
+		padding-top: 120px;
 	}
 
 	#schedule_container {
@@ -372,10 +406,6 @@ a:hover {
 	  margin-right: 0;
 	  margin-left: 0;
 	  padding-bottom: -300px;
-	}
-
-	#schedule_text {
-		padding-top: 140px;
 	}
 
 	#china_image { 
@@ -386,17 +416,16 @@ a:hover {
 		background-image: url("../img/zu2.jpg");
 	}
 
-	#location_text {
-		padding-top: 120px;
-		margin-bottom: 20px;
-	}
-
 	#location_image {
 		background-image: url("../img/forum.jpg");
 	}
 
+	#team_image {
+		background-image: url("../img/team/team1.png");
+	}
+
 	#sponsors img {
-		padding-left: 30px; 
+		padding-left: 34px; 
 	}	
 
 	#partner_container {
@@ -406,7 +435,7 @@ a:hover {
 
 	#sponsors {
 		text-align: center;
-		margin-top: 100px;
+		margin-top: 45px;
 	}
 
 
@@ -566,6 +595,7 @@ a:hover {
 	float: right;
 	margin-top: 9px;
 	font-size: 15px;
+	text-transform: uppercase;
 }
 
 .projectName img {
@@ -622,6 +652,7 @@ a:hover {
 	background-size: cover;  
 	width: 100%;
 	padding-left: 100px;
+	min-height: 700px;
 }
 
 
@@ -632,7 +663,7 @@ a:hover {
     margin-left:auto;
     margin-right:auto;
     margin-bottom: 35px;
-    margin-top: 220px;
+    margin-top: 0px !important;
     position: relative;
     height: 460px;
     overflow: hidden;
@@ -708,6 +739,10 @@ a:hover {
 
 /*About page starts here */
 
+.column {
+	padding-top: 8px;
+}
+
 #logo_top {
 	width: 100%;
 	height: auto;
@@ -722,13 +757,6 @@ a:hover {
 #logo_top img {
 	width: 100px;
 	height: auto;
-}
-
-#backgroundlines {
-	width: 100%;
-	background-image: url("../img/lines.png");
-	background-size: contain;
-	background-repeat: no-repeat;
 }
 
 
@@ -751,17 +779,16 @@ footer {
  	color: black;
  }
 
-.footer--row {
-  margin-left: 0;
-  margin-right: 0;
-  width: 93%;
-  margin: 0 auto;
-}
-
 .footer--columns {
   padding: 0 1% 5px;
   overflow: hidden;
   color: white;
+}
+
+.footer--columns a {
+  	color: black;
+ 	font-family: 'Source Sans Pro', sans-serif;;
+ 	font-size: 13px;
 }
   
 .columns--readmore{
