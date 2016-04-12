@@ -12,7 +12,7 @@
 
     <!--Embed CSS-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-    <link href="css/index.css" rel="stylesheet">
+    <link href="css/location.css" rel="stylesheet">
 
     <!--Embed Google APIv3 -->
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBoDpvF8KyGaIGo6pDhU8mc8zvkTWBYhzs"></script>
@@ -32,9 +32,9 @@
 </head>
 <!--head ends here-->
 
-  <!--navbar starts here-->
+ <!--navbar starts here-->
 <nav>
-    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="navbar navbar-inverse navbar-fixed-top" role "Navigation" id="navbar">
         <div class="container-fluid">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -43,28 +43,36 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <div class="projectName" id="projectname">
-                    <a href="index.html"><img src="img/logo_komplett.png" alt="..." class="img-responsive" id="navbarlogo">Transcultural Leadership Summit</a>
+                <div class="projectName">
+                    <a href="index.html"><img src="img/logo_neu.png" alt="..." class="img-responsive" id="navbarlogo"></a>
                 </div>
-            </div><!--end navbar-header-->
+            </div>
+            <!--end navbar-header-->
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li><a href="index.html#about_anchor">About</a></li>
-                    <li><a href="index.html#schedule_container">Schedule</a></li>
-                    <li><a href="index.html#location_container">Location</a></li>
-                    <li><a href="index.html#partner_container">Partners</a></li>
+                    <li><a href="About.html"> About</a></li>
+                    <li><a href="schedule.html"> Schedule</a></li>
+                    <li><a href="Location.html"> Location</a></li>
                 </ul>
-            </div><!--end navbar-collapse-->
-        </div><!--end container fluid-->
-    </div><!--end nav container-->
-</nav><!--Navbar ends here-->
+
+            </div>
+            <!--end navbar-collapse-->
+        </div>
+        <!--end container fluid-->
+        <!--Search Functions ends here-->
+
+
+    </div>
+    <!--end navbar-->
+</nav>
+<!--Navbar ends here-->
 
 <div class="container" id="impressum">
-  <p>The Transcultural Leadership Summit is initiated and executed by Leadership Excellence Institute Zeppelin | LEIZ. The LEIZ is kindly sponsored by Karl Schlecht Public Benefit Foundation | KSG.<p>
-<h5>Impressum</h5>
-<p>gem. § 5 TMG (Telemediengesetz)<br>
+<h1>Impressum</h1>
+            <h2>gem. § 5 TMG (Telemediengesetz)</h2>
+
+          <p>
             Zeppelin Universität gemeinnützige GmbH<br>
-            Leadership Excellence Institute Zeppelin | LEIZ<br>
             Am Seemooser Horn 20 D 88045 Friedrichshafen<br> 
             Tel. +49 7541 6009-0<br>
             Fax +49 7541 6009-1199<br>
@@ -80,13 +88,15 @@
             Soweit der Dienst im Rahmen einer Tätigkeit angeboten oder erbracht wird, die der behördlichen Zulassung bedarf, erfolgen Angaben zur zuständigen Aufsichtsbehörde:
             Zuständige Aufsichtsbehörde: Ministerium für Wissenschaft, Forschung und Kunst Baden-Württemberg<br>
           </p>
-          <p>Inhaltlich verantwortlich gem. § 55 Abs. 2 RfStV: Prof Dr Josef Wieland (Anschrift wie oben)<br>
-          Projekt-Manager des Transcultural Leadership Summit: Isabelle Yu<br><br>
-          Entwicklung und Design: Eva Hunger | Christoph Schenek
+          <h3>
+          Inhaltlich verantwortlich gem. § 55 Abs. 2 RfStV:
+          </h3>
+          <p>
+          Isabelle Yu | Am Seemooser Horn 20 | D 88045 Friedrichshafen
           </p>
-          <h5>Information on Online Dispute Resolution</h5>
-
-          <p>The European Commission will deploy in the first quarter 2016 an internet platform for online settlement of disputes (so-called “ODR platform”.). The ODR platform should arising as a focal point for the extrajudicial settlement of disputes concerning contractual obligations, serving from online sales contracts. The ODR platform will be accessible via the following link: http://ec.europa.eu/consumers/odr</p>
+          <h3>Entwicklung und Design</h3> 
+          <p>Eva Hunger | Christoph Schenek
+          </p>
 
           <!-- <h3>
             Bildnachweiß
@@ -95,28 +105,27 @@
             Wird noch eingefügt!
           </p> -->
 
-          <h5>Datenschutz</h5>
-          <p>Es gilt die Datenschutzerklärung der Zeppelin Universiät, die unter https://www.zu.de/service/datenschutzerklaerung.php abrufbar ist.<br>
+          <h3>Rechtliche Hinweise</h3>
+          <p>
+          Die Inhalte unserer Seiten wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte können wir jedoch keine Gewähr übernehmen. Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen. Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt. Eine diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich. Bei Bekanntwerden von entsprechenden Rechtsverletzungen werden wir diese Inhalte umgehend entfernen.
+          </p>
 
-          Diese Website benutzt Google Analytics, einen Webanalysedienst der Google Inc. („Google“). Google Analytics verwendet sog. „Cookies“, Textdateien, die auf Ihrem Computer gespeichert werden und die eine Analyse der Benutzung der Website durch Sie ermöglichen. Die durch das Cookie erzeugten Informationen über Ihre Benutzung dieser Website werden in der Regel an einen Server von Google in den USA übertragen und dort gespeichert. Im Falle der Aktivierung der IP-Anonymisierung auf dieser Website, wird Ihre IP-Adresse von Google jedoch innerhalb von Mitgliedstaaten der Europäischen Union oder in anderen Vertragsstaaten des Abkommens über den Europäischen Wirtschaftsraum zuvor gekürzt. Nur in Ausnahmefällen wird die volle IP-Adresse an einen Server von Google in den USA übertragen und dort gekürzt. Im Auftrag des Betreibers dieser Website wird Google diese Informationen benutzen, um Ihre Nutzung der Website auszuwerten, um Reports über die Websiteaktivitäten zusammenzustellen und um weitere mit der Websitenutzung und der Internetnutzung verbundene Dienstleistungen gegenüber dem Websitebetreiber zu erbringen. Die im Rahmen von Google Analytics von Ihrem Browser übermittelte IP-Adresse wird nicht mit anderen Daten von Google zusammengeführt. Sie können die Speicherung der Cookies durch eine entsprechende Einstellung Ihrer Browser-Software verhindern; wir weisen Sie jedoch darauf hin, dass Sie in diesem Fall gegebenenfalls nicht sämtliche Funktionen dieser Website vollumfänglich werden nutzen können.
+          <h3>Haftung für Links</h3>
+          <p>Unser Angebot enthält Links zu externen Webseiten Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar. Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Links umgehend entfernen.
+          </p>
 
-Sie haben auch die Möglichkeit, lediglich die Erfassung Ihrer Nutzerdaten und Analyse Ihres Nutzerverhaltens durch Google Analytics dadurch zu verhindern, indem sie das speziell von Google entwickelte und unter dem folgenden Link verfügbare Browser-Plugin herunterladen und installieren:http://tools.google.com/dlpage/gaoptout?hl=de.
+          <h3>Urheberrecht</h3>
+          <p>Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet. Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.
+          </p>
 
-Nähere Informationen zu Nutzungsbedingungen und Datenschutz finden Sie unter http://www.google.com/analytics/terms/de.html bzw. unter https://www.google.de/intl/de/policies/.
+          <h3>Datenschutz</h3>
+          <p>Die Nutzung unserer Webseite ist in der Regel ohne Angabe personenbezogener Daten möglich. Soweit auf unseren Seiten personenbezogene Daten (beispielsweise Name, Anschrift oder eMail-Adressen) erhoben werden, erfolgt dies, soweit möglich, stets auf freiwilliger Basis. Diese Daten werden ohne Ihre ausdrückliche Zustimmung nicht an Dritte weitergegeben.<br><br>
 
-Wir weisen Sie darauf hin, dass auf dieser Website Google Analytics um den Code „gat._anonymizeIp();“ erweitert wurde, um eine anonymisierte Erfassung von IP-Adressen (sog. IP-Masking) zu gewährleisten.</p>
+          Wir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht möglich.<br><br>
 
-<h5>Urheberrecht</h5>
-  <p>Der Inhalt dieser Website ist urheberrechtlich geschützt. Die Vervielfältigung von Informationen oder Daten, insbesondere die Verwendung von Texten, Textteilen oder Bildmaterial bedarf der vorherigen Zustimmung der Zeppelin Universität gemeinnützige GmbH.
-  
-  Davon ausgenommen ist das in der Rubrik Aktuelles | Presse für die Weiterverbreitung ausdrücklich angebotene Text- und Bildmaterial. Wir bestehen jedoch bei Links darauf, dass die Webseiten alleiniger Bestandteil des Browser-Fensters sind. Die Informationen dürfen im Übrigen nicht verändert oder verfälscht werden. Bei Weitergabe oder Vervielfältigung bitten wir um Quellenangabe. Das ursprüngliche non-logo der Zeppelin Universität wurde von Ecke Bonk entwickelt, dem typosoph in residence. Die technische und grafische Entwicklung der Website erfolgte gemeinsam mit der Agentur für Digitales Marketing Columbus Interactive GmbH in Ravensburg.
-
-  AGG (Allgemeines Gleichbehandlungsgesetz)
-  Die Zeppelin Universität verzichtet auf ihren Webseiten auf die explizite Ausweisung der weiblichen und männlichen Form. Es sind regelmäßig beide Geschlechter gemeint.</p>
+          Der Nutzung von im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten durch Dritte zur Übersendung von nicht ausdrücklich angeforderter Werbung und Informationsmaterialien wird hiermit ausdrücklich widersprochen. Die Betreiber der Seiten behalten sich ausdrücklich rechtliche Schritte im Falle der unverlangten Zusendung von Werbeinformationen, etwa durch Spam-Mails, vor.
+          </p>
         </div>
-
-
-<!-- ================== Footer ========================= -->
 
 <footer>
     <div class="row footer--row">
@@ -131,7 +140,7 @@ Wir weisen Sie darauf hin, dass auf dieser Website Google Analytics um den Code 
                 Sitz der Gesellschaft: Friedrichshafen | Bodensee<br>
                 Handelsregistereintrag: Amtsgericht Ulm | HRB 6320002<br>
                 Geschäftsführung: Prof. Dr. Insa Sjurts (Sprecherin) | Matthias Schmolz<br>
-                Inhaltlich verantwortlich: Prof. Dr. Josef Wieland
+                Inhaltlich verantwortlich: Isabelle Yu
         </div>
         <div class="col-xs-12 col-sm-7 col-md-3 col-lg-3 footer--columns columns--social-buttons">
             <a href="impressum.html" class="btn_toggle" data-action="toggle" data-side="right">Impressum | License</a>  
@@ -152,6 +161,7 @@ Wir weisen Sie darauf hin, dass auf dieser Website Google Analytics um den Code 
         <p>&copy; 2016 Transcultural Leadership Summit</p>
     </div>
 </footer>
+
 
   
 </body>

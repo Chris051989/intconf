@@ -131,18 +131,12 @@ li {
     color: #ff6600;
 }
 
+
+
 @media only screen and (max-width: 766px) {
-	.collapsing, .in {
-		background-color: #B0B0B0;
-	}
-
-	.collapsing ul li a, .in ul li a {
-		color: #ff6600;!important;
-	}
-
-	.collapsing ul li a:hover, .in ul li a:hover {
-		color: ##334C00;!important;
-	}
+	.collapsing, .in {background-color: #B0B0B0;}
+	.collapsing ul li a, .in ul li a {color: #ff6600;!important;}
+	.collapsing ul li a:hover, .in ul li a:hover {color: ##334C00;!important;}
 }
 
 .nav {
@@ -155,12 +149,12 @@ li {
 .projectName {
 	text-transform: uppercase;
 	font-size: 16px;
+	padding-top: 10px;
 	font-size: 2em;
 	padding-left: 52px;
-	margin-top: -12px;
 }
 
-.projectName a {
+.projectName a{
 	color: white;
 	font-family: Quicksand;
 }
