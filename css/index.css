@@ -14,107 +14,732 @@
  */
 
 body, html {
-	overflow-x: hidden;
-	 margin: 0;
-                padding: 0;
+	position: relative;
+	margin: 0;
+    padding: 0;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
-/*0.1 FONTS*------------------------------------
-------------------------------*/
+/*0.1 FONTS*------------------------------------------------------------------*/
 
-h1,
-h2,
-h3 {
-	font-family: Quicksand, Verdana, Helvetica, sans-serif;
+h1 {
+	font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; 
+	line-height: 1.42857143;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	color: black;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding-bottom: 20px;
+	font-weight: 500;
 }
  
 p,
 a,
 li {
- 	font-family: Crimson Text, Palatino, Times New Roman serif;
+ 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+ 	font-size: 16px;
+ 	line-height: 1.42857143;
  }
+
+h2 {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+	line-height: 1.42857143;
+	font-size: 18px;
+	font-weight: bold;
+	color: rgb(255, 102, 0);
+	text-decoration: none;
+	font-weight: 500;
+}
+
+
+h3 {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-size: 24px;
+	text-align: center;
+	color: black;
+	text-decoration: none;
+	color: grey;
+	padding-left: 15px;
+}
+
+h4 {
+	font-family: font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+	line-height: 1.42857143;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+	color: black;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding-bottom: 20px;
+	font-weight: 500;
+	padding-top: 35px;
+}
+
+h5 {
+	font-size: 16px;
+	font-weight: bold;
+	text-align: left;
+	color: black;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	text-decoration: none;
+	padding-top: 10px;
+}
+
+a {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	line-height: 1.42857143;
+	font-size: 18px;
+	font-weight: bold;
+	color: rgb(255, 102, 0);
+	text-decoration: none;
+	padding-bottom: 8px;
+	font-weight: 500;
+}
+
+#moreinfo {
+	margin-top: 20px;
+	padding-left: 0px;
+}
+
+a:hover {
+	text-decoration: none;
+	color: rgb(255, 102, 0);
+}
+
+
 
 
 /*FONTS ends here*/
 
 
+/*--------------------------------------------------------------------------
+----------Navbar starts here*/
+
+ /**1.1. NAVIGATIONBAR */
+
+
+.navbar {
+	background-color: #d8d8d8;
+	position: fixed;
+	top: 0;
+	height: 60px;
+}
+
+.navbar-inverse {
+	border-color: transparent;
+}
+	
+.navbar li {
+	padding-top: 10px;
+	letter-spacing: 0.05em;
+	transition: color 900ms;
+	font-size: 1.5em;
+	}
+
+.navbar li a {
+	text-transform: lowercase;
+	letter-spacing: 0.05em;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	padding-top: 10px;
+	font-size: 19px;
+	}
+
+.navbar-inverse .navbar-nav li a {
+    color: black;
+}
+
+.navbar-inverse .navbar-nav li a:hover {
+    color: #ff6600;
+}
+
+.navbar-inverse .navbar-nav > .active > a {
+	color: #ff6600;
+	background-color: transparent;
+}
+
+.navbar-inverse .navbar-nav>.active>a, 
+.navbar-inverse .navbar-nav>.active>a:focus, 
+.navbar-inverse .navbar-nav>.active>a:hover {
+	background-color: transparent;
+	color: #ff6600;
+}
+
+#hello {
+	padding-top: 30px;
+	background-color: #EFEFEF;
+	width: 100%;
+	padding-left: 155px;
+}
+
+.learn-more {
+	text-align: left;
+	float: left;
+	margin-top: 17px;
+}
+
+.btn-primary {
+	background-color: transparent;
+	border-color: transparent;
+	padding-left: 0px;
+}
+
+.btn-primary:hover {
+	background-color: transparent;
+	border-color: transparent;
+}
+
+.btn-primary:active {
+	background-color: transparent;
+	border-color: transparent;
+	box-shadow: none;
+}
+
+.btn-primary:focus {
+	background-color: transparent;
+	border-color: transparent;
+	box-shadow: none;
+}
+
+#countdown {
+}
+
+#cntdwn {
+	font-size: 38px;
+}
+
+#impressum {
+	margin-top: 115px;
+}
+
+/* Media for mobile*/
+@media only screen and (max-width: 766px) {
+
+	#background {
+		visibility: hidden;
+		margin-bottom: -500px;
+	}
+
+	.collapsing, .in {
+		background-color: #d8d8d8;
+	}
+
+	.collapsing ul li a, .in ul li a {
+		color: #d8d8d8;!important;
+	}
+	
+	.collapsing ul li a:hover, .in ul li a:hover {
+		color: #d8d8d8;!important;
+	}
+
+	.projectName a {
+		margin-top: -29px !important;
+		margin-left: -40px;	
+		text-transform: uppercase;
+		font-size: 13px !important;
+	}
+
+	.projectName img {
+		padding-top: 5px;
+		width: 12% !important;
+	}
+
+	#tls {
+		margin-top: 0px !important;
+		margin-bottom: 40px;
+		background-image: url("../img/background.png");
+		background-size: cover;
+	}
+
+	#tls p {
+		font-size: 37px !important;
+		font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	}
+
+	#about_header {
+		margin-top: 100px !important;
+	}
+
+	#divider {
+		height: 0px !important;
+	}
+
+}
+
+
+/*media between mobile and laptop*/
+
+@media only screen and (min-width: 768px) {
+
+	#logo {
+		margin-left: 114px !important;
+		margin-top: 255px !important;	
+	}
+
+	#logorest {
+		margin-left: 0px !important;
+	}
+
+	#about {
+		background-size: 18% !important;
+		margin-left: 180px !important;
+		margin-top: 21px !important;
+	}
+
+	#location {
+		background-size: 13% !important;
+		margin-top: 258px !important;
+		margin-left: 113px !important;
+	}
+
+	#schedule {
+		background-size: 18% !important;
+		margin-left: 254px !important;
+		margin-top: 144px !important;
+	}
+
+	.navbar li {
+		margin-top: -54px;
+	}
+
+	.nav {
+		padding-right: 0px !important;
+	}
+
+}
+
+/*2. TEAM Page--------------------------- */
+
+#pic {
+	width: 90%;
+}
+
+.caption p {
+	text-align: center;
+	font-size: 15px;
+}
+
+.thumbnail {
+	border-color: white;
+}
+
+
+#divider {
+	background-image: url("../img/versuch.png");
+	opacity: 0.6;
+	background-attachment: fixed;
+	background-size: cover;
+	color: white;
+	padding-top: 50px;
+	margin-right: 0px;
+	margin-left: 0px;
+	opacity: 0.6;
+	height: 500px;
+	font-size: 1em;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: grey;
+}
+
+/*media for laptop screen*/ 
+@media (min-width: 992px) {
+
+	#logo {
+		margin-left: 180px !important;
+	}
+
+	#about {
+	margin-left: 241px !important;
+	height: 40% !important;
+	}
+
+	#about:hover {
+	background-image: url("../img/logo_about.png");
+	transition: all 0.8s ease;
+	margin-left: 244px !important;
+	margin-top: -2px !important;
+	height: 40% !important;
+	}
+
+	#schedule {
+	margin-left: 339px !important;
+	margin-top: 191px !important;
+	}
+
+	#schedule:hover {
+	background-image: url("../img/logo_schedule.png");
+	transition: all 0.8s ease;
+	margin-left: 349px !important;
+	margin-top: 200px !important;
+	height: 40% !important;
+	}
+
+	#location {
+	margin-top: 347px !important;
+	margin-left: 156px !important;
+	} 
+
+	#location:hover {
+	background-image: url("../img/logo_location.png");
+	transition: all 0.8s ease;
+	margin-top: 355px !important;
+	margin-left: 156px !important;
+	} 
+
+	.navbar li {
+	margin-top: -54px;
+	}
+
+	#actiontiles_container {
+		margin-bottom: 120px;
+		padding-top: 40px;
+	}
+
+	#about_anchor {
+		height: 40px;
+	}
+
+	#about_container {
+		/*-webkit-column-count: 2;
+		-webkit-column-gap: 40px;*/
+		text-align: justify;
+		padding-top: 20px;
+		min-height: 400px;
+	}
+
+	.tiles--image {
+		height: 95vh;
+		background-size: cover;
+		opacity: 0.8;
+	} 
+
+	.tiles--text {
+		display: table-cell;
+		vertical-align: middle !important;
+		padding-left: 100px;
+		padding-right: 100px;
+		text-align: justify;
+		padding-top: 120px;
+	}
+
+	#schedule_container {
+		width: 100%;
+	  margin-right: 0;
+	  margin-left: 0;
+	  padding-bottom: -300px;
+	}
+
+	#china_image { 
+		background-image: url("../img/shanghai4.jpg");
+	}
+
+	#schedule_image {
+		background-image: url("../img/zu2.jpg");
+	}
+
+	#location_image {
+		background-image: url("../img/forum.jpg");
+	}
+
+	#team_image {
+		background-image: url("../img/team/team1.png");
+	}
+
+	#sponsors img {
+		padding-left: 34px; 
+	}	
+
+	#partner_container {
+		padding-top: 40px;
+		height: 60vh;
+	}
+
+	#sponsors {
+		text-align: center;
+		margin-top: 45px;
+	}
+
+
+	.footer--row {
+	    width: 82%;
+	    margin: 0 auto;
+	}
+
+}
+
+/*media for laptop screen*/
+@media only screen and (min-width: 1224px) {
+
+	#logo {
+		margin-left: auto !important;
+	}
+
+	#about {
+		background-size: 15% !important;
+		height: 42% !important;
+		margin-top: 30px !important;
+		margin-left: 284px !important;
+	}
+
+	#about:hover {
+	background-image: url("../img/logo_about.png");
+	background-size: 15% !important;
+	height: 42% !important;
+	margin-top: 10px !important;
+	margin-left: 285px !important;
+	transition: all 0.8s ease;
+	}
+
+	#schedule {
+		background-size: 16% !important;
+		margin-left: 397px !important;
+		margin-top: 221px !important;
+	}
+
+	#schedule:hover {
+		background-image: url("../img/logo_schedule.png");
+		background-size: 16% !important;
+		margin-left: 410px !important;
+		margin-top: 245px !important;
+		transition: all 0.8s ease;
+	}
+
+
+	#location {
+		margin-top: 409px !important;
+		margin-left: 181px !important;
+		background-size: 11% !important;
+	}
+
+	#location:hover {
+		background-image: url("../img/logo_location.png");
+		margin-top: 415px !important;
+		margin-left: 174px !important;
+		transition: all 0.8s ease;
+	}
+
+
+	#about_header {
+		padding-top: 100px;
+	}
+
+	.navbar li {
+		margin-top: 0px;
+	}
+
+
+} 
+
+/*media for large laptop screen*/
+@media only screen and (min-width: 1824px) {
+
+	#background {
+		padding-left: 0px !important;
+	}
+
+	#logo {
+		margin-left: 481px !important;
+	}
+
+	#logorest {
+		margin-left: 173px !important;
+	}
+
+	#about {
+		background-size: 14% !important;
+		width: 75% !important;
+		height: 39% !important;
+		margin-left: 453px !important;
+		margin-top: 31px !important;
+	}
+
+	#about:hover {
+	background-image: url("../img/logo_about.png");
+	background-size: 14% !important;
+	width: 75% !important;
+	height: 39% !important;
+	margin-left: 454px !important;
+	margin-top: -4px !important;
+	transition: all 0.8s ease;
+	}
+
+	#schedule {
+		margin-left: 566px !important;
+		background-size: 11% !important;
+	}
+
+	#schedule:hover {
+		background-image: url("../img/logo_schedule.png");
+		margin-left: 582px !important;
+		background-size: 11% !important;
+		transition: all 0.8s ease;
+	}
+
+	#location {
+		background-size: 10% !important;
+		margin-top: 400px !important;
+		margin-left: 336px !important;
+	}
+
+	#location:hover {
+		background-image: url("../img/logo_location.png");
+		background-size: 10% !important;
+		margin-top: 420px !important;
+		margin-left: 336px !important;
+		transition: all 0.8s ease;
+	}
+
+	.navbar li {
+		margin-top: 0px;
+	}
+}
+
+
+/*media only*/
+
+.nav {
+	float: right;
+	padding-right: 100px;
+	padding-top: 0px;
+	color: #ff6600;
+}
+
+.projectName {
+	font-size: 16px;
+	padding-top: 10px;
+	font-size: 2em;
+	padding-left: 52px;
+}
+
+.projectName a {
+	color: black;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; ;
+	float: right;
+	margin-top: 9px;
+	font-size: 15px;
+	text-transform: uppercase;
+}
+
+.projectName img {
+	float: left;
+	width: 8%;
+	margin-right: 4px;
+}
+
+.proj-title {
+    font-weight:100;
+}
+
+#navbarlogo {
+	height: auto;
+	margin-top: -16px;
+}
+
+#navbarlogo a {
+	vertical-align: middle;
+}
+
 
 /*Logo starts here*/
-#background {
-	overflow-y: hidden;
-	background-image: url("../img/background.png");  
-	position: absolute;
-	width: 100%;
-	height: 100%;
-
-}
-
-#lettering {
+#tls {
 	width: 100%;
 	z-index: 100;
-	position: absolute;
-	font-size: 40px;
-	margin-top: 16px;
+	position: relative;
+	margin-top: 40px;
+	float: left;
+	opacity: 1;
 }
 
-#lettering p {
+#opacity {
+	opacity: 0.5;
+	border: 1px solid black;
+
+}
+
+#tls p {
 	color: grey;
-	font-family: Avenir;
+	font-size: 52px;
+	font: "Source Code Pro"
 	text-decoration: none;
 	text-align: center;
+	line-height: 135%;
+	text-transform: uppercase;
+	padding-top: 19px;
 }
+
+
+#background {
+	background-color: #DBDBDB;
+	background-image: url("../img/background.png");
+	background-size: cover;  
+	width: 100%;
+	padding-left: 100px;
+	min-height: 750px;
+}
+
 
 #logo {
 	width: 50%;
-	margin-top: 125px;
 	left:0;
     right:0;
     margin-left:auto;
     margin-right:auto;
+    margin-bottom: 35px;
+    margin-top: 0px !important;
+    position: relative;
+    height: 460px;
+    overflow: hidden;
+    opacity: 0.8;
 }
 
 #logorest {
 	background-image: url("../img/logo.png");
+	background-size: contain;
 	background-repeat: no-repeat;
 	position: absolute;
 	width: 100%;
 	height: 100%;
+	margin-left: 61px;
 }
 
 #about {
 	background-image:url("../img/logo_about.png");
 	background-repeat: no-repeat;
-	background-size: 9%;
+	background-size: 12%;
 	position: absolute;
 	width: 100%;
 	height: 35%;
-	margin-left: 355px;
+	margin-left: 343px;
 	margin-top: 35px;
 }
 
 #about:hover {
 	background-image: url("../img/logo_about.png");
-	background-size: 9%;
-	margin-top: -45px;
+	background-size: 12%;
+	margin-top: -4px;
 	transition: all 0.8s ease;
 	}
 
 #location {
 	background-image:url("../img/logo_location.png");
 	background-repeat: no-repeat;
-	background-size: 7%;
+	background-size: 11%;
 	position: absolute;
 	width: 100%;
 	height: 100%;
-	margin-top: 510px;
+	margin-top: 400px;
 	margin-left: 225px;
 }
 
 #location:hover {
 	background-image: url("../img/logo_location.png");
-	background-size: 7%;
+	background-size: 11%;
 	margin-left: 220px;
-	margin-top: 530px;
+	margin-top: 415px;
 	transition: all 0.8s ease;
 
 }
@@ -122,40 +747,74 @@ li {
 #schedule {
 	background-image: url("../img/logo_schedule.png");
 	background-repeat: no-repeat;
-	background-size: 9%;
+	background-size: 13%;
 	position: absolute;
 	height: 100%;
 	width: 100%;
-	margin-left: 495px;
-	margin-top: 275px;
+	margin-left: 450px;
+	margin-top: 223px;
 }
 
 #schedule:hover {
 	background-image: url("../img/logo_schedule.png");
-	margin-top: 290px;
-	margin-left: 540px;
+	margin-top: 240px;
+	margin-left: 460px;
 	transition: all 0.8s ease;
 }
 
 
-/*7. FOOTER*------------------------------------------------------------------*/
+/*About page starts here */
+
+.column {
+	padding-top: 8px;
+}
+
+#logo_top {
+	width: 100%;
+	height: auto;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px; 
+	background-color: #d8d8d8;
+	opacity: 0.7;
+	background-attachment: fixed;
+}
+
+#logo_top img {
+	width: 100px;
+	height: auto;
+}
+
+
+/*3. FOOTER*------------------------------------
+------------------------------*/
 
 footer {
-  background-color: rgb(87, 88, 91);
-  margin-top: 20px;
+  background-color: #d8d8d8;
+  margin-top: 50px;
+  padding-top: 29px;
  }
 
-.footer--row {
-  margin-left: 0;
-  margin-right: 0;
-  width: 93%;
-  margin: 0 auto;
-}
+ footer p {
+ 	color: black;
+ 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; ;
+ 	font-size: 11px;
+ }
+
+ footer a {
+ 	color: black;
+ }
 
 .footer--columns {
   padding: 0 1% 5px;
   overflow: hidden;
   color: white;
+}
+
+.footer--columns a {
+  	color: black;
+ 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; ;
+ 	font-size: 13px;
 }
   
 .columns--readmore{
@@ -167,10 +826,15 @@ footer {
 }
 
 .columns--social-buttons a {
-  font-size: 35px;
-  padding-right: 5px;
-  color: blue;
+  font-size: 11px;
+  text-decoration: none;
+  color: black;
 }
+
+#twitter {
+	margin-top: -15px;
+} 
+
 
 .zu-logo {
   background: url(../img/zu_logo_white.png) no-repeat center;
@@ -182,7 +846,7 @@ footer {
 }
 
 .copyright {
-	background-color: rgb(87, 88, 91);
+background-color: #d8d8d8;
   width: 90%;
   margin: 5px auto 0px;
   margin-top: 5px;
@@ -190,15 +854,11 @@ footer {
   padding-top: 5px;
   padding-bottom: 15px;
   text-align: center;
-  font-family: Quicksand;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; ;
   color: white;
 }
 
-@media (min-width: 992px) {
-  .footer--row {
-    width: 82%;
-    margin: 0 auto;
-  }
+
 
 .twitter{
 	margin-top: 20px;
