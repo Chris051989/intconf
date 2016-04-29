@@ -231,6 +231,10 @@ a:hover {
 	margin-top: 115px;
 }
 
+#impressum p {
+	text-align: left;
+}
+
 /* Media for mobile*/
 @media only screen and (max-width: 766px) {
 
@@ -546,12 +550,19 @@ a:hover {
 		padding-top: 100px;
 	}
 
-	.navbar li {
-		margin-top: 0px;
+
+	.nav {
+		margin-top: -13px;
 	}
 
+}
 
-} 
+@media only screen and (min-width: 1440px) {
+
+	.nav {
+		margin-top: 53px;
+	}
+}
 
 /*media for large laptop screen*/
 @media only screen and (min-width: 1824px) {
@@ -861,7 +872,7 @@ footer {
 }
 
 #twitter {
-	margin-top: -15px;
+	margin-top: -30px;
 } 
 
 
@@ -885,6 +896,10 @@ background-color: #d8d8d8;
   text-align: center;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; ;
   color: white;
+}
+
+.copyright p {
+	text-align: center;
 }
 
 
