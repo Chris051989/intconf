@@ -43,7 +43,7 @@ li {
  	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
  	font-size: 16px;
  	line-height: 1.42857143;
- 	text-align: center;
+ 	text-align: justify;
  }
 
 h2 {
@@ -280,7 +280,7 @@ a:hover {
 	}
 
 	#about_header {
-		margin-top: 100px !important;
+		margin-top: 40px !important;
 	}
 
 	#divider {
@@ -435,7 +435,7 @@ a:hover {
 	}
 
 	#about_container {
-		/*-webkit-column-count: 2;
+		-webkit-column-count: 2;
 		-webkit-column-gap: 40px;*/
 		text-align: justify;
 		padding-top: 20px;
@@ -555,7 +555,7 @@ a:hover {
 
 
 	#about_header {
-		padding-top: 100px;
+		padding-top: 40px;
 	}
 
 
