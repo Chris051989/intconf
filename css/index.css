@@ -264,7 +264,7 @@ a:hover {
 
 	.projectName img {
 		padding-top: 5px;
-		width: 12% !important;
+		width: 7% !important;
 	}
 
 	#tls {
@@ -409,8 +409,16 @@ a:hover {
 	margin-left: 156px !important;
 	} 
 
+	.nav {
+		margin-top: -13px;
+	}
+
 	.navbar li {
 	margin-top: -54px;
+	}
+
+	.navbar-inverse .navbar-nav li a {
+		padding-left: 0px;
 	}
 
 	#actiontiles_container {
@@ -557,11 +565,13 @@ a:hover {
 
 }
 
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1400px) {
 
-	.nav {
-		margin-top: 53px;
+	.navbar li {
+		margin-top: 14px;
 	}
+
+	
 }
 
 /*media for large laptop screen*/
@@ -623,8 +633,12 @@ a:hover {
 		transition: all 0.8s ease;
 	}
 
+	.nav {
+		margin-top: 53px;
+	}
+
 	.navbar li {
-		margin-top: 0px;
+		margin-top: -53px;
 	}
 }
 
@@ -650,14 +664,15 @@ a:hover {
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; ;
 	float: right;
 	margin-top: 9px;
-	font-size: 15px;
+	font-size: 20px;
 	text-transform: uppercase;
 	text-align: left;
+	font-weight: bold;
 }
 
 .projectName img {
 	float: left;
-	width: 8%;
+	width: 7%;
 	margin-right: 4px;
 }
 
