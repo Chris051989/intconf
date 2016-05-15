@@ -51,7 +51,7 @@ h2 {
 	line-height: 1.42857143;
 	font-size: 18px;
 	font-weight: bold;
-	color: rgb(255, 102, 0);
+	color: #ff4d00;
 	text-decoration: none;
 	font-weight: 500;
 }
@@ -96,7 +96,7 @@ a {
 	line-height: 1.42857143;
 	font-size: 18px;
 	font-weight: bold;
-	color: rgb(255, 102, 0);
+	color: #ff4d00;
 	text-decoration: none;
 	padding-bottom: 8px;
 	font-weight: 500;
@@ -138,7 +138,7 @@ a:hover {
 	background-color: #d8d8d8;
 	position: fixed;
 	top: 0;
-	height: 60px;
+	height: 67px;
 }
 
 .navbar-inverse {
@@ -165,11 +165,11 @@ a:hover {
 }
 
 .navbar-inverse .navbar-nav li a:hover {
-    color: #ff6600;
+    color: #ff4d00;
 }
 
 .navbar-inverse .navbar-nav > .active > a {
-	color: #ff6600;
+	color: #ff4d00;
 	background-color: transparent;
 }
 
@@ -177,12 +177,12 @@ a:hover {
 .navbar-inverse .navbar-nav>.active>a:focus, 
 .navbar-inverse .navbar-nav>.active>a:hover {
 	background-color: transparent;
-	color: #ff6600;
+	color: #ff4d00;
 }
 
 #hello {
 	padding-top: 30px;
-	background-color: #EFEFEF;
+	background-color: #d8d8d8;
 	width: 100%;
 	padding-left: 155px;
 }
@@ -263,8 +263,7 @@ a:hover {
 	}
 
 	.projectName img {
-		padding-top: 5px;
-		width: 7% !important;
+		width: 12% !important;
 	}
 
 	#tls {
@@ -293,6 +292,18 @@ a:hover {
 /*media between mobile and laptop*/
 
 @media only screen and (min-width: 768px) {
+
+	#navbarlogo {
+		margin-left: -21px !important;
+	}
+
+	.nav {
+		margin-top: -6px;
+	}
+
+	.projectName img {
+		width: 13% !important;
+	}
 
 	#logo {
 		margin-left: 114px !important;
@@ -361,11 +372,15 @@ a:hover {
 	font-size: 1em;
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-color: grey;
+	background-color: #d8d8d8;
 }
 
 /*media for laptop screen*/ 
 @media (min-width: 992px) {
+
+	.projectName img {
+		width: 11% !important;
+	}
 
 	#logo {
 		margin-left: 180px !important;
@@ -505,6 +520,14 @@ a:hover {
 /*media for laptop screen*/
 @media only screen and (min-width: 1224px) {
 
+	#navbarlogo {
+		margin-left: 0px;
+	}
+
+	.projectName img {
+		width: 9% !important;
+	}
+
 	#logo {
 		margin-left: auto !important;
 	}
@@ -567,15 +590,23 @@ a:hover {
 
 @media only screen and (min-width: 1400px) {
 
-	.navbar li {
-		margin-top: 14px;
+	.projectName img {
+		width: 8% !important;
 	}
+
+	#navbarlogo {
+		margin-left: 24px !important;
+	}	
 
 	
 }
 
 /*media for large laptop screen*/
 @media only screen and (min-width: 1824px) {
+
+	.projectName img {
+		width: 6% !important;
+	}
 
 	#background {
 		padding-left: 0px !important;
@@ -633,9 +664,7 @@ a:hover {
 		transition: all 0.8s ease;
 	}
 
-	.nav {
-		margin-top: 53px;
-	}
+	
 
 	.navbar li {
 		margin-top: -53px;
@@ -683,6 +712,7 @@ a:hover {
 #navbarlogo {
 	height: auto;
 	margin-top: -16px;
+	margin-left: 47px;
 }
 
 #navbarlogo a {
