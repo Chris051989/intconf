@@ -454,7 +454,7 @@ a:hover {
 		-webkit-column-gap: 40px;*/
 		text-align: justify;
 		padding-top: 20px;
-		min-height: 400px;
+		min-height: 300px;
 	}
 
 	.tiles--image {
@@ -862,6 +862,52 @@ a:hover {
 }
 
 
+/*Speaker-------------------------------------------------------*/
+
+#speaker_container {
+	padding-top: 20px;
+	margin-bottom: 150px;
+}
+
+.speaker-image {
+	border: 1px solid #d8d8d8;
+}
+
+.speaker-image :hover {
+	opacity: 0.7;
+	transition: .5s ease;
+}
+
+.speaker-details {
+	border-top: 1px solid #d8d8d8;
+}
+
+.speaker-name p {
+	text-align: center;
+	font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; 
+	margin-top: 5px;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.42857143;
+	margin-top: 10px;
+}
+
+.speaker-title p {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	text-align: center;
+	font-size: 16px;
+	letter-spacing: -1px;
+}
+
+.speaker-company p {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	font-weight: bold;
+	text-align: center;
+	margin-top: -10px;
+	letter-spacing: -1px;
+	font-size: 16px;
+}
 /*3. FOOTER*------------------------------------
 ------------------------------*/
 
@@ -960,5 +1006,6 @@ background-color: #d8d8d8;
 		margin-top: 30px;
 		margin-right: 5px;		
 }
+
 
 /*footer ends here */
