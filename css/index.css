@@ -1,4 +1,4 @@
- /**
+a /**
  *  0. ELEMENT
  *    - 0.1. FONTS
  *    - 0.2. FORMS AND SHAPES
@@ -233,6 +233,21 @@ a:hover {
 
 #impressum p {
 	text-align: left;
+}
+
+#schedule_button {
+	background: #ff4d00;
+	color: white;
+	font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; 
+ 	font-size: 16px;
+ 	margin-top: 20px;
+ 	padding: 8px;
+ 	box-shadow: 0px 0px 5px black;
+ 	border-color: #d8d8d8;
+}
+
+.img-responsive {
+	margin: auto;
 }
 
 /* Media for mobile*/
@@ -499,13 +514,23 @@ a:hover {
 		padding-left: 34px; 
 	}	
 
+	img.center {
+	  	display: block;
+	  	margin-left: auto;
+	  	margin-right: auto;
+	}
+
+	#rollsroyce {
+		padding-left: 0px !important;
+		padding-right: 30px;
+	}
+
 	#partner_container {
 		padding-top: 40px;
 		height: 60vh;
 	}
 
 	#sponsors {
-		text-align: center;
 		margin-top: 45px;
 	}
 
@@ -870,42 +895,59 @@ a:hover {
 }
 
 .speaker-image {
-	border: 1px solid #d8d8d8;
+	 border: 1px solid #d8d8d8;
+	 height: 330px;
 }
 
-.speaker-image :hover {
+/*.speaker-image :hover {
 	opacity: 0.7;
 	transition: .5s ease;
-}
+}*/
 
-.speaker-details {
-	border-top: 1px solid #d8d8d8;
+.speaker-name {
+	margin-bottom: 10px;
+	letter-spacing: 0.01em;
 }
 
 .speaker-name p {
 	text-align: center;
-	font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; 
-	margin-top: 5px;
+	font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
 	text-transform: uppercase;
 	font-weight: 500;
-	font-size: 20px;
+	font-size: 14px;
+	line-height: 1.42857143;
+	margin-top: 20px;
+	margin-bottom: 21px;
+}
+
+#zweizeiler {
+	margin-bottom: 10px;
+	letter-spacing: 0.01em;
+}
+
+#zweizeiler p {
+	text-align: center;
+	font-family:font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	text-transform: uppercase;
+	font-size: 14px;
 	line-height: 1.42857143;
 	margin-top: 10px;
+	margin-bottom: 0px;
 }
 
 .speaker-title p {
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
 	text-align: center;
 	font-size: 16px;
+	font-weight: bold;
 	letter-spacing: -1px;
 }
 
 .speaker-company p {
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-	font-weight: bold;
 	text-align: center;
 	margin-top: -10px;
-	letter-spacing: -1px;
+	letter-spacing: -0.04em;
 	font-size: 16px;
 }
 /*3. FOOTER*------------------------------------
