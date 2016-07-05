@@ -110,6 +110,7 @@ a {
 #moreinfo a:link {
 	text-decoration: none;
 	color: rgb(255, 102, 0); 
+	font-weight: bold;
 }
 
 #moreinfo a:visited {
@@ -216,8 +217,10 @@ a:hover {
 	box-shadow: none;
 }
 
-#newsletter p {
+#newsletter a {
 	text-align: left;
+	color: #ff6600;
+	font-weight: bold;
 }
 
 #countdown {
@@ -475,7 +478,6 @@ a:hover {
 	.tiles--image {
 		height: 95vh;
 		background-size: cover;
-		opacity: 0.8;
 	} 
 
 	.tiles--text {
@@ -896,7 +898,7 @@ a:hover {
 
 .speaker-image {
 	 border: 1px solid #d8d8d8;
-	 height: 330px;
+	 height: 390px;
 }
 
 /*.speaker-image :hover {
@@ -906,7 +908,9 @@ a:hover {
 
 .speaker-name {
 	margin-bottom: 10px;
+	padding-bottom: 11px;
 	letter-spacing: 0.01em;
+	padding-top: 19px;
 }
 
 .speaker-name p {
@@ -920,9 +924,14 @@ a:hover {
 	margin-bottom: 21px;
 }
 
+#radermacher {
+	padding-bottom: 0px;
+	padding-top: 0px;
+}
+
 #zweizeiler {
-	margin-bottom: 10px;
-	letter-spacing: 0.01em;
+	padding-bottom: 23px;
+	padding-top: 19px;
 }
 
 #zweizeiler p {
@@ -980,6 +989,10 @@ footer {
   	color: black;
  	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; ;
  	font-size: 13px;
+}
+
+#acknowledgement {
+	padding-top: 2px;
 }
 
 #acknowledgement a {
