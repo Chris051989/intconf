@@ -1379,9 +1379,134 @@ button[id^=day]:nth-of-type(1) {
     border: 2px solid #ff4d00;
   }
 }
-.track__element .track__topic {
+.track__element .track__topic a {
   font-weight: 700;
+  font-color: black;
+  font-size: 12px;
+}
+/* Schedule Content END */
+
+/* Modals */
+.trackModals {
+	display: flex;
+	flex-direction: column;
+  align-items: center;
 }
 
+.modal__close {
+	width: 50px;
+	height: 50px;
+	border: 2px solid black;
+	background: none;
+	border-radius: 50%;
+	position: relative;
+	transform: rotate(0deg);
+	transition: transform .6s;
+	cursor: pointer;
+}
 
-/* Schedule Content END */
+.close-frame {
+	margin: 30px 0;
+}
+
+.modal__close:hover {
+	transform: rotate(180deg);
+	transition: transform .6s;
+}
+
+.modal__close:before {
+	content: '';
+	height: 20px;
+	width: 2px;
+	background: rgb(255, 77,0);
+	position: absolute;
+  left: calc(50% - 1px);
+  top: 50%;
+  transform: translateY(-50%) translateX(calc(-50% + 1px)) rotate(45deg);
+}
+
+.modal__close:after {
+	content: '';
+	height: 20px;
+	width: 2px;
+	background: rgb(255, 77,0);
+	position: absolute;
+  right: calc(50% - 1px);
+  top: 50%;
+	transform: translateY(-50%) translateX(calc(-50% + 1px)) rotate(-45deg);
+}
+
+.modal-content {
+	border: none;
+	box-shadow: none;
+	border-radius: 0;
+	margin-bottom: 15px;
+	background: none;
+}
+
+.modal-scroll {
+	overflow-y: scroll;
+}
+
+@media(min-width: 992px) {
+	.modal-scroll {
+		width: 70%;
+	}
+}
+
+.modal__track {
+	color: rgb(255, 77,0);
+	font-size: 16px;
+	font-weight: 400;
+	margin: 20px;
+}
+
+@media(min-width: 992px){
+	.modal-content__box {
+		width: 100%;
+		padding: 20px;
+		background: white;
+	}
+}
+
+.modal-content__box__inner {
+	width: 100%;
+	padding: 20px;
+	background: white;
+}
+
+@media(min-width: 992px){
+	.modal-content__box__inner {
+		border: 2px solid rgb(255, 77,0);
+	}
+}
+
+.modal__title {
+	color: rgb(255, 77,0);
+	font-weight: 600;
+	margin-bottom: 15px;
+}
+
+.modal__author {
+	display: flex;
+	align-items: center;
+}
+
+.modal__image {
+	width: 75px;
+	height: 75px;
+	margin-right: 25px;
+	border-radius: 50%;
+	overflow: hidden;
+	flex: none;
+}
+
+.modal__image img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+.modal__desc {
+	margin-top: 15px;
+}

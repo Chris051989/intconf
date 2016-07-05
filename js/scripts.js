@@ -42,6 +42,9 @@ $(document).ready(function() {
                      '-o-transform' : 'translate3d(0, 0, 0)'
                     });
       }
+      $('html, body').animate({
+          scrollTop: $('[id^="expand"]').offset().top
+      }, 500);
     }
   });
 });

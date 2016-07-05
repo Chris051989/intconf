@@ -12,6 +12,9 @@
     <!-- latest compiled and minified Bootstrap CSS -->
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 
+    <!-- animate.css -->
+    <link rel="stylesheet" href="http://s.mlcdn.co/animate.css">
+
     <!--Embed CSS-->
     <link href="css/index.css" rel="stylesheet">
 
@@ -595,8 +598,13 @@
           </div>
           <div class="timetable__track track--trackONE">
             <div class="track__header"><div>11.15 - 12.00</div></div>
+            
             <div class="track__element">
-              <div class="track__topic">Success in Global Markets through Chinese-German Cooperation</div>
+              <div class="track__topic">
+                <a id="nbs_track" href="#nbsModal">
+                    Success in Global Markets through Chinese-German Cooperation
+                </a>
+              </div>
               <div class="track__speaker">Miriam Fritz</div>
             </div>
             <div class="track__element">
@@ -766,6 +774,98 @@
         <p>&copy; 2016 Zeppelin Universität | Leadership Excellence Institute Zeppelin</p>
     </div>
 </footer>
+
+
+<!-- animatedModal.js -->
+<script src="js/animatedModal.min.js"></script>
+<div id="nbsModal" class="trackModals">
+    <div class="close-frame">
+       <div class="close-nbsModal modal__close">
+       </div> 
+    </div>
+    
+    <div class="modal-scroll">
+        <div class="modal-content">
+            <div class="modal__track">
+               Track I - New Business Strategies 
+            </div>
+            <div class="modal-content__box">
+               <div class="modal-content__box__inner">
+                   <div class="modal__time">
+                       10.15 - 11.00
+                   </div>
+                   <div class="modal__title">
+                       Restructuring Business: Close Shop or turn it around?
+                   </div>
+                   <div class="modal__author">
+                       <div class="modal__image">
+                           <img src="img/speaker/Stucken.JPG">
+                       </div>
+                       <div class="modal__author__desc">
+                           Dr. Bernd-Uwe Stucken - Consultant, Pinsent Masons
+                       </div>
+                   </div>
+                   <div class="modal__desc">
+                       Due to a soon outdated growth model and a massive
+                       debt load since the 2008 financial crisis only
+                       limited resources to stimulate the economy with
+                       further cash injections are left. Foreign invested
+                       enterprises in China (FIEs) are no exception to
+                       the risks of increasing costs, tight liquidity and
+                       fierce competition. Although a growing number
+                       of investors is considering to give up their operations,
+                       China still remains an attractive market for
+                       most. We will discuss proven approaches which
+                       have produced positive results in China.
+                   </div>
+               </div> 
+            </div>
+        </div>
+        <div class="modal-content">
+            <div class="modal-content__box">
+               <div class="modal-content__box__inner">
+                   <div class="modal__time">
+                       11.15 - 12.00
+                   </div>
+                   <div class="modal__title">
+                       Success in Global Markets through Chinese-German Cooperation
+                   </div>
+                   <div class="modal__author">
+                       <div class="modal__image">
+                           <img src="img/speaker/MiriamFritz_BernersConsulting.jpg" alt="...">
+                       </div>
+                       <div class="modal__author__desc">
+                           Miriam Fritz - Senior-Consultant China, Berners Consulting
+                       </div>
+                   </div>
+                   <div class="modal__desc">
+                       What does the Chinese “New Normal” mean
+                        for Chinese-German partnerships? In order to
+                        illustrate the practical specialties of Chinese-German
+                        JV- and M&A-cooperation; several case
+                        studies from recent years will be presented,
+                        taking both the German and the Chinese
+                        perspective. Cultural differences and similarities
+                        will be discussed, with an emphasis on familyenterprises
+                        and SMEs.
+                   </div>
+               </div> 
+            </div>
+        </div> <!-- modal scroll END -->
+
+    </div>
+
+
+</div>
+
+<script>
+  $("#nbs_track").animatedModal({
+    'modalTarget': 'nbsModal',
+    'color': '#d8d8d8',
+    'overflow': 'hidden'
+  });
+</script>
+
 
 </body>
 </html>
