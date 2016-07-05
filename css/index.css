@@ -338,6 +338,20 @@ a:hover {
 		margin-top: 21px !important;
 	}
 
+	#registernow {
+		position: absolute;
+		width: 100%;
+		top: 0;
+		left: 0;
+		z-index: 1;
+		background-image: url("../img/logo_register.png");
+		margin-left: 80px !important;
+		margin-top: 80px !important;
+		background-size: 30% !important;
+		background-repeat: no-repeat;
+		height: 156px;
+	}
+
 	#location {
 		background-size: 13% !important;
 		margin-top: 258px !important;
@@ -430,6 +444,12 @@ a:hover {
 	height: 40% !important;
 	}
 
+	#registernow {
+		margin-left: 103px !important;
+		margin-top: 104px !important;
+		background-size: 31% !important;
+	}
+
 	#location {
 	margin-top: 347px !important;
 	margin-left: 156px !important;
@@ -490,7 +510,7 @@ a:hover {
 	}
 
 	#schedule_container {
-		width: 100%;
+	width: 100%;
 	  margin-right: 0;
 	  margin-left: 0;
 	  padding-bottom: -300px;
@@ -524,12 +544,12 @@ a:hover {
 
 	#rollsroyce {
 		padding-left: 0px !important;
-		padding-right: 30px;
+		padding-right: 26px;
 	}
 
 	#partner_container {
 		padding-top: 40px;
-		height: 60vh;
+		height: 50vh;
 	}
 
 	#sponsors {
@@ -589,6 +609,19 @@ a:hover {
 		transition: all 0.8s ease;
 	}
 
+	#registernow {
+		position: absolute;
+		width: 100%;
+		top: 0;
+		left: 0;
+		z-index: 1;
+		background-image: url("../img/logo_register.png");
+		margin-left: 120px !important;
+		margin-top: 126px !important;
+		background-size: 29% !important;
+		background-repeat: no-repeat;
+		height: 156px;
+	}
 
 	#location {
 		margin-top: 409px !important;
@@ -625,6 +658,9 @@ a:hover {
 		margin-left: 24px !important;
 	}	
 
+	#registernow {
+		background-size: 25% !important;
+	}
 	
 }
 
@@ -677,6 +713,11 @@ a:hover {
 		transition: all 0.8s ease;
 	}
 
+	#registernow {
+		background-size: 18% !important;
+		margin-left: 297px !important;
+	}
+
 	#location {
 		background-size: 10% !important;
 		margin-top: 400px !important;
@@ -690,8 +731,6 @@ a:hover {
 		margin-left: 336px !important;
 		transition: all 0.8s ease;
 	}
-
-	
 
 	.navbar li {
 		margin-top: -53px;
