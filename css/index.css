@@ -1490,6 +1490,11 @@ button[id^=day]:nth-of-type(1) {
 .modal__author {
 	display: flex;
 	align-items: center;
+	margin-top: 15px;
+}
+
+.modal__author:first-of-type{
+	margin-top: 0;
 }
 
 .modal__image {
@@ -1499,6 +1504,8 @@ button[id^=day]:nth-of-type(1) {
 	border-radius: 50%;
 	overflow: hidden;
 	flex: none;
+	background: url(../img/speaker/unknown.png) center no-repeat;
+	background-size: cover;
 }
 
 .modal__image img {
