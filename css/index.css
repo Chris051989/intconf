@@ -141,6 +141,11 @@ a:hover {
 	top: 0;
 	height: 67px;
 }
+@media (min-width: 768px){
+	.navbar {
+		height: auto;
+	}
+}
 
 .navbar-inverse {
 	border-color: transparent;
