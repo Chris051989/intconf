@@ -429,6 +429,7 @@ ul.navbar-nav {
 	#tls p {
 		font-size: 37px !important;
 		font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+		color: rgb(255, 102, 0)!important;
 	}
 
 	#about_header {
@@ -619,7 +620,7 @@ ul.navbar-nav {
 	}
 
 	#schedule_container {
-	width: 100%;
+		width: 100%;
 	  margin-right: 0;
 	  margin-left: 0;
 	  padding-bottom: -300px;
@@ -850,7 +851,6 @@ ul.navbar-nav {
 #tls p {
 	color: grey;
 	font-size: 52px;
-	font: "Source Code Pro"
 	text-decoration: none;
 	text-align: center;
 	line-height: 135%;
