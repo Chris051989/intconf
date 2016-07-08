@@ -130,10 +130,6 @@ a:hover {
 	text-decoration: none;
 	color: rgb(255, 102, 0);
 }
-
-
-
-
 /*FONTS ends here*/
 
 
@@ -440,7 +436,6 @@ ul.navbar-nav {
 	#divider {
 		height: 0px !important;
 	}
-
 }
 
 /*media between mobile and laptop*/
@@ -486,15 +481,6 @@ ul.navbar-nav {
 		margin-left: 254px !important;
 		margin-top: 144px !important;
 	}
-
-	/* .navbar li {
-		margin-top: -54px;
-	}
-
-	.nav {
-		padding-right: 0px !important;
-	} */
-
 }
 
 /*2. TEAM Page--------------------------- */
@@ -511,7 +497,6 @@ ul.navbar-nav {
 .thumbnail {
 	border-color: white;
 }
-
 
 #divider {
 	background-image: url("../img/versuch.png");
@@ -532,11 +517,6 @@ ul.navbar-nav {
 
 /*media for laptop screen*/ 
 @media (min-width: 992px) {
-
-	.projectName img {
-		/* width: 11% !important; */
-	}
-
 	#logo {
 		margin-left: 180px !important;
 	}
@@ -667,25 +647,14 @@ ul.navbar-nav {
 		margin-top: 45px;
 	}
 
-
 	.footer--row {
 	    width: 82%;
 	    margin: 0 auto;
 	}
-
 }
 
 /*media for laptop screen*/
 @media only screen and (min-width: 1224px) {
-
-	#navbarlogo {
-		/* margin-left: 0px; */
-	}
-
-	.projectName img {
-		/* width: 9% !important; */
-	}
-
 	#logo {
 		margin-left: auto !important;
 	}
@@ -747,7 +716,6 @@ ul.navbar-nav {
 		transition: all 0.8s ease;
 	}
 
-
 	#about_header {
 		padding-top: 40px;
 	}
@@ -758,7 +726,6 @@ ul.navbar-nav {
 	#registernow {
 		background-size: 25% !important;
 	}
-	
 }
 
 /*media for large laptop screen*/
@@ -929,7 +896,6 @@ ul.navbar-nav {
 	margin-left: 220px;
 	margin-top: 415px;
 	transition: all 0.8s ease;
-
 }
 
 #schedule {
@@ -1203,8 +1169,6 @@ background-color: #d8d8d8;
 	text-align: center;
 }
 
-
-
 .twitter{
 	margin-top: 20px;
 	margin-left: 5px;
@@ -1265,6 +1229,7 @@ button[id^=day]:nth-of-type(1) {
   display: flex;
   background: #d8d8d8;
 }
+
 .expand:before {
   content: '';
   position: absolute;
@@ -1274,6 +1239,7 @@ button[id^=day]:nth-of-type(1) {
   height: 1px;
   box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.3);
 }
+
 .expand:after {
   content: '';
   position: absolute;
@@ -1304,6 +1270,7 @@ button[id^=day]:nth-of-type(1) {
   -ms-backface-visibility: hidden;
   backface-visibility: hidden;
 }
+
 .schedule.active {
   transform: scale(0, 1, 0);
   -webkit-transform: translate3d(0, 1, 0);
@@ -1333,7 +1300,6 @@ button[id^=day]:nth-of-type(1) {
 }
 
 .dates {
-  /* font-family: 'OpenSans'; */
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-size: 12px;
   margin: 100px 0;
