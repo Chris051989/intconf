@@ -43,7 +43,15 @@ li {
  	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
  	font-size: 16px;
  	line-height: 1.42857143;
- 	text-align: justify;
+ 	text-align: left;
+ }
+
+ @media(min-width: 768px) {
+ 	p,
+ 	a,
+ 	li {
+ 		text-align: justify;
+ 	}
  }
 
 h2 {
@@ -64,7 +72,7 @@ h3 {
 	color: black;
 	text-decoration: none;
 	color: grey;
-	padding-left: 15px;
+	/* padding-left: 15px; */
 }
 
 h4 {
@@ -103,8 +111,8 @@ a {
 }
 
 #moreinfo {
-	margin-top: 20px;
-	padding-left: 0px;
+	margin: 0;
+	padding: 0;
 }
 
 #moreinfo a:link {
@@ -138,31 +146,86 @@ a:hover {
 .navbar {
 	background-color: #d8d8d8;
 	position: fixed;
-	top: 0;
-	height: 67px;
+	display: flex;
 }
-@media (min-width: 768px){
-	.navbar {
-		height: auto;
+
+.navbar>.container-fluid {
+	width: 100%;
+}
+
+@media(min-width: 768px){
+	.navbar>.container-fluid {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
 	}
 }
 
-.navbar-inverse {
-	border-color: transparent;
+.navbar-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 0;
+}
+
+@media(min-width: 768px){
+	.navbar-header {
+		flex: 1;
+	}
+}
+
+.container-fluid>.navbar-header {
+	margin: 0;
+}
+
+.navbar-inverse .navbar-nav a {
+	text-align: center;
+}
+
+ul.navbar-nav {
+	padding: 20px 0;
+}
+
+@media(min-width: 768px){
+	ul.navbar-nav {
+		padding: 10px 0;
+	}
+}
+
+.projectName {
+	flex: 1;
+	order: -1;
+	margin: 10px 0;
+	display: flex;
+	justify-content: flex-start;
+}
+
+@media(min-width: 768px){
+	.projectName {
+		padding-left: 15px;
+	}
+}
+
+.projectName a {
+	padding: 0;
+}
+
+.projectName a img {
+	width: 80px;
+}
+
+.navbar-toggle {
+	height: 42px;
 }
 	
-.navbar li {
-	padding-top: 10px;
-	letter-spacing: 0.05em;
-	transition: color 900ms;
-	font-size: 1.5em;
+.navbar-inverse {
+	border: none;
 	}
 
 .navbar li a {
 	text-transform: lowercase;
 	letter-spacing: 0.05em;
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-	padding-top: 10px;
 	font-size: 19px;
 	}
 
@@ -187,17 +250,57 @@ a:hover {
 }
 
 #hello {
-	padding-top: 30px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 	background-color: #d8d8d8;
 	width: 100%;
-	
+	display: flex;
+	justify-content: center;
 }
 
-@media(min-width: 768px){
-	#hello {
-		padding-left: 155px;
+#hello>.row {
+	display: flex;
+	flex-direction: column;
+}
+
+@media(min-width: 992px) {
+	#hello>.row {
+		flex-direction: row;
+		width: 90%;
 	}
 }
+
+#hello>.row>div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+@media(min-width: 992px) {
+	#hello>.row>div {
+		justify-content: center;
+		/* if Items should be aligned left on larger screens */
+		/* align-items: flex-start; */
+	}
+}
+
+#hello>.row>div>p,
+#hello>.row>div>#moreinfo {
+	text-align: center;
+}
+
+#hello>.row>div>#moreinfo {
+	width: auto;
+}
+
+/* if Items should be aligned left on larger screens */
+/* @media(min-width: 992px) {
+	#hello>.row>div>p,
+	#hello>.row>div>#moreinfo {
+		text-align: left;
+	}
+} */
 
 .learn-more {
 	text-align: left;
@@ -300,7 +403,7 @@ a:hover {
 @media only screen and (max-width: 766px) {
 
 	#background {
-		visibility: hidden;
+		display: none;
 		margin-bottom: -500px;
 	}
 
@@ -316,20 +419,9 @@ a:hover {
 		color: #d8d8d8;!important;
 	}
 
-	.projectName a {
-		margin-top: -29px !important;
-		margin-left: -40px;	
-		text-transform: uppercase;
-		font-size: 13px !important;
-	}
-
-	.projectName img {
-		width: 12% !important;
-	}
-
 	#tls {
 		margin-top: 0px !important;
-		margin-bottom: 40px;
+		/* margin-bottom: 40px; */
 		background-image: url("../img/background.png");
 		background-size: cover;
 	}
@@ -349,23 +441,9 @@ a:hover {
 
 }
 
-
 /*media between mobile and laptop*/
 
 @media only screen and (min-width: 768px) {
-
-	#navbarlogo {
-		margin-left: -21px !important;
-	}
-
-	.nav {
-		margin-top: -6px;
-	}
-
-	.projectName img {
-		width: 13% !important;
-	}
-
 	#logo {
 		margin-left: 114px !important;
 		margin-top: 255px !important;	
@@ -407,13 +485,13 @@ a:hover {
 		margin-top: 144px !important;
 	}
 
-	.navbar li {
+	/* .navbar li {
 		margin-top: -54px;
 	}
 
 	.nav {
 		padding-right: 0px !important;
-	}
+	} */
 
 }
 
@@ -454,7 +532,7 @@ a:hover {
 @media (min-width: 992px) {
 
 	.projectName img {
-		width: 11% !important;
+		/* width: 11% !important; */
 	}
 
 	#logo {
@@ -504,18 +582,6 @@ a:hover {
 	margin-top: 355px !important;
 	margin-left: 156px !important;
 	} 
-
-	.nav {
-		margin-top: -13px;
-	}
-
-	.navbar li {
-	margin-top: -54px;
-	}
-
-	.navbar-inverse .navbar-nav li a {
-		padding-left: 0px;
-	}
 
 	#actiontiles_container {
 		margin-bottom: 120px;
@@ -611,11 +677,11 @@ a:hover {
 @media only screen and (min-width: 1224px) {
 
 	#navbarlogo {
-		margin-left: 0px;
+		/* margin-left: 0px; */
 	}
 
 	.projectName img {
-		width: 9% !important;
+		/* width: 9% !important; */
 	}
 
 	#logo {
@@ -683,23 +749,9 @@ a:hover {
 	#about_header {
 		padding-top: 40px;
 	}
-
-
-	.nav {
-		margin-top: -13px;
-	}
-
 }
 
 @media only screen and (min-width: 1400px) {
-
-	.projectName img {
-		width: 8% !important;
-	}
-
-	#navbarlogo {
-		margin-left: 24px !important;
-	}	
 
 	#registernow {
 		background-size: 25% !important;
@@ -709,10 +761,6 @@ a:hover {
 
 /*media for large laptop screen*/
 @media only screen and (min-width: 1824px) {
-
-	.projectName img {
-		width: 6% !important;
-	}
 
 	#background {
 		padding-left: 0px !important;
@@ -774,60 +822,7 @@ a:hover {
 		margin-left: 336px !important;
 		transition: all 0.8s ease;
 	}
-
-	.navbar li {
-		margin-top: -53px;
-	}
 }
-
-
-/*media only*/
-
-.nav {
-	float: right;
-	padding-right: 100px;
-	padding-top: 0px;
-	color: #ff6600;
-}
-
-.projectName {
-	font-size: 16px;
-	padding-top: 10px;
-	font-size: 2em;
-	padding-left: 52px;
-}
-
-.projectName a {
-	color: black;
-	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; ;
-	float: right;
-	margin-top: 9px;
-	font-size: 20px;
-	text-transform: uppercase;
-	text-align: left;
-	font-weight: bold;
-}
-
-.projectName img {
-	float: left;
-	width: 7%;
-	margin-right: 4px;
-}
-
-.proj-title {
-    font-weight:100;
-}
-
-#navbarlogo {
-	height: auto;
-	margin-top: -16px;
-	margin-left: 47px;
-}
-
-#navbarlogo a {
-	vertical-align: middle;
-}
-
 
 /*Logo starts here*/
 #tls {
@@ -837,6 +832,13 @@ a:hover {
 	margin-top: 40px;
 	float: left;
 	opacity: 1;
+	min-height: 500px;
+}
+
+@media(min-width: 768px){
+	#tls {
+		min-height: auto;
+	}
 }
 
 #opacity {
