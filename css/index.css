@@ -299,6 +299,29 @@ ul.navbar-nav {
 	}
 } */
 
+#moreinfo>button {
+	background: rgb(240, 117, 40);
+  box-shadow: 1px 1px 1px grey;
+  border: none;
+  border-radius: 2px;
+  margin: 20px 0 30px;
+}
+
+@media(min-width: 992px) {
+	#moreinfo>button {
+	  margin: 20px 0 0;
+	}
+}
+
+
+
+#moreinfo>button>a:link,
+#moreinfo>button>a:visited {
+	color: black;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
 .learn-more {
 	text-align: left;
 	float: left;
@@ -334,7 +357,8 @@ ul.navbar-nav {
 	font-weight: bold;
 }
 
-#countdown {
+#countdown p {
+	margin-bottom: 0;
 }
 
 #cntdwn {
