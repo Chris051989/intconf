@@ -249,6 +249,7 @@ ul.navbar-nav {
 #hello {
 	padding-top: 50px;
 	padding-bottom: 50px;
+	padding-left: 70px;
 	background-color: #d8d8d8;
 	width: 100%;
 	display: flex;
@@ -270,7 +271,7 @@ ul.navbar-nav {
 #hello>.row>div {
 	display: flex;
 	flex-direction: column;
-	align-items: center;
+	align-items: flex-start;
 }
 
 
@@ -284,7 +285,7 @@ ul.navbar-nav {
 
 #hello>.row>div>p,
 #hello>.row>div>#moreinfo {
-	text-align: center;
+	text-align: left;
 }
 
 #hello>.row>div>#moreinfo {
@@ -317,7 +318,7 @@ ul.navbar-nav {
 
 #moreinfo>button>a:link,
 #moreinfo>button>a:visited {
-	color: black;
+	color: white;
 	font-size: 14px;
 	text-transform: uppercase;
 }
@@ -1239,8 +1240,10 @@ button[id^=day] {
   outline: none;
   border: none;
   font-size: 30px;
-  color: grey;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  color: #ff4d00;
   margin-left: 3px;
+  margin-top: 25px;
 }
 button[id^=day]:nth-of-type(1) {
   margin-left: 0;
