@@ -1225,7 +1225,7 @@ button[id^=day] {
   outline: none;
   border: none;
   font-size: 30px;
-  color: grey;
+  color: #ff4d00;
   margin-left: 3px;
 }
 button[id^=day]:nth-of-type(1) {
