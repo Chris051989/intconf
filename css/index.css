@@ -1226,6 +1226,7 @@ button[id^=day] {
   border: none;
   font-size: 30px;
   color: #ff4d00;
+  font-family: font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   margin-left: 3px;
 }
 button[id^=day]:nth-of-type(1) {
