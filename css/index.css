@@ -725,9 +725,9 @@ ul.navbar-nav {
 		left: 0;
 		z-index: 1;
 		background-image: url("../img/logo_register.png");
-		margin-left: 120px !important;
-		margin-top: 126px !important;
-		background-size: 29% !important;
+		margin-left: 125px !important;
+		margin-top: 135px !important;
+		background-size: 25% !important;
 		background-repeat: no-repeat;
 		height: 156px;
 	}
@@ -753,7 +753,7 @@ ul.navbar-nav {
 @media only screen and (min-width: 1400px) {
 
 	#registernow {
-		background-size: 25% !important;
+		background-size: 22% !important;
 	}
 }
 
