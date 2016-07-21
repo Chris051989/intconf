@@ -113,6 +113,7 @@ a {
 #moreinfo {
 	margin: 0;
 	padding: 0;
+	z-index: 9999;
 }
 
 #moreinfo a:link {
@@ -490,7 +491,7 @@ ul.navbar-nav {
 		width: 100%;
 		top: 0;
 		left: 0;
-		z-index: 1;
+		z-index: 9999;
 		background-image: url("../img/logo_register.png");
 		margin-left: 80px !important;
 		margin-top: 80px !important;
