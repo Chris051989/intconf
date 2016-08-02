@@ -110,12 +110,14 @@ a {
 	font-weight: 500;
 }
 
-#moreinfo {
+#moreinfo.btn.btn-default {
 	margin: 0;
-	padding: 0;
 	position: relative;
 	z-index: 9999;
-}
+	color: white;
+	font-weight: bold;
+	text-transform: uppercase;
+	}
 
 #moreinfo a:link {
 	text-decoration: none;
@@ -306,7 +308,7 @@ ul.navbar-nav {
 	}
 } */
 
-#moreinfo>button {
+#moreinfo.btn.btn-default {
 	background: rgb(240, 117, 40);
   box-shadow: 1px 1px 1px grey;
   border: none;
@@ -315,14 +317,14 @@ ul.navbar-nav {
 }
 
 @media(min-width: 992px) {
-	#moreinfo>button {
-	  margin: 20px 0 0;
+	#moreinfo.btn.btn-default {
+	  margin: 20px -15px 0;
 	}
 }
 
 
 
-#moreinfo>button>a:link,
+#moreinfo.btn.btn-default a:link,
 #moreinfo>button>a:visited {
 	color: white;
 	font-size: 14px;
