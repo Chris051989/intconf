@@ -599,8 +599,8 @@ ul.navbar-nav {
 	} 
 
 	#actiontiles_container {
-		margin-bottom: 120px;
-		padding-top: 40px;
+		margin-bottom: 145px;
+		padding-top: 60px;
 	}
 
 	#actiontiles_container p {
@@ -631,6 +631,10 @@ ul.navbar-nav {
 		padding-right: 100px;
 		text-align: justify;
 		padding-top: 120px;
+	}
+
+	#meet_container {
+		margin-bottom: 100px;
 	}
 
 	#schedule_container {
