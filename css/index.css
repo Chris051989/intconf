@@ -412,13 +412,16 @@ ul.navbar-nav {
 #partner_container .container a img {
 	max-width: calc(100% - 40px);
 	height: auto;
-	max-height: 70px;
 	margin: 20px;
 }
 
 #sponsors {
 	display: flex;
 	justify-content: center;
+}
+
+#downloads_container {
+	margin-top: 50px;
 }
 
 .footer--row {
@@ -678,6 +681,15 @@ ul.navbar-nav {
 	#partner_container {
 		padding-top: 40px;
 		min-height: 300px;
+	}
+
+	#zu {
+		max-height: 70px;
+	}
+
+	#tc {
+		max-height: 80px;
+		border: 2px solid black;
 	}
 
 	#sponsors {
