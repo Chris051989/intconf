@@ -323,7 +323,6 @@ ul.navbar-nav {
 }
 
 
-
 #moreinfo.btn.btn-default a:link,
 #moreinfo>button>a:visited {
 	color: white;
@@ -499,9 +498,9 @@ ul.navbar-nav {
 		left: 0;
 		z-index: 9999;
 		background-image: url("../img/logo_register.png");
-		margin-left: 80px !important;
-		margin-top: 80px !important;
-		background-size: 30% !important;
+		margin-left: 80px;
+		margin-top: 80px;
+		background-size: 30%;
 		background-repeat: no-repeat;
 		height: 156px;
 	}
@@ -586,7 +585,8 @@ ul.navbar-nav {
 	#registernow {
 		margin-left: 103px !important;
 		margin-top: 104px !important;
-		background-size: 31% !important;
+		background-size: 92% !important;
+		width: 150px !important;
 	}
 
 	#location {
@@ -689,7 +689,6 @@ ul.navbar-nav {
 
 	#tc {
 		max-height: 80px;
-		border: 2px solid black;
 	}
 
 	#sponsors {
@@ -739,17 +738,11 @@ ul.navbar-nav {
 	}
 
 	#registernow {
-		position: absolute;
-		width: 100%;
-		top: 0;
-		left: 0;
-		z-index: 1;
-		background-image: url("../img/logo_register.png");
-		margin-left: 125px !important;
-		margin-top: 135px !important;
-		background-size: 25% !important;
-		background-repeat: no-repeat;
-		height: 156px;
+		background-size: 88% !important;
+		width: 196px !important;
+		height: 178px; 
+		margin-top: 120px !important;
+		margin-left: 116px !important;
 	}
 
 	#location {
@@ -772,9 +765,9 @@ ul.navbar-nav {
 
 @media only screen and (min-width: 1400px) {
 
-	#registernow {
+	/*#registernow {
 		background-size: 22% !important;
-	}
+	}*/
 }
 
 /*media for large laptop screen*/
@@ -822,10 +815,10 @@ ul.navbar-nav {
 		transition: all 0.8s ease;
 	}
 
-	#registernow {
+	/*#registernow {
 		background-size: 18% !important;
 		margin-left: 297px !important;
-	}
+	}*/
 
 	#location {
 		background-size: 10% !important;
@@ -965,6 +958,11 @@ ul.navbar-nav {
 	transition: all 0.8s ease;
 }
 
+#registernow {
+	position: absolute;
+	width: 115px;
+	background-size: 87%;
+}
 
 /*About page starts here */
 
