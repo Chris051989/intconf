@@ -1469,7 +1469,7 @@ button[id^=day]:nth-of-type(1) {
 
 .timetable {
   display: flex;
-  height: calc(5 * 220px + 5 * 10px + 40px);
+  height: calc(4 * 220px + 4 * 10px + 40px);
   position: relative;
   align-items: center;
   width: 100%;
@@ -1488,7 +1488,7 @@ button[id^=day]:nth-of-type(1) {
 
 .timetable__vert {
   background: white;
-  height: calc(5 * 220px + 4 * 10px);
+  height: calc(4 * 220px + 3 * 10px);
   margin: 50px 12px 0;
   width: 30px;
   display: flex;
@@ -1514,7 +1514,7 @@ button[id^=day]:nth-of-type(1) {
   .timetable__vert div {
     transform: none;
     height: 50px;
-    width: 18.5%;
+    width: 22.5%;
   }
 }
 
@@ -1561,7 +1561,7 @@ button[id^=day]:nth-of-type(1) {
 .timetable__track {
   display: flex;
   flex-direction: column;
-  height: calc(5 * 220px + 5 * 10px + 40px);
+  height: calc(4 * 220px + 4 * 10px + 40px);
   justify-content: space-between;
   width: calc(50% - 50px);
 }
@@ -1600,7 +1600,7 @@ button[id^=day]:nth-of-type(1) {
 }
 @media (min-width: 768px) {
   .track__element {
-    width: 18.5%;
+    width: 22.5%;
     border: 2px solid #ff4d00;
   }
 }
