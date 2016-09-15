@@ -406,10 +406,12 @@ ul.navbar-nav {
 	flex-wrap: wrap;
 	padding: 0;
 	width: 100%;
+	align-items: center;
 }
 
 #partner_container .container a img {
 	max-width: calc(100% - 40px);
+	max-width: 230px;
 	height: auto;
 	margin: 20px;
 }
@@ -417,6 +419,40 @@ ul.navbar-nav {
 #sponsors {
 	display: flex;
 	justify-content: center;
+}
+
+.sponsor--container {
+	margin-top: 50px;
+	margin-bottom:  50px;
+	width: 100%;
+	position: relative;
+	height: 350px;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: rgba(216, 216, 216, 0.6);
+}
+
+.sponsor--container:before {
+	content: "";
+	background: url('../img/background.png') no-repeat center;
+	background-size: cover;
+	position: absolute;
+	height: 100%;
+	width:  100%;
+	z-index: -1;
+}
+
+.main-sponsor {
+	background:  rgba(255, 255, 255, 0.6);
+	padding: 20px;
+}
+
+.main-sponsor p {
+	text-align: center;
+	text-transform: lowercase;
+	color: black;
 }
 
 #downloads_container {
@@ -675,7 +711,9 @@ ul.navbar-nav {
 
 	#rollsroyce {
 		padding-left: 0px !important;
-		padding-right: 26px;
+		/* padding-right: 26px; */
+		width:  250px;
+		height: auto;
 	}
 
 	#partner_container {
@@ -692,7 +730,7 @@ ul.navbar-nav {
 	}
 
 	#sponsors {
-		margin-top: 45px;
+		margin-top: 0px;
 	}
 
 	.footer--row {
