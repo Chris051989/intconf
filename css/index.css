@@ -583,10 +583,9 @@ ul.navbar-nav {
 }
 
 #divider {
-	background-image: url("../img/versuch.png");
+	background: url("../img/versuch.png") no-repeat center;
 	opacity: 0.6;
 	background-attachment: fixed;
-	background-size: cover;
 	color: white;
 	padding-top: 50px;
 	margin-right: 0px;
@@ -595,7 +594,6 @@ ul.navbar-nav {
 	height: 220px;
 	font-size: 1em;
 	background-size: cover;
-	background-repeat: no-repeat;
 	background-color: #d8d8d8;
 }
 
@@ -1178,7 +1176,7 @@ ul.navbar-nav {
 footer {
   background-color: #d8d8d8;
   margin-top: 50px;
-  padding-top: 29px;
+  padding-top: 50px;
  }
 
  footer p {
