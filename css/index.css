@@ -687,6 +687,10 @@ ul.navbar-nav {
 		margin-bottom: 100px;
 	}
 
+	#meet_container img {
+		width: 100%;
+	}
+
 	#schedule_container {
 		width: 100%;
 	  margin-right: 0;
