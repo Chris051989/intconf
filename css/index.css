@@ -1253,7 +1253,7 @@ footer {
 	justify-content: center;
 }
 
-._51m-._51mw {
+._51mz {
 	display: flex;
 	justify-content: center;
 }
@@ -1266,7 +1266,7 @@ footer {
 }
 
 @media(min-width: 768px) {
-	._51m-._51mw {
+	._51mz {
 		display: flex;
 		justify-content: flex-start;
 	}
