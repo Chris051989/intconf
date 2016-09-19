@@ -1249,14 +1249,14 @@ footer {
 }
 
 #twitter,
-._51m- ._51mw {
+._51m-._51mw {
 	display: flex;
 	justify-content: center;
 }
 
 @media(min-width: 768px) {
 	#twitter,
-	._51m- ._51mw {
+	._51m-._51mw {
 		display: flex;
 		justify-content: flex-start;
 	}
