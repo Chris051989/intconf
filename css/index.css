@@ -1248,14 +1248,24 @@ footer {
 	}
 }
 
-#twitter,
+#twitter {
+	display: flex;
+	justify-content: center;
+}
+
 ._51m-._51mw {
 	display: flex;
 	justify-content: center;
 }
 
 @media(min-width: 768px) {
-	#twitter,
+	#twitter {
+		display: flex;
+		justify-content: flex-start;
+	}
+}
+
+@media(min-width: 768px) {
 	._51m-._51mw {
 		display: flex;
 		justify-content: flex-start;
