@@ -1236,9 +1236,13 @@ footer {
 
 #twitter {
 	margin-top: -30px;
-	float: right;
 } 
 
+@media(min-width: 768px) {
+	#twitter {
+		float:  right;
+	}
+}
 
 .zu-logo {
   background: url(../img/zu_logo_white.png) no-repeat center;
