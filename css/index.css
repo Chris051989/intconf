@@ -253,7 +253,6 @@ ul.navbar-nav {
 #hello {
 	padding-top: 50px;
 	padding-bottom: 50px;
-	padding: 30px;
 	background-color: #d8d8d8;
 	width: 100%;
 	display: flex;
@@ -266,10 +265,6 @@ ul.navbar-nav {
 }
 
 @media(min-width: 992px) {
-	#hello {
-		padding-left: 10%;
-	}
-
 	#hello>.row {
 		flex-direction: row;
 		width: 90%;
@@ -359,10 +354,44 @@ ul.navbar-nav {
 	box-shadow: none;
 }
 
+.register-container {
+	padding-left:  0;
+	margin-right: 0;
+	margin-left: 0;
+}
+
+@media (min-width: 992px) {
+	.register-container {
+		padding-left: 15px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+}
+
 #newsletter a {
 	text-align: left;
 	color: #ff6600;
 	font-weight: bold;
+}
+
+#top-sponsor img {
+	margin-left:  -10px;
+	width: 140px;
+  height: auto;
+}
+
+#top-sponsor {
+	margin-top: 20px;
+}
+
+#top-sponsor p {
+	margin-bottom: 5px;
+}
+
+@media(min-width: 992px){
+	#top-sponsor {
+		margin-top: 0;
+	}
 }
 
 #countdown p {
