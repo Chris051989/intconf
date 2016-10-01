@@ -295,6 +295,11 @@ ul.navbar-nav {
 	width: auto;
 }
 
+#hello>.row>.top-boxes {
+	display: flex;
+	align-items: center;
+}
+
 /* if Items should be aligned left on larger screens */
 /* @media(min-width: 992px) {
 	#hello>.row>div>p,
