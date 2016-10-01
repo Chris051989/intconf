@@ -297,7 +297,14 @@ ul.navbar-nav {
 
 #hello>.row>.top-boxes {
 	display: flex;
-	align-items: center;
+	align-items: flex-start;
+}
+
+@media (min-width: 992px) {
+	#hello>.row>.top-boxes {
+		display: flex;
+		align-items: center;
+	}
 }
 
 /* if Items should be aligned left on larger screens */
@@ -938,6 +945,18 @@ ul.navbar-nav {
 	#tls {
 		min-height: 100%;
 	}
+}
+
+.last-minute--container {
+	padding: 0;
+	margin-top: 10px;
+	margin-bottom: 40px;
+	display: flex;
+	justify-content: center;
+}
+
+.last-minute--container #moreinfo.btn.btn-default {
+	margin: 0;
 }
 
 #opacity {
