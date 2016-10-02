@@ -307,6 +307,25 @@ ul.navbar-nav {
 	}
 }
 
+.last-minute-banner {
+	background: rgb(240, 117, 40);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 80px;
+	margin-bottom: 50px;
+}
+
+.last-minute-banner p {
+	padding: 0;
+}
+
+.btn-banner {
+	background: rgba(255, 255, 255, 0.6);
+	border: none;
+	text-transform: lowercase;
+}
+
 /* if Items should be aligned left on larger screens */
 /* @media(min-width: 992px) {
 	#hello>.row>div>p,
@@ -939,24 +958,19 @@ ul.navbar-nav {
 	float: left;
 	opacity: 1;
 	min-height: 500px;
+	padding: 40px 0 0 0;
+}
+
+@media (min-width: 766px) {
+	#tls {
+		padding: 0;
+	}
 }
 
 @media(min-width: 768px){
 	#tls {
 		min-height: 100%;
 	}
-}
-
-.last-minute--container {
-	padding: 0;
-	margin-top: 10px;
-	margin-bottom: 40px;
-	display: flex;
-	justify-content: center;
-}
-
-.last-minute--container #moreinfo.btn.btn-default {
-	margin: 0;
 }
 
 #opacity {
@@ -1941,4 +1955,41 @@ button[id^=day]:nth-of-type(1) {
 
 .modal__desc {
 	margin-top: 15px;
+}
+
+/* Fixed Button */
+.last-minute--container {
+	display: none;
+}
+
+@media (min-width: 768px) {
+	.last-minute--container {
+		display: flex;
+		padding: 20px 20px 20px;
+		justify-content: center;
+		align-items: center;
+		position: fixed;
+		flex-direction: column;
+		bottom: 0px;
+		right:  10px;
+		background: rgba(230, 230, 230, 1);
+		border-radius: 10px 10px 0 0;
+	}
+}
+
+.last-minute--container a {
+	padding: 0;
+}
+
+#tls .last-minute--container p {
+	font-size: 12px;
+	padding: 0;
+}
+
+.last-minute--container #moreinfo.btn.btn-default {
+	margin: 0;
+}
+
+.btn-fixed {
+	background: rgba(240, 117, 40, 0.8);
 }
