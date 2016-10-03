@@ -312,7 +312,7 @@ ul.navbar-nav {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	height: 80px;
+	height: 60px;
 	margin-bottom: 50px;
 }
 
@@ -954,11 +954,12 @@ ul.navbar-nav {
 	width: 100%;
 	z-index: 100;
 	position: relative;
-	margin-top: 40px;
+	/* margin-top: 40px; */
 	float: left;
 	opacity: 1;
 	min-height: 500px;
-	padding: 40px 0 0 0;
+	/* padding: 40px 0 0 0; */
+	padding: 0;
 }
 
 @media (min-width: 766px) {
@@ -987,6 +988,10 @@ ul.navbar-nav {
 	line-height: 135%;
 	text-transform: uppercase;
 	padding-top: 19px;
+}
+
+#tls .last-minute-banner a {
+	padding: 0;
 }
 
 
