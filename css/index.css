@@ -427,10 +427,11 @@ ul.navbar-nav {
 
 #countdown p {
 	margin-bottom: 0;
+	text-align: left;
 }
 
 #cntdwn {
-	font-size: 38px;
+	font-size: 30px;
 }
 
 #impressum {
@@ -1149,7 +1150,7 @@ ul.navbar-nav {
 
 @media(min-width: 992px){
 	.speaker-col {
-		width: 175px;
+		width: 196px;
 	}
 }
 
