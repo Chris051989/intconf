@@ -480,6 +480,7 @@ ul.navbar-nav {
 #sponsors {
 	display: flex;
 	justify-content: center;
+	padding: 0;
 }
 
 .sponsor--container {
@@ -487,12 +488,18 @@ ul.navbar-nav {
 	margin-bottom:  50px;
 	width: 100%;
 	position: relative;
-	height: 350px;
+	height: 700px;
 	padding: 0;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	background-color: rgba(216, 216, 216, 0.6);
+}
+
+@media (min-width: 500px) {
+	.sponsor--container {
+		height: 600px;
+	}
 }
 
 .sponsor--container:before {
@@ -507,14 +514,57 @@ ul.navbar-nav {
 }
 
 .main-sponsor {
-	background:  rgba(255, 255, 255, 0.6);
 	padding: 20px;
 }
 
 .main-sponsor p {
-	text-align: center;
 	text-transform: lowercase;
 	color: black;
+	background:  rgba(255, 255, 255, 0.6);
+	height: 40px;
+	display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sponsors-frame {
+	display: flex;
+	flex-direction: column;
+}
+
+.sponsors-items {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background:  rgba(255, 255, 255, 0.6);
+}
+
+@media (min-width: 500px) {
+	.sponsors-items {
+		flex-direction: row;
+	}
+}
+
+.sponsors-items a {
+	padding: 20px;
+}
+
+.additional-sponsors .sponsors-items a:first-of-type {
+	padding: 20px;
+	padding-bottom: 0;
+}
+
+@media (min-width: 500px) {
+	.additional-sponsors .sponsors-items a:first-of-type {
+		padding:  20px;
+	}
+}
+
+.sponsors-items--pics {
+	width: 180px;
+	height: auto;
+	padding: 0;
 }
 
 #downloads_container {
@@ -776,20 +826,10 @@ ul.navbar-nav {
 		background-image: url("../img/team/teampic.png");
 	}
 
-	#sponsors img {
-		padding-left: 34px; 
-	}	
-
-	img.center {
-	  	display: block;
-	  	margin-left: auto;
-	  	margin-right: auto;
-	}
-
 	#rollsroyce {
 		padding-left: 0px !important;
 		/* padding-right: 26px; */
-		width:  250px;
+		width:  200px;
 		height: auto;
 	}
 
