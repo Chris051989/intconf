@@ -141,7 +141,10 @@ a:hover {
 ----------Navbar starts here*/
 
  /**1.1. NAVIGATIONBAR */
-
+nav {
+	position: relative;
+	z-index: 99999999;
+}
 
 .navbar {
 	background-color: #d8d8d8;
@@ -333,6 +336,17 @@ ul.navbar-nav {
 		text-align: left;
 	}
 } */
+
+/* TLS Gallery 2016 */
+
+#gallery {
+	width:  100%;
+	padding: 0;
+	margin:  40px 0;
+}
+
+
+/* END TLS Gallery 2016*/
 
 #moreinfo.btn.btn-default {
 	background: rgb(240, 117, 40);
@@ -995,12 +1009,11 @@ ul.navbar-nav {
 	width: 100%;
 	z-index: 100;
 	position: relative;
-	/* margin-top: 40px; */
+  margin-top: 40px;
 	float: left;
 	opacity: 1;
 	min-height: 500px;
-	/* padding: 40px 0 0 0; */
-	padding: 0;
+	padding: 40px 0 0 0;
 }
 
 @media (min-width: 766px) {
