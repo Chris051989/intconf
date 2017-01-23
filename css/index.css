@@ -829,15 +829,18 @@ ul.navbar-nav {
 	}
 
 	#schedule_image {
-		background-image: url("../img/zu2.jpg");
+		background-image: url("../img/impressions/tls_14.jpg");
+		background-position: center;
 	}
 
 	#location_image {
-		background-image: url("../img/forum.jpg");
+		background-image: url("../img/impressions/tls_25.jpg");
+		background-position: center;
 	}
 
 	#team_image {
-		background-image: url("../img/team/teampic.png");
+		background-image: url("../img/impressions/tls_1.jpg");
+		background-position: center;
 	}
 
 	#rollsroyce {
