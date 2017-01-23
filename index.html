@@ -10,6 +10,8 @@
     <title>Transcultural Leadership Summit</title>
     <link rel="shortcut icon" href="/favicon.ico"/>
 
+    <link href="css/gallery/nanogallery_light.min.css" rel="stylesheet" type="text/css">
+
     <!-- latest compiled and minified Bootstrap CSS -->
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 
@@ -18,7 +20,6 @@
 
     <!--Embed CSS-->
     <link href="css/index.css" rel="stylesheet">
-    <link href="css/gallery/nanogallery_light.min.css" rel="stylesheet" type="text/css">
 
     <!-- jQuery for Bootstrap -->
     <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
@@ -1013,6 +1014,25 @@
         <a href="img/impressions/tls_61.jpg" data-ngthumb="img/impressions/thumbnails/tls_61_thumbnail.jpg"></a>
       </div>
 </div>
+
+<script>
+$(document).ready(function() {
+    $("#tlsGallery").nanoGallery({
+        thumbnailWidth: 'auto',
+        thumbnailHeight: '100 XS130 SM180 ME200 LA200 XL300',
+        colorScheme: 'none',
+        thumbnailGutterWidth : 0,
+        thumbnailGutterHeight : 0,
+        theme: 'light',
+        thumbnailLabel:{ display: false, displayDescrition: false },
+        viewerToolbar: { style: 'stuckImage'},
+        viewerDisplayLogo: true,
+        locationHash: false,
+        thumbnailLazyLoad: false
+    });
+});
+</script>
+
 <div class="container" id="partner_container">
         <h1>Our partners<br><b><font color="#ff4d00">______</font></b></h1>
     <div class="container">
@@ -1411,7 +1431,6 @@
 </script>
 <!-- Facebook ends here-->
 
-
     <!--Navbar starts here-->
     <script>
     (function ($) {
@@ -1438,16 +1457,16 @@
     <!--Navbar ends here-->
 
     <!-- Smooth scrolling-->
-    <script>
-    $(document).ready(function () {
+    <!--<script>
+    //$(document).ready(function () {
     // Handler for .ready() called.
     // $('button').click(function () {
     //     $('html, body').animate({
     //         scrollTop: $('#about_header').offset().top
     //     }, 'slow');
     // });
-    });
-    </script>
+    //});
+    </script>-->
 
     
 
@@ -1514,4 +1533,3 @@
         });
 
     </script>
-

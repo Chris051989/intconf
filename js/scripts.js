@@ -47,16 +47,5 @@ $(document).ready(function() {
       }, 500);
     }
   });
-  $("#tlsGallery").nanoGallery({
-    //itemsBaseURL:'file:///Users/bkroggel/Documents/2.Privat/WebProjects/intconf/',
-    thumbnailWidth: 'auto',
-    thumbnailHeight: '100 XS130 SM180 ME200 LA200 XL300',
-    colorScheme: 'none',
-    thumbnailGutterWidth : 0,
-    thumbnailGutterHeight : 0,
-    theme: 'light',
-    thumbnailLabel:{ display: false, displayDescrition: false },
-    viewerToolbar: { style: 'stuckImage'},
-    viewerDisplayLogo: true
-  });
+  
 });

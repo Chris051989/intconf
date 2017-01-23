@@ -141,10 +141,10 @@ a:hover {
 ----------Navbar starts here*/
 
  /**1.1. NAVIGATIONBAR */
-nav {
+/* nav {
 	position: relative;
 	z-index: 99999999;
-}
+} */
 
 .navbar {
 	background-color: #d8d8d8;
