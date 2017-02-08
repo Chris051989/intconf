@@ -5,19 +5,19 @@
  *  1. HEADER
  *    - 1.1. NAVIGATIONBAR
  *    - 1.2. SUBNAV
- *    - 1.3. CAROUSEL  
+ *    - 1.3. CAROUSEL
  *  2. ABOUT THE CONFERENCE
     3. LOCATION
     4. MISSION
     5. TEAM
-    6. FOOTER 
+    6. FOOTER
  */
 
 body, html {
 	position: relative;
 	margin: 0;
     padding: 0;
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     max-width: 100%;
     overflow-x: hidden;
 }
@@ -25,7 +25,7 @@ body, html {
 /*0.1 FONTS*------------------------------------------------------------------*/
 
 h1 {
-	font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; 
+	font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
 	line-height: 1.42857143;
 	font-size: 18px;
 	font-weight: bold;
@@ -36,7 +36,7 @@ h1 {
 	padding-bottom: 20px;
 	font-weight: 500;
 }
- 
+
 p,
 a,
 li {
@@ -55,7 +55,7 @@ li {
  }
 
 h2 {
-	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	line-height: 1.42857143;
 	font-size: 18px;
 	font-weight: bold;
@@ -76,7 +76,7 @@ h3 {
 }
 
 h4 {
-	font-family: font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+	font-family: font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	line-height: 1.42857143;
 	font-size: 24px;
 	font-weight: bold;
@@ -100,7 +100,7 @@ h5 {
 }
 
 a {
-	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	line-height: 1.42857143;
 	font-size: 18px;
 	font-weight: bold;
@@ -121,13 +121,13 @@ a {
 
 #moreinfo a:link {
 	text-decoration: none;
-	color: rgb(255, 102, 0); 
+	color: rgb(255, 102, 0);
 	font-weight: bold;
 }
 
 #moreinfo a:visited {
 	text-decoration: none;
-	color: rgb(255, 102, 0); 
+	color: rgb(255, 102, 0);
 }
 
 a:hover {
@@ -221,7 +221,7 @@ ul.navbar-nav {
 	height: 42px;
 	margin: 0;
 }
-	
+
 .navbar-inverse {
 	border: none;
 	}
@@ -229,7 +229,7 @@ ul.navbar-nav {
 .navbar li a {
 	text-transform: lowercase;
 	letter-spacing: 0.05em;
-	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	font-size: 19px;
 	}
 
@@ -246,8 +246,8 @@ ul.navbar-nav {
 	background-color: transparent;
 }
 
-.navbar-inverse .navbar-nav>.active>a, 
-.navbar-inverse .navbar-nav>.active>a:focus, 
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:focus,
 .navbar-inverse .navbar-nav>.active>a:hover {
 	background-color: transparent;
 	color: #ff4d00;
@@ -342,11 +342,40 @@ ul.navbar-nav {
 #gallery {
 	width:  100%;
 	padding: 0;
-	margin:  40px 0;
+	margin:  40px 0 0;
 }
 
 
 /* END TLS Gallery 2016*/
+
+/* TLS VIDEO 2016 */
+#video_2016 {
+	background: rgba(255, 102, 0, .6);
+	width: 100%;
+	padding: 0;
+	margin-top: -3px;
+}
+
+.video_placeit {
+	width: 90%;
+	margin: 100px auto;
+	max-width: 800px;
+}
+
+.video_wrapper {
+	position: relative;
+	padding-bottom: 52.75%; /* Aspect Ratio */
+	padding-top: 25px;
+	height: 0;
+}
+.video_wrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+/* END TLS VIDEO 2016 */
 
 #moreinfo.btn.btn-default {
 	background: rgb(240, 117, 40);
@@ -459,7 +488,7 @@ ul.navbar-nav {
 #schedule_button {
 	background: #ff4d00;
 	color: white;
-	font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; 
+	font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
  	font-size: 16px;
  	margin-top: 20px;
  	padding: 8px;
@@ -621,7 +650,7 @@ ul.navbar-nav {
 	.collapsing ul li a, .in ul li a {
 		color: #d8d8d8;!important;
 	}
-	
+
 	.collapsing ul li a:hover, .in ul li a:hover {
 		color: #d8d8d8;!important;
 	}
@@ -653,7 +682,7 @@ ul.navbar-nav {
 @media only screen and (min-width: 768px) {
 	#logo {
 		margin-left: 114px !important;
-		margin-top: 255px !important;	
+		margin-top: 255px !important;
 	}
 
 	#logorest {
@@ -723,7 +752,7 @@ ul.navbar-nav {
 	background-color: #d8d8d8;
 }
 
-/*media for laptop screen*/ 
+/*media for laptop screen*/
 @media (min-width: 992px) {
 	#logo {
 		margin-left: 180px !important;
@@ -765,14 +794,14 @@ ul.navbar-nav {
 	#location {
 	margin-top: 347px !important;
 	margin-left: 156px !important;
-	} 
+	}
 
 	#location:hover {
 	background-image: url("../img/logo_location.png");
 	transition: all 0.8s ease;
 	margin-top: 355px !important;
 	margin-left: 156px !important;
-	} 
+	}
 
 	#actiontiles_container {
 		margin-bottom: 145px;
@@ -798,7 +827,7 @@ ul.navbar-nav {
 	.tiles--image {
 		height: 95vh;
 		background-size: cover;
-	} 
+	}
 
 	.tiles--text {
 		display: table-cell;
@@ -824,7 +853,7 @@ ul.navbar-nav {
 	  padding-bottom: -300px;
 	}
 
-	#china_image { 
+	#china_image {
 		background-image: url("../img/shanghai4.jpg");
 	}
 
@@ -912,7 +941,7 @@ ul.navbar-nav {
 	#registernow {
 		background-size: 88% !important;
 		width: 196px !important;
-		height: 178px; 
+		height: 178px;
 		margin-top: 120px !important;
 		margin-left: 116px !important;
 	}
@@ -1055,7 +1084,7 @@ ul.navbar-nav {
 #background {
 	background-color: #DBDBDB;
 	background-image: url("../img/background.png");
-	background-size: cover;  
+	background-size: cover;
 	width: 100%;
 	padding-left: 100px;
 	min-height: 750px;
@@ -1164,7 +1193,7 @@ ul.navbar-nav {
 	height: auto;
 	text-align: center;
 	padding-top: 30px;
-	padding-bottom: 30px; 
+	padding-bottom: 30px;
 	background-color: #d8d8d8;
 	opacity: 0.7;
 	background-attachment: fixed;
@@ -1255,7 +1284,7 @@ ul.navbar-nav {
 
 .speaker-name p {
 	text-align: center;
-	font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	text-transform: uppercase;
 	font-weight: 500;
 	font-size: 12px;
@@ -1278,7 +1307,7 @@ ul.navbar-nav {
 }
 
 .speaker-title p {
-	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	text-align: center;
 	font-size: 12px;
 	font-weight: bold;
@@ -1293,7 +1322,7 @@ ul.navbar-nav {
 }
 
 .speaker-company p {
-	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	text-align: center;
 	margin-top: -10px;
 	letter-spacing: -0.04em;
@@ -1457,7 +1486,7 @@ footer {
  	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; ;
  	font-size: 13px;
 }
-  
+
 .columns--readmore{
 	color: blue;
 }
@@ -1475,7 +1504,7 @@ footer {
 
 #twitter {
 	margin-top: -30px;
-} 
+}
 
 @media(min-width: 768px) {
 	#twitter {
@@ -1537,10 +1566,10 @@ background-color: #d8d8d8;
 	float: left;
 }
 
-.fb-like{	
+.fb-like{
 		float: left;
 		margin-top: 30px;
-		margin-right: 5px;		
+		margin-right: 5px;
 }
 
 
@@ -1559,13 +1588,13 @@ background-color: #d8d8d8;
 @media (min-width: 768px){
 	.button-frame {
   	width: 70%;
-  	margin: 15px auto 25px;	
+  	margin: 15px auto 25px;
 	}
 }
 @media (min-width: 992px){
   .button-frame {
   	width: 100%;
-  	margin: 0;	
+  	margin: 0;
 	}
 }
 
