@@ -280,15 +280,6 @@ ul.navbar-nav {
 	align-items: flex-start;
 }
 
-
-@media(min-width: 992px) {
-	#hello>.row>div {
-		justify-content: center;
-		/* if Items should be aligned left on larger screens */
-		/* align-items: flex-start; */
-	}
-}
-
 #hello>.row>div>p,
 #hello>.row>div>#moreinfo {
 	text-align: left;
@@ -468,7 +459,8 @@ ul.navbar-nav {
 	}
 }
 
-#countdown p {
+#countdown p,
+#newsletter p {
 	margin-bottom: 0;
 	text-align: left;
 }
@@ -2083,4 +2075,20 @@ button[id^=day]:nth-of-type(1) {
 
 .btn-fixed {
 	background: rgba(240, 117, 40, 0.8);
+}
+
+/* überarbeiteter header */
+.hello--box-link a:before {
+	content: "\f178";
+	font-family: FontAwesome;
+	font-size: 12px;
+	vertical-align: middle;
+	padding-right: 5px;
+}
+
+.hello--box-link a,
+#newsletter .hello--box-link a {
+	color: #333;
+	font-weight: 400;
+	font-size: 16px;
 }
