@@ -336,6 +336,18 @@ ul.navbar-nav {
 	margin:  40px 0 0;
 }
 
+#gallery .impressions__text {
+	width: 90%;
+	max-width: 700px;
+	margin: 20px auto 40px;
+}
+
+@media (min-width: 992px) {
+	#gallery .impressions__text {
+		margin: 50px auto 100px;
+	}
+}
+
 
 /* END TLS Gallery 2016*/
 
